@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42568140",
+  "journal": "Appl Psychol Health Well Being",
+  "year": "2026",
+  "author": "Sievert EDC et al.",
+  "pubdate": "Aug. 2026",
+  "added": "08.08.2026",
+  "transfer": "UK mit NHS-Struktur; Antibiotika-Stewardship-Prinzipien in Deutschland etabliert, Übertragbarkeit gut.",
+  "title": "Verzögerte Antibiotikaverordnung mit Entscheidungshilfe reduzierte unangemessene Anwendung um ein Drittel",
+  "sum": "Online-Experiment mit 663 britischen Erwachsenen zur Wirkung von WHO-Entscheidungshilfematerial auf verzögerte Antibiotikaverordnungen bei vermuteten Virusinfektionen unter Verhaltensanreizen.",
+  "result": "Unangemessene Antibiotikaverwendung war in allen Entscheidungsunterstützungs-Bedingungen niedriger als in Kontrolle (p<0,001, ηG²=0,02). Entscheidungskonflikt sank signifikant in Interventions-Armen (p<0,001, ηG²=0,02) durch verbesserte Wertklarheit und wahrgenommene Unterstützung. Kombination aus Entscheidungshilfe, Wertintegration und aktivem Symptommonitoring zeigte beste Effekte.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42564447",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Luís TB et al.",
+  "pubdate": "23.07.2026",
+  "added": "07.08.2026",
+  "transfer": "Portugal/SÜDEUROPA mit ähnlichen Dokumentationssystemen; RAC-Skala als strukturiertes Instrument universell anwendbar.",
+  "title": "Strukturiertes Infektionsrisiko-Assessment identifiziert 65 % der Patienten als gefährdet",
+  "sum": "Multizentrisches Querschnitts-Observatorium mit 1.092 hospitalisierten Erwachsenen in Portugal zur Prävalenz und Risikofaktoren für Infektionen mittels RAC-Skala (Risk Assessment for Infection).",
+  "result": "Moderate (53,6 %) oder hohe (11,4 %) Infektionsrisiken nach Perzentil-Stratifikation. Höhere Risiken assoziiert mit Alter, Multimorbidität, beeinträchtigter Gewebsintegrität, reduzierter Mobilität, Vorspitalisierung, Verlegung, Liegedauer, invasiven Prozeduren. ROC-Analyse mit guter Diskriminierung; Medizin-Stationen hatten signifikant höhere Risikoscores als Chirurgie.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
   "pmid": "42638337",
   "journal": "J Appl Clin Med Phys",
   "year": "2026",

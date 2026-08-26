@@ -1045,71 +1045,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Aug. 2026, 11:50 Uhr";
+const SNAP_DATE = "26. Aug. 2026, 07:05 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
-  {
-    journal:"J Appl Clin Med Phys", year:"2026", pmid:"42638337",
-    author:"Balaji D et al.", pubdate:"Sept. 2026",
-    added:"25.08.2026",
-    title:"Online-adaptive Radiotherapie: Systemische FMEA identifiziert 300 Fehlermöglichkeiten",
-    sum:"Systematische Literaturübersicht von 11 Studien analysiert Fehlermodi und deren Auswirkungen (FMEA) in Workflows der Online-Adaptive Radiotherapie (MR-guided, CBCT-guided, MR-enhanced C-arm Systeme).",
-    result:"300 einzigartige Fehlermodi identifiziert, 49,6% als hochriskant (Klasse III) klassifiziert. Hochriskante Fehler konzentrieren sich in Online-Behandlungs-Phase, besonders bei Mensch-Computer-Interaktion und anatomischer Konturierung. Analyse zeigt Heterogenität in Risiko-Bewertungsmethoden, harmonisiert zu 3er-Klassifikation (Class I: niedrig, II: mittel, III: hoch).",
-    transfer:"Deutschland und Benelux, vergleichbare Qualitätsmanagementsysteme in klinischen Zentren"
-  },
   {
     journal:"PLoS One", year:"2026", pmid:"42627821",
     author:"Rainer M et al.", pubdate:"21.08.2026",
     added:"21.08.2026",
-    title:"Arzneimittelwechselwirkungen: Unterschiede zwischen Schweizer und österreichischem Meldesystem",
-    sum:"Retrospektive Analyse von 1499 Meldungen zu Arzneimittelwechselwirkungen in Pharmakvigilanz-Systemen der Schweiz (n=1159) und Österreich (n=340) zwischen 2008 und April 2024 mit Fokus auf Unterschiede in Meldevolumen, Qualität und Systemeigenheiten.",
-    result:"Schweiz meldete 3,4-mal mehr Fälle als Österreich (5,8 vs. 1,7 Fälle/Monat). 80% (CH) bzw. 84% (Ö) als schwerwiegend klassifiziert. Polypharmie stark assoziiert mit schwerwiegenden Folgen (CH: ROR 3,71; KI 3,26–4,23, p&lt;0,0001; Ö: ROR 1,98; KI 1,60–2,44, p&lt;0,0001). Unterschiede in Meldeinhalten: Schweiz eher Mechanismen, Österreich eher Symptome. Unterschiede deuten auf Rolle von Systemdesign und klinischer Pharmazie hin.",
-    transfer:"DACH, vergleichbare Gesundheitssysteme und Pharmakvigilanz-Strukturen"
+    title:"Arzneimittelwechselwirkungen: Schweiz meldet 3,4× mehr Fälle als Österreich",
+    sum:"Vergleichende Analyse von 1.499 Einzelfall-Sicherheitsberichten zu Arzneimittelwechselwirkungen aus den nationalen Pharmakovigilanz-Systemen Schweiz (n=1.159) und Österreich (n=340) von 2008–2024.",
+    result:"Schweiz meldete 3,4× mehr Arzneimittelwechselwirkungen (5,8 vs. 1,7 Fälle/Monat). Polypharmazie korrelierte mit ernsten Folgen in beiden Ländern (Schweiz ROR 3,71, 95%-KI 3,26–4,23; Österreich ROR 1,98, 95%-KI 1,60–2,44; jeweils p&lt;0,0001). Unterschiede in Meldemuster und Berichtsqualität deuteten auf Systemdesign- und Fachkompetenz-Einfluss hin.",
+    transfer:"Schweiz und Österreich, vergleichbare Versicherungssysteme; Systemvergleich direkt übertragbar auf deutschsprachige Länder."
   },
   {
     journal:"BMC Infect Dis", year:"2026", pmid:"42638092",
     author:"Posselt SL et al.", pubdate:"20.08.2026",
     added:"24.08.2026",
-    title:"Nosokomiale Ausbrüche in Hämatologie-Onkologie: Strukturierte Analyse identifiziert Risikofaktoren",
-    sum:"Strukturierte Analyse von 196 nosokomialen Ausbrüchen in Hämatologie und Onkologie aus internationaler Datenbank mit Betrachtung von Infektionserregern, Übertragungswegen und implementierten Infektionskontrollmaßnahmen.",
-    result:"Blutstream- und untere Atemwegsinfektionen waren am häufigsten; Pseudomonas aeruginosa und Enterokokken als Haupterreger. Multivariable Analyse identifizierte als unabhängig assoziiert mit hohem Infektionskontrollaufwand: Pilzerreger (OR 6,26; KI 1,60–24,44), multiresistente Bakterien (OR 6,01; KI 2,56–14,09), antibiotische Therapie (OR 2,97; KI 1,05–8,38), ≥10 Patienten in Ausbruch (OR 2,54; KI 1,11–5,81), direkter Kontakttransfer (OR 3,42; KI 1,43–8,16). Untere Atemwegsinfektionen stark assoziiert mit Mortalität (OR 7,95; KI 2,06–30,73).",
-    transfer:"Deutschland, vergleichbare Surveillance-Standards und Dokumentationspflichten"
+    title:"Nosokomiale Ausbrüche in Hämatologie: Risikofaktoren und Infektionskontrollmaßnahmen",
+    sum:"Analyse von 196 nosokomialen Ausbrüchen in Hämatologie und Onkologie aus der Worldwide Outbreak Database mit Fokus auf Risikofaktoren für hohen Infektionskontrollaufwand.",
+    result:"Pilzinfektionen (OR 6,26; 95%-KI 1,60–24,44), multiresistente Bakterien (OR 6,01; 95%-KI 2,56–14,09), Antibiotikabehandlung (OR 2,97; 95%-KI 1,05–8,38) und ≥10 befallene Patienten (OR 2,54; 95%-KI 1,11–5,81) waren unabhängig mit erhöhtem Kontrollaufwand assoziiert. Untere Atemwegsinfektionen korreliert stark mit Mortalität (OR 7,95; 95%-KI 2,06–30,73).",
+    transfer:"Deutschland und Österreich, vergleichbare Krankenhaushygiene-Infrastruktur und Meldepflichten."
   },
   {
     journal:"Eur J Pediatr", year:"2026", pmid:"42608613",
     author:"Peters A et al.", pubdate:"17.08.2026",
     added:"18.08.2026",
-    title:"Pediatrisches Trigger-Tool für Deutschsprachige Kinder identifiziert Schäden reliabel",
-    sum:"Methodische Studie in deutscher Kinderkardiologie (200 stationäre Patienten) entwickelt und validiert das Paediatric Trigger Tool German (PAED-TT-GER) zur retrospektiven Erkennung unerwünschter Ereignisse in Kinderkrankenhäusern.",
-    result:"57 Trigger ausgewählt (54 Normalstation + 3 PICU). Interrater-Reliabilität gut (ICC 0,794; KI 0,557–0,906). In 200 Patienten 472 Trigger identifiziert (Mittel 2,36/Patient), 45 unerwünschte Ereignisse in 42/200 Patienten (21%) bestätigt. NCC-MERP-Klassifikation: 24 Ereignisse temporärer Schaden mit Intervention (E), 19 verlängerte Hospitalisierung (F), 2 permanenter Schaden (G); 7 (15,6%) präventabel bewertet.",
-    transfer:"Deutsches Kinderkardiologie-Zentrum, unmittelbar auf deutsches System übertragbar"
+    title:"Pediatric Trigger Tool in deutscher Sprache zeigt 21 % unerwünschte Ereignisse",
+    sum:"Entwicklung und Validierung eines deutschen Trigger Tools (PAED-TT-GER) mit 57 Triggern zur retrospektiven Detektion unerwünschter Ereignisse auf einer pädiatrischen Kardiologie-Station.",
+    result:"In 200 Patientenakten wurden 472 Trigger identifiziert (Mittel 2,36/Akte). 45 unerwünschte Ereignisse bestätigt in 42/200 Akten (21,0 %); 24 verursachten temporären Schaden mit Intervention (NCC MERP E), 19 verlängerte Hospitalisierung (F), 2 permanenten Schaden (G); 15,6 % als vermeidbar bewertet. Interrater-Reliabilität ICC 0,794 (95%-KI 0,557–0,906).",
+    transfer:"Deutschland, deutsche Dokumentationspraktiken und NCC-MERP-Klassifikation etabliert."
   },
   {
     journal:"Front Public Health", year:"2026", pmid:"42620635",
     author:"Fieraru IM et al.", pubdate:"05.08.2026",
     added:"20.08.2026",
-    title:"Nosokomiale Infektionen nach Gastrointestinal-Krebsoperation: Neoadjuvante Radiotherapie als Risikofaktor",
-    sum:"Prospektive Beobachtungsstudie in rumänischem Zentrum (211 Patienten, Mai 2023–Juli 2024) an Magen- und Kolonkarzinom-Operationen: 30-Tage-Infektionen dokumentiert, Risikofaktoren analysiert, Antibiotikaresistenzprofil beschrieben.",
-    result:"15,6% entwickelten ≥1 nosokomiale Infektion (39 Episoden). Chirurgische Wundinfektionen dominant nach unterem GI-Trakt (~46%), Geräte-/Atemwegsinfektionen nach oberem Trakt (~38%). Neoadjuvante Radiotherapie unabhängiger Risikofaktor bei Kolonkarzinom (adj. OR 3,25; KI 1,15–9,19; p=0,026). Von 27 kulturpositiven Isolaten 44,4% multiresistent, einschließlich Carbapenemase-Produzenten; 36,4% Infektionen ohne Kulturdokumentation.",
-    transfer:"Osteuropa, aber Infektionserkennung und Dokumentationslücken sind universell relevant"
-  },
-  {
-    journal:"Br J Nurs", year:"2026", pmid:"42555589",
-    author:"Batalla MGA et al.", pubdate:"06.08.2026",
-    added:"05.08.2026",
-    title:"Hand-Hygiene-Champion-Programm erhöht Compliance auf Intensivstationen signifikant",
-    sum:"Qualitätsverbesserungsprojekt in zwei britischen Universitätsklinika (Februar 2025–Februar 2026) implementiert Hand-Hygiene-Champion-Rolle und misst deren Effekt auf Händehygiene-Compliance in der Intensivmedizin mit Plan-Do-Study-Act-Zyklus.",
-    result:"Händehygiene-Compliance signifikant höher in Interventionsgruppe mit Champions als in Kontrollgruppe. Compliance stieg über Zeit signifikant post-Implementierung der Hand-Hygiene-Champions an. Programm zeigt Praktikabilität zur Verbesserung Händehygiene-Einhaltung in ICU.",
-    transfer:"Vereinigtes Königreich, aber aktive Surveillance mit Peer-Coaching ist international übertragbar"
+    title:"Neoadjuvante Bestrahlung erhöht nosokomiale Infektionen nach Magen-/Darmkrebs-Chirurgie",
+    sum:"Prospektive Observationsstudie von 211 elektiven Krebspatienten mit Magen- oder Darmkrebs-Operationen zur Erfassung nosokomialer Infektionen innerhalb 30 Tage postoperativ in einem rumänischen Zentrum.",
+    result:"15,6 % entwickelten nosokomiale Infektionen (39 Episoden). Neoadjuvante Bestrahlung war unabhängiger Risikofaktor für Kolonialkrebs (OR 3,25; 95%-KI 1,15–9,19; p=0,026). 44,4 % der positiven Kulturen waren multiresistent oder extensiv-resistent; dokumentierte Kulturen fehlten in 36,4 % infizierter Patienten.",
+    transfer:"Osteuropa mit unterschiedlichen Hygiene-Standards; Antibiotika-Stewardship-Daten zentral für Übertragbarkeit auf Deutschland."
   },
   {
     journal:"Euro Surveill", year:"2026", pmid:"42626792",
     author:"Attauabi M et al.", pubdate:"Aug. 2026",
     added:"21.08.2026",
-    title:"Antibiotic Stewardship bei Harnwegsinfektionen im Alter senkte Resistenzen",
-    sum:"Nationale Registerstudie in Dänemark (1999–2023) untersucht Zusammenhang zwischen Antibiotikaverbrauch und Resistenzentwicklung gegen Pivmecillinam, Trimethoprim, Nitrofurantoin und Sulfamethizol bei Patienten ≥70 Jahren; Fokus auf Qualitätsverbesserungen seit 2005.",
-    result:"Höchster Antibiotikaverbrauch 2014 (447 Rezepte pro 1000 Personen ≥70 Jahre), bis 2023 um 28,4% gesunken. Resistenz gegen alle vier Substanzen in E. coli und K. pneumoniae signifikant rückläufig 2018–2023. Stewardship-Intensivierung nach 2013 mit aktualisierten Leitlinien positiv auf Verbrauch und Resistenzen wirksam.",
-    transfer:"Skandinavien, vergleichbare Surveillance-Infrastruktur und Stewardship-Rahmenbedingungen"
+    title:"Antibiotic Stewardship senkte Harnwegsinfektionen bei Älteren um 28 %",
+    sum:"Register-basierte Überwachung von Antibiotikaverbrauch und Resistenzentwicklung bei Harnwegsinfektionen in der dänischen Bevölkerung ≥70 Jahre von 1999 bis 2023 mit Fokus auf Stewardship-Effekte.",
+    result:"Antibiotikaverbrauch sank von Peak 2014 (447 Verschreibungen/1.000 Personen) um 28,4 % bis 2023. Resistenzraten gegen Pivmecillinam, Trimethoprim, Sulfamethizol und Nitrofurantoin in E. coli und K. pneumoniae sanken parallel signifikant von 2018–2023, nachdem intensive Stewardship-Initiativen 2013 verstärkt wurden.",
+    transfer:"Skandinavisches System mit Meldepflichten, aber Entschädigungen ohne Verschuldensnachweis – bedingt übertragbar auf Deutschland."
+  },
+  {
+    journal:"Appl Psychol Health Well Being", year:"2026", pmid:"42568140",
+    author:"Sievert EDC et al.", pubdate:"Aug. 2026",
+    added:"08.08.2026",
+    title:"Verzögerte Antibiotikaverordnung mit Entscheidungshilfe reduzierte unangemessene Anwendung um ein Drittel",
+    sum:"Online-Experiment mit 663 britischen Erwachsenen zur Wirkung von WHO-Entscheidungshilfematerial auf verzögerte Antibiotikaverordnungen bei vermuteten Virusinfektionen unter Verhaltensanreizen.",
+    result:"Unangemessene Antibiotikaverwendung war in allen Entscheidungsunterstützungs-Bedingungen niedriger als in Kontrolle (p&lt;0,001, ηG²=0,02). Entscheidungskonflikt sank signifikant in Interventions-Armen (p&lt;0,001, ηG²=0,02) durch verbesserte Wertklarheit und wahrgenommene Unterstützung. Kombination aus Entscheidungshilfe, Wertintegration und aktivem Symptommonitoring zeigte beste Effekte.",
+    transfer:"UK mit NHS-Struktur; Antibiotika-Stewardship-Prinzipien in Deutschland etabliert, Übertragbarkeit gut."
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42564447",
+    author:"Luís TB et al.", pubdate:"23.07.2026",
+    added:"07.08.2026",
+    title:"Strukturiertes Infektionsrisiko-Assessment identifiziert 65 % der Patienten als gefährdet",
+    sum:"Multizentrisches Querschnitts-Observatorium mit 1.092 hospitalisierten Erwachsenen in Portugal zur Prävalenz und Risikofaktoren für Infektionen mittels RAC-Skala (Risk Assessment for Infection).",
+    result:"Moderate (53,6 %) oder hohe (11,4 %) Infektionsrisiken nach Perzentil-Stratifikation. Höhere Risiken assoziiert mit Alter, Multimorbidität, beeinträchtigter Gewebsintegrität, reduzierter Mobilität, Vorspitalisierung, Verlegung, Liegedauer, invasiven Prozeduren. ROC-Analyse mit guter Diskriminierung; Medizin-Stationen hatten signifikant höhere Risikoscores als Chirurgie.",
+    transfer:"Portugal/SÜDEUROPA mit ähnlichen Dokumentationssystemen; RAC-Skala als strukturiertes Instrument universell anwendbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===

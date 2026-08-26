@@ -1,12 +1,14 @@
 {
  "hub": "Knowledge-Hub Patientensicherheit",
  "domain": "safety.m-vf.de",
- "datum": "2026-08-25",
+ "datum": "2026-08-26",
  "stand": "gestoppt",
- "titel": "MVF Safety-Newsletter 25.08.2026",
- "betreff": "Neueste Studien - Patientensicherheit – 25. August 2026",
- "anzahl": 7,
+ "titel": "MVF Safety-Newsletter 26.08.2026",
+ "betreff": "Neueste Studien - Patientensicherheit – 25. August 2026 bis 26. August 2026",
+ "anzahl": 9,
  "pmids": [
+  "42568140",
+  "42564447",
   "42638337",
   "42638092",
   "42627821",
@@ -15,7 +17,7 @@
   "42608613",
   "42555589"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098536",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098553",
  "termin_utc": null,
  "empfaenger": 0,
  "listengroesse": 5903,
