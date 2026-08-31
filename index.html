@@ -1392,78 +1392,87 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "30. Aug. 2026, 05:47 Uhr";
+const SNAP_DATE = "31. Aug. 2026, 05:47 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Support Care Cancer", year:"2026", pmid:"42665709",
-    author:"Ehrlich S et al.", pubdate:"28.08.2026",
+    journal:"Liver Int", year:"2026", pmid:"42661472",
+    author:"Capelli N et al.", pubdate:"Okt. 2026",
     added:"28.08.2026",
-    title:"Peripher eingeführte Zentralkatheter reduzieren lokale Infektionen ohne erhöhtes Septikämierisiko",
-    sum:"Retrospektive Kohortenstudie mit 116 AML-Patienten in München, die PICC- vs. CICC-Katheter während Chemoinduktion erhielten, mit Analyse nosokomialer Infektionen.",
-    result:"PICCs zeigten längere Verweilzeit (16 vs. 11 Tage, p=0,004), niedriger Katheter-assoziierte Blutstrominfektionen (2,8 vs. 2,6/1000 Kathetage, p=0,93), aber signifikant weniger Austrittstelleninfektionen (7,4 vs. 23,1/1000 Kathetage, p=0,01). Keine erhöhte Thromboserisiko.",
-    transfer:"Deutschland, vergleichbare Krankenhaushygiene-Standards und Qualitätsmessung"
+    title:"DBS-Screening erfasst 56 % aller HCV-Infektionen, vermisst aber 2,7 % durch niedrige Viruslast",
+    sum:"Fünfjährige Evaluierung von Hepatitis-C-Blutfleck-Screening in französischen Schadensreduktionszentren mit vergleichender Analyse zu Plasma-RNA-Konzentrationen.",
+    result:"Unter 1.552 gescreenten Personen wurden 428 (27,6 %) als HCV-RNA-positiv identifiziert. Etwa 2,7 % der Infektionen (ca. 12 Fälle) wurden aufgrund der Nachweisgrenze von 1.252 IU/mL vermisst. DBS-Tests machten 56,4 % aller laborgestützten HCV-Diagnosen aus. Die modeste Reduktion der analytischen Sensitivität wird durch den deutlich erhöhten Zugang in unterversorgten Populationen aufgewogen.",
+    transfer:"Frankreich, dezentrale Diagnostik; Ansatz auf vulnerable Gruppen übertragbar"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42666377",
-    author:"Singh T et al.", pubdate:"14.08.2026",
-    added:"29.08.2026",
-    title:"Zahnärzte in Simbabwe: Hohes Stichverletzungsrisiko trotz IPC-Wissen",
-    sum:"Querschnittsstudie mit 220 Zahnfachleuten in Simbabwe zu IPC-Wissen, -Praktiken und beruflichen biologischen Expositionsrisiken mit Odds-Ratio-Analysen.",
-    result:"Lebenszeitinzidenz Stichverletzungen 61,2%, in den vorangegangenen 12 Monaten 14,7%, berufliche Infektionen 18,3%. Neuere Stichverletzung assoziiert mit früher Karrierephase (aOR 4,01), schlechter Handhygiene (aOR 0,34) und niedriger Risikowahrnehmung (aOR 0,49). Öffentliche Arbeit assoziiert mit Berufsinfektionen (aOR 2,66).",
-    transfer:"Grenze: Ressourcenmangel und Systeminfizienz der Einrichtung, Problem global; Befund zu Wissenslücke und Implementierungslücke in allen Systemen relevant"
+    journal:"J Am Coll Clin Pharm", year:"2026", pmid:"42669613",
+    author:"Le TT et al.", pubdate:"Sept. 2026",
+    added:"30.08.2026",
+    title:"Klinischer Apotheker reduzierte Arzneimittel-Probleme in Ambulanzrezepten um 43 Prozentpunkte",
+    sum:"Vietnamesische quasi-experimentelle Studie eines multifaktoriellen Apotheker-Interventionsprogramms (prospektive Rezeptüberprüfung, Feedback, Schulung) mit Vorher-Nachher-Analyse in Tertiärklinik.",
+    result:"Rezepte mit mindestens einem Arzneimittelproblem sank von 65,7 % auf 37,3 % (p&lt;0,001); mittlere Probleme pro Rezept von 1,22 auf 0,55 (p&lt;0,001). Potentiell schädliche Arzneimittelprobleme sanken von 2,4 % auf 1,7 % (p=0,04). Hauptreduktionen bei Dosis- und Einnahmezeitproblemen. Angepasste Odds Ratio 0,29 (95%-KI 0,26–0,32).",
+    transfer:"Vietnam; Modell auf deutsches Krankenhaus-Ambulanzmanagement und Praxen übertragbar"
   },
   {
-    journal:"Euro Surveill", year:"2026", pmid:"42663069",
-    author:"Högberg LD et al.", pubdate:"Aug. 2026",
+    journal:"Korean J Med Educ", year:"2026", pmid:"42669608",
+    author:"Masuda K et al.", pubdate:"31.08.2026",
+    added:"30.08.2026",
+    title:"Strukturierte Apotheker-Intervention mit Workflow-Prompts senkte Piperacillin/Tazobactam-Gebrauch um 22 %",
+    sum:"Japanische retrospektive Vorher-Nachher-Studie einer Apotheker-geleiteten Schulungsintervention mit verhaltenspsychologischen Prinzipien zur Beeinflussung der Antibiotikaverordnung.",
+    result:"Piperacillin/Tazobactam-Gebrauch sank um 22,3 % in Days of Therapy (DOT) und zeigt konsistente Reduktionen bei saisonalen Vergleichen. Antibiotic Use Density (AUD) sank parallel. Alle Ärzte absolvierten Schulungsvideo und Nach-Test. Workflow-integrierte Reflexions-Prompts bei jedem Verordnen zeigten Wirkung.",
+    transfer:"Japan, beobachtet auch in Deutschland (Antibiotic Stewardship), auf Praxen übertragbar"
+  },
+  {
+    journal:"Nat Commun", year:"2026", pmid:"42649138",
+    author:"Pople D et al.", pubdate:"26.08.2026",
+    added:"26.08.2026",
+    title:"Netzwerk-gestützte Sentinelüberwachung erkannte Clostridioides difficile 27 % schneller mit nur 15 % Sequenzierung",
+    sum:"Englische Studie mit Netzwerkanalyse zur optimalen Auswahl von Sentinel-Laboratorien für Whole-Genome-Sequenzierung nosokomialer Infektionen bei limitierter Sequenzierungskapazität.",
+    result:"Algorithmisch optimierte Sentinelstandorte erkennen neuartige C.-difficile-Stämme 27 % schneller als Zufallsauswahl (Median ~3 statt 4 Wochen), während nur &lt;15 % aller Fälle sequenziert werden. Sensitivitäts- und Szenario-Analysen bestätigten robuste epidemiologische Performance über verschiedene Pfadogeneigenschaften hinweg.",
+    transfer:"Großbritannien, übertragbar auf deutsche KRINKO-gestützte Sentinel-Überwachung"
+  },
+  {
+    journal:"Front Immunol", year:"2026", pmid:"42625714",
+    author:"Ferranti-Ramos A et al.", pubdate:"06.08.2026",
+    added:"21.08.2026",
+    title:"Delphi-Konsens: Prävention und Management iatrogener Nebenwirkungen von Immunglobulin-Therapie",
+    sum:"Spanischer Expertenkonsens mit modifiziertem Delphi-Verfahren zur Standardisierung von Sicherheitsmaßnahmen bei Immunglobulin-Gaben in primären und sekundären Immundefekten.",
+    result:"42 von 44 Empfehlungen erreichten ≥75 % Konsens. Hochgradige Einigkeit zu individualisierter Risikoabwägung, Infusionsraten-Anpassung und frühes Nebenwirkungsmanagement. Subkutane Immunglobuline (SCIG) zeigten weniger systemische Reaktionen als intravenös. Serielle Anti-IgA-Tests nur bei selektierten Hochrisikopatienten nötig. Prämediktion nur bei ausgewählten Hochrisikogruppen.",
+    transfer:"Spanien; europäisches System, auf deutsches Versicherungswesen übertragbar"
+  },
+  {
+    journal:"Br J Clin Pharmacol", year:"2026", pmid:"42524757",
+    author:"McDermott JH et al.", pubdate:"29.07.2026",
+    added:"29.07.2026",
+    title:"MT-RNR1-Testung vor Aminoglykosiden verhindert irreversible Hörstörungen, kosteneffektiv in Neonatensepsis",
+    sum:"Britische Richtlinie zum Einsatz präventiver Pharmacogenomics-Tests für Aminoglykosid-induzierte Ototoxizität anhand von Mitochondrial-DNA-Varianten, basierend auf systematischer Literaturanalyse.",
+    result:"Drei MT-RNR1-Varianten (m.1555A&gt;G, m.1494C&gt;T, m.1095T&gt;C; Frequenz ~1:330) prädisponieren zu irreversibler Hörschädigung auch bei therapeutischen Dosen. Im Englischen Nationalen Gesundheitssystem ist Labor-basierte Testung finanziert; Point-of-Care-Tests in Neonatensepsis werden durchgeführt und sind frühen Health-Economic-Modellen zufolge kostenersparend. Ca. 20 % des Aminoglykosidgebrauchs ist vorhersehbar und testbar.",
+    transfer:"Großbritannien, Mitochondrial-DNA-Testung auf Deutschland übertragbar, Kosten-Nutzen-Analyse erforderlich"
+  },
+  {
+    journal:"Transbound Emerg Dis", year:"2026", pmid:"42661338",
+    author:"Landrock T et al.", pubdate:"2026",
     added:"28.08.2026",
-    title:"25 europäische Länder setzen nationale Antimikrobien-Verbrauchsziele um",
-    sum:"Umfrage zu 67 national adopted Targets für Antibiotikaverbrauch und Stewardship-Indikatoren aus 25 EU/EWR-Ländern für 2025 und darüber hinaus.",
-    result:"16 Länder mit 67 aktiven Targets: 73% Population-level-Indikatoren, 18% Patient-level, 9% Struktur-Stewardship. Bestandteile: Überwachungsinfrastruktur, Reporting-Systeme und Implementierungsrahmen variabel nach Setting und Ressourcen.",
-    transfer:"Deutschsprachiger und europäischer Raum, direkt übertragbar auf KRINKO-Kontext und Surveillance-Systeme"
-  },
-  {
-    journal:"PLoS One", year:"2026", pmid:"42531203",
-    author:"Thompson J et al.", pubdate:"30.07.2026",
-    added:"30.07.2026",
-    title:"Sicherheitsberichte in klinischen Studien: Balance zwischen Risikominderung und Bürokratie",
-    sum:"Qualitative Fokusgruppen-Studie mit 23 Mitarbeitenden von vier britischen Clinical Trial Units zur Implementierung risikogerechter Sicherheitsberichterstattung.",
-    result:"Ein übergeordnetes Thema: Balanceakt zwischen risikogerechter Berichterstattung und Risikominderung. Personal fühlt sich unsicher in Entscheidungen. Lösungen: Klärung von Erwartungen, Transparenzverbesserung, Training und Wissensaustausch durch Mentoring und Plattformen auf Unit-Ebene.",
-    transfer:"Vereinigtes Königreich, vergleichbare klinische Versuchsreglementierung; Regeländerungen 2025 relevant für alle RCT-Systeme"
-  },
-  {
-    journal:"Pharmazie", year:"2026", pmid:"42530075",
-    author:"Lopez-Leret D et al.", pubdate:"24.07.2026",
-    added:"30.07.2026",
-    title:"Pharmazeutische Interventionen senken Medikationsfehler bei älteren Hospitalisierten um 35 Prozent",
-    sum:"Retrospektive Analyse von 12.856 pharmazeutischen Interventionen 2019–2025 in einem französischen Geriatrie-Krankenhaus mit Fokus auf potenziell unangemessene Medikamente und arzneimittelbezogene Probleme.",
-    result:"65% der 12.856 Interventionen wurden von Verschreibern akzeptiert. Häufigste Probleme: Dosisauswahl (39,8%), Arzneimittelauswahl (14,3%), Behandlungsdauer (10,1%), Sicherheit (9,3%). Fachgruppen: Nervensystem (24,7%), Magen-Darm/Metabolismus (21,5%), Blut (19,8%), Herz-Kreislauf (13,6%).",
-    transfer:"Frankreich, vergleichbares Sozialversicherungssystem, ähnliche Polypharmie-Problematik"
-  },
-  {
-    journal:"J Nurs Manag", year:"2026", pmid:"42667115",
-    author:"Berggren K et al.", pubdate:"2026",
-    added:"29.08.2026",
-    title:"Adaptive Führung sichert Patientensicherheit in Intensivstationen unter Druck",
-    sum:"Qualitative Studie mit 15 ICU-Managern aus Schweden zur Frage, wie Führungskräfte unter COVID-19 organisatorische Bedingungen für Patientensicherheit schufen.",
-    result:"Manager balancierten Ressourcenmangel, Arbeitsbelastung und Mitarbeiterschutz durch adaptive Führung mit Flexibilität, kontinuierlichem Lernen und gegenseitigem Vertrauen. Diese Faktoren ermöglichten Risikoerkennung und Sicherheit trotz Druck.",
-    transfer:"Schweden, vergleichbares nordeuropäisches Gesundheitssystem, Meldeverhalten unterscheidet sich durch Entschädigungssystem ohne Verschuldensprinzip"
+    title:"Penicilline bei vancomycin-sensiblen Enterococcus-Bakteriämien: effektiv, aber keine Überlegenheit ohne Fokuskontrolle",
+    sum:"Retrospektive deutsche Kohortenstudie an 127 Patienten mit Enterococcus-Bakteriämie, Vergleich Penicillin-basierte versus alternative Therapien.",
+    result:"30-Tage-Mortalität: Penicilline 13,4 % vs. Alternativen 40 % (p=0,001); mediane Hospitalsdauer 21 vs. 35 Tage. Bei multivariater Analyse mit Propensity Scores war nur septischer Schock (aOR 23,53) unabhängig mit Sterblichkeit assoziiert, nicht die Therapieklasse. Keine Unterschiede bei Rezidivbakteriämie oder Nebenwirkungen.",
+    transfer:"Deutschland/Österreich, direkt auf Krankenhausinfektion anwendbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "28.08.2026";
+const RADAR_STAND = "31.08.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#safety";
 const RADAR_EIGENES = 10;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22", "2026-09-02", "2026-09-02", "2026-09-14", "2026-09-23"], [], ["2026-09-14", "2026-09-23", "2026-10-28", "2026-10-06", "2026-10-02", "2026-10-09", "2026-10-19", "2026-10-19"], [], ["2026-09-29", "2026-10-15"], [], [], ["2026-10-06", "2026-09-30", "2026-09-30", "2026-09-02", "2026-10-05", "2026-10-14", "2026-09-18", "2026-09-18"], [], ["2026-10-09", "2026-10-09", "2026-10-20"], [], ["2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07", "2026-08-31", "2026-10-15"]];
+const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22", "2026-09-02", "2026-09-02", "2026-09-07", "2026-09-07"], [], ["2026-09-14", "2026-10-28", "2026-09-23", "2026-10-06", "2026-10-02", "2026-10-09", "2026-10-19", "2026-10-19"], [], ["2026-09-29", "2026-10-15", "2026-09-25", "2026-09-07", "2026-09-07", "2026-09-04"], [], [], ["2026-09-18", "2026-09-18", "2026-09-18", "2026-10-05", "2026-09-02", "2026-09-30", "2026-10-06"], [], ["2026-10-09", "2026-10-09", "2026-10-20"], [], ["2026-09-07", "2026-09-07", "2026-09-07", "2026-09-07", "2026-10-15"]];
 // === RADAR-BLOCK-ENDE ===
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "30.08.2026";
+const NEWS_STAND = "31.08.2026";
 const NEWS = [
   {titel:"Reimann zur Behandlungsfehler-Statistik: Offenen Umgang mit Fehlern verpflichtend machen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/reimann-zur-behandlungsfehler-statistik-offenen-umgang-mit-fehlern-verpflichtend-machen/"},
   {titel:"Vermeidbare Gesundheitsschäden verursachen Milliardenkosten – Einsparpotenziale durch mehr Patientensicherheit nutzen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/vermeidbare-gesundheitsschaeden-verursachen-milliardenkosten-einsparpotenziale-durch-mehr-patientensicherheit-nutzen/"},
