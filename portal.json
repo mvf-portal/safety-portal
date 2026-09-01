@@ -2,6 +2,7 @@
   "_": "Themenprofil Patientensicherheit - elftes Portal. Machbarkeit am 25.08.2026 mit machbarkeit.py gemessen: 11.878 Arbeiten in zwoelf Monaten (32,5 pro Tag), 1.490 mit Europabezug, 555 mit Deutschlandbezug, Ueberschneidung hoechstens 9,3 Prozent - groesste Nachbarn KI 2,5, Pflege 2,4 und Versorgungsforschung 1,7 Prozent. Ohne NOT-Block waeren es 12.898 Arbeiten und 16,8 Prozent: Der Block kostet acht Prozent Material und halbiert die Ueberschneidung. Enger gefasst waeren es 6.313 Arbeiten ohne Infektionen und Sepsis (17,3 pro Tag) oder 8.366 mit Infektionen, aber ohne Sepsis (22,9 pro Tag). Datenbanken am selben Tag mit linkpruefung.py geprueft, die Zweifelsfaelle zusaetzlich mit ZWEI ECHTEN Suchbegriffen: Aktion Saubere Haende, IHI, DIVI und ISMP unterschieden sich zwischen 'Hygiene' und 'Sepsis' nur um wenige Byte und stehen deshalb als Portal-Kachel. dejure.org und BMJ Quality & Safety sperren automatisierte Abrufe (403), arbeiten im Browser aber einwandfrei - im Browser gegengeprueft.",
   "_STAMMDATEN": "safety.m-vf.de - kurze Adresse, deutscher Titel.",
   "DOMAIN": "safety.m-vf.de",
+  "HUB": "safety",
   "REPO": "mvf-portal/safety-portal",
   "TITEL": "Knowledge-Hub Patientensicherheit",
   "TITEL_KURZ": "Patientensicherheit",
