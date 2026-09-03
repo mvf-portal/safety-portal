@@ -1,31 +1,32 @@
 {
  "hub": "Knowledge-Hub Patientensicherheit",
  "domain": "safety.m-vf.de",
- "datum": "2026-09-02",
+ "datum": "2026-09-03",
  "stand": "terminiert",
- "titel": "MVF Safety-Newsletter 02.09.2026",
- "betreff": "Neueste Studien - Patientensicherheit – 2. September 2026",
- "anzahl": 6,
+ "titel": "MVF Safety-Newsletter 03.09.2026",
+ "betreff": "Neueste Studien - Patientensicherheit – 3. September 2026",
+ "anzahl": 7,
  "pmids": [
-  "42677895",
-  "42676278",
-  "42597730",
-  "42526359",
-  "42509012",
-  "42498468"
+  "42683513",
+  "42682581",
+  "42682024",
+  "42681650",
+  "42674465",
+  "42669912",
+  "42512947"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098687",
- "termin_utc": "2026-09-02T08:00:00+00:00",
- "empfaenger": 1,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098704",
+ "termin_utc": "2026-09-03T08:00:00+00:00",
+ "empfaenger": 2,
  "listengroesse": 5902,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 54,
-  "pool": 54,
-  "gewaehlt": 6,
-  "neu": 6
+  "bekannt": 57,
+  "pool": 53,
+  "gewaehlt": 7,
+  "neu": 7
  },
  "rubriken": {
   "news": "d85a7b4c19199097"
