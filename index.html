@@ -1392,71 +1392,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "4. Sept. 2026, 05:49 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Acta Anaesthesiol Scand", year:"2026", pmid:"42674465",
-    author:"Meier NF et al.", pubdate:"Okt. 2026",
-    added:"31.08.2026",
-    title:"Vergleich von Meropenem und Piperacillin/Tazobactam bei Sepsis: Feasibility-Phase mit vier erfüllten Kriterien",
-    sum:"Integrierte Feasibility-Phase der EMPRESS-Studie vergleicht empirische Therapie mit Meropenem versus Piperacillin/Tazobactam bei intensivpflichtiger Sepsis in 10 dänischen ICUs (Juni-Dezember 2025); 200 von 284 gescreenten Patienten (70,4 %) randomisiert.",
-    result:"Vier von fünf Feasibility-Kriterien erfüllt: Rekrutierung 70,4 % (Schwelle ≥50 %), Studienabschluss 5,5 Monate (Schwelle &lt;12 Monate), Protokolladherence 81,0 % (Schwelle ≥75 %), Datenverfügbarkeit initial 85,5 % (unter Schwelle 95 %, verbesserte sich auf 95,8 % in letztem Monat). 30-Tages-Mortalität 30,5 %, schwere unerwünschte Reaktionen 4,0 %. Studie wird ohne Änderungen fortgesetzt.",
-    transfer:"Skandinavien, vergleichbare Intensivmedizin, Entschädigungssystem ohne Verschuldensnachweis"
+    journal:"Acta Orthop", year:"2026", pmid:"42690130",
+    author:"Topalhafizoglu S et al.", pubdate:"03.09.2026",
+    added:"03.09.2026",
+    title:"Rauchen, externe Fixation und OP-Dauer erhöhen Wundinfektionsrisiko nach Sprunggelenksosteosynthese",
+    sum:"Retrospektive Kohortenstudie zu Risikofaktoren für oberflächliche und tiefe Wundinfektionen nach offener Reposition und interner Fixation von Sprunggelenkfrakturen in zwei nordischen Zentren.",
+    result:"11% Infektionsrate (86/781); 27% davon benötigten Revisionsoperation; 43% als Fraktur-assoziierte Infektionen klassifiziert. Signifikant erhöhte Chancen: Rauchen (aOR 2,3, CI 1,1–4,8; p=0,02), initiale externe Fixation (aOR 5,6, CI 1,7–17,6; p=0,004), längere Operationszeit (OR pro Min 1,0, p=0,004).",
+    transfer:"Schweden, europäisches Versicherungs- und Qualitätskontrollsystem"
   },
   {
-    journal:"J Am Coll Clin Pharm", year:"2026", pmid:"42682024",
-    author:"Althubyani AA et al.", pubdate:"Sept. 2026",
+    journal:"BMJ Open", year:"2026", pmid:"42692500",
+    author:"Monshi M et al.", pubdate:"02.09.2026",
+    added:"03.09.2026",
+    title:"Konsensusrahmen zur Qualität von Medikationsfehlerberichten: Neun Indikatoren für besseres Lernen",
+    sum:"Expert-Konsens-Studie zu Qualitätsindikatoren in Medikationsfehler-Meldungen im NHS mit 11 britischen Sicherheitsfachleuten.",
+    result:"Neun Qualitätsindikatoren identifiziert; höchste Priorität: ausreichende Dokumentation von Patient und Kontext. Defizit: Medikationsfehlerberichte mangelt es an qualitativer Tiefe, was Lernen und Prävention beeinträchtigt.",
+    transfer:"UK-Gesundheitssystem; comparable Melde- und Governance-strukturen mit Deutschland"
+  },
+  {
+    journal:"Natl Med J India", year:"2026", pmid:"42690883",
+    author:"Bothra M et al.", pubdate:"Sept. 2026",
+    added:"03.09.2026",
+    title:"Blutkultur-Kontamination durch Schulung und Aufsicht um 68% gesenkt",
+    sum:"Plan-Do-Study-Act-Audit zur Reduktion von Hautflora-Kontaminationen bei Blutkultur-Entnahme durch Schulung und Infektionskontroll-Überwachung.",
+    result:"Kontaminationsquote von 10,7% auf 3,4% gesenkt (p&lt;0,0001); 7.329 Blutkulturen untersucht (5.700 post-intervention). Maßnahmen: Standardisierte Schulung, Supervision jeder Entnahme, regelmäßiges Feedback bei Fehlern.",
+    transfer:"Indien, aber Fehlermeldesystem und CIRS-Logik international übertragbar"
+  },
+  {
+    journal:"Nurs Crit Care", year:"2026", pmid:"42687704",
+    author:"Sharadgah A et al.", pubdate:"Sept. 2026",
+    added:"03.09.2026",
+    title:"Strukturierte Übergabe OP-PICU senkte Handover-Zeit um 50% und Medikationsfehler auf null",
+    sum:"Qualitätsverbesserungsprojekt zur Standardisierung der Übergabe vom Operationssaal auf die pädiatrische Intensivstation durch Checklisten, Drogenarchiv und strukturiertes Briefing.",
+    result:"Handover-Dauer von 15–20 min auf 8–10 min gesenkt (50%); Null Medikationsfehler in 77 Post-Interventions-Fällen vs. 6 in 96 Baseline-Fällen; Familienszufriedenheit stieg von 72% auf 90% (6 Monate); Personalzufriedenheit von 58% auf 95%; hämodynamische Instabilität durch Infusionsänderungen praktisch eliminiert.",
+    transfer:"Tertiary pediatric hospital UAE; Handover-Risiken und Medikationsprozesse überall ähnlich"
+  },
+  {
+    journal:"Sci Rep", year:"2026", pmid:"42686801",
+    author:"Liu X et al.", pubdate:"13.08.2026",
     added:"02.09.2026",
-    title:"Pharmakist-geführtes Antibiotic Stewardship reduziert Breitspektrum-Einsatz um 35-40 % in der Notaufnahme",
-    sum:"Retrospektive Kohortenanalyse von 324 Notaufnahme-Patienten mit empirischer Antibiose vor (162 Patienten) und nach Implementierung (162 Patienten) eines Pharmazistenantibiotic-Stewardship-Programms; Eignung der empirischen Therapie und Antibiotikaanwendung gemessen.",
-    result:"Angepasste empirische Therapieeignung unterschied sich nicht signifikant (49,4 % vs. 53,7 %; p=0,44). Aber signifikante Reduktion unnötiger Pseudomonasabdeckung (54,9 % vs. 35,2 %; p&lt;0,001), MRSA-Abdeckung (23,5 % vs. 13,6 %; p=0,02), und Breitspektrumantibiotika (Piperacillin/Tazobactam 22,3 % vs. 14,5 %; p=0,02). Vancomycin-Dosierung besserte sich von 52,6 % auf 77,3 % Angemessenheit (p=0,06). Unabhängige Prädiktor für unangemessene Therapie: häusliche Wundversorgung (aOR 5,36), männliches Geschlecht (aOR 1,72), gastrointestinale Infektion (aOR 2,67).",
-    transfer:"USA-System, aber Antibiotic-Stewardship-Befund ist unabhängig vom Haftungsrecht"
+    title:"Psychosoziale Faktoren und Selbstwirksamkeit treiben Antibiotic-Stewardship-Entscheidungen",
+    sum:"Längsschnittstudie mit zwei Wellen (11 Monate Abstand) bei 1.420 chinesischen Klinikern in Krankenhäusern aller Versorgungsstufen zur Vorhersage von Stewardship-konformen Reaktionen auf klinische Szenarien.",
+    result:"Höhere Stewardship-Scores assoziiert mit stärkeren begründeten Überzeugungen, weniger wahrgenommenen Barrieren, höherer Selbstwirksamkeit, besseren Kenntnissen und mehr Sozialsupport; TPB-Überzeugungen nicht unabhängig signifikant nach gegenseitiger Anpassung. Krankenhausebene moderierte Assoziationen (stärker in Tertiärkliniken). Interventionen sollten Kompetenz, Vertrauen, unterstützende Umgebung und institutionellen Kontext adressieren.",
+    transfer:"China, aber psychosoziale Determinanten und Barrieren in Stewardship-Implementierung international relevant"
   },
   {
-    journal:"J Antimicrob Chemother", year:"2026", pmid:"42683513",
-    author:"Sinkeler FS et al.", pubdate:"01.09.2026",
-    added:"02.09.2026",
-    title:"Flucloxacillin erhöht akute Nierenschädigung bei Staphylokokken-Bakteriämie: OR 2,37 gegenüber Cefazolin",
-    sum:"Retrospektive multizentrische Kohortenstudie aus drei niederländischen Krankenhäusern mit 1408 erwachsenen Patienten mit Staphylococcus-aureus-Bakteriämie (SAB), behandelt mit Flucloxacillin oder Cefazolin; akute Nierenschädigung (AKI) Inzidenz, Schweregrad, Zeitpunkt und Erholung verglichen.",
-    result:"AKI bei 483 Patienten (34,3 %). Größere AKI-Häufigkeit unter Flucloxacillin (466/1324 [35,2 %] vs. 17/84 [20,2 %]; p=0,004). Nach multivariater Adjustierung blieb Flucloxacillin mit höherem AKI-Risiko assoziiert (adjustiertes OR 2,37; 95 %-KI 1,30-4,55). Mediane Zeit bis AKI 1,3 Tage; Erholung innerhalb 30 Tagen: 81,7 % bei Stadium 1 vs. 50,5 % bei Stadium 3. Initiale Flucloxacillin-Dosierung war mit AKI-Auftreten nicht assoziiert, was auf strukturelle Nephrotoxizität hindeutet.",
-    transfer:"Niederlande, vergleichbares deutsches Versicherungssystem, direkt anwendbar"
-  },
-  {
-    journal:"Antimicrob Resist Infect Control", year:"2026", pmid:"42681650",
-    author:"Sons D et al.", pubdate:"31.08.2026",
-    added:"02.09.2026",
-    title:"Automatisierte Überwachung von Wundinfektionen mit Routine-Krankenhauskaten senkt Hygieneaufwand",
-    sum:"Studie evaluiert einen Algorithmus (sAReS-SSI) zur automatisierten Erkennung von postoperativen Wundinfektionen aus Routinedaten anhand von ICD-10/OPS-Katalogen und validiert das Verfahren gegen Bettseitenüberwachung auf orthopädisch-traumatologischen Stationen.",
-    result:"Der Algorithmus identifizierte 94,7 % der Wundinfektionen (Sensitivität 94,7 %, Spezifität 94,3 %, negativer prädiktiver Wert 99,8 %). Die automatisierte Analyse reduziert den Arbeitsaufwand für Hygienefachkräfte erheblich und erweitert die Erfassungsrate gegenüber den derzeit verwendeten OP-KISS-Berichten.",
-    transfer:"Deutschland, Routinedaten nach Infektionsschutzgesetz und Hygienerichtlinien, direkt übertragbar"
-  },
-  {
-    journal:"Croat Med J", year:"2026", pmid:"42669912",
-    author:"Krstulović J et al.", pubdate:"31.08.2026",
-    added:"31.08.2026",
-    title:"Öffentliche Kampagnen verdreifachen Patientenbeschwerden über Sicherheitsmängel in Kroatien",
-    sum:"Retrospektive Analyse von 36 Patientenbeschwerden an ein Komitee zum Schutz von Patientenrechten (2022-2024) nach WHO-Patientensicherheitscharta klassifiziert; Auswirkung von Öffentlichkeitskampagnen auf Meldequoten evaluiert.",
-    result:"Nach Kampagnen zur Sensibilisierung (2023-2024) stieg die Zahl der codierten Charta-Verletzungen von 11 (2022) auf 36 (2024), monatliche Meldequoten verdreifachten sich (Ratenratio 3,3; 95 %-KI 1,7-6,4; p=0,001). Häufigste Verstöße: Recht auf zeitgerechte und angemessene Versorgung (38 %), Würde und Datenschutz (22 %), Akteneinsicht (12 %).",
-    transfer:"Croatie, Transparenz und Patientenbeteiligung sind Länder-übergreifend relevant"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42682581",
-    author:"Li J et al.", pubdate:"18.08.2026",
-    added:"02.09.2026",
-    title:"Hochvolumen-Dialysestationen mit &gt;3000 Fällen/Monat haben 2,6-fach erhöhtes Risiko für Transportsicherheitsvorfälle",
-    sum:"Multizentrische Querschnittsstudie an 135 chinesischen Dialysestationen mit 4253 Pflegekräften charakterisiert Sicherheitsvorfälle während intrahospitaler Transporte von 135.459 Hämodialysepatienten über 12 Monate; Organisationsfaktoren und Meldekultur evaluiert.",
-    result:"268 Sicherheitsvorfälle (0,2 % der Transporte) gemeldet. Gerätefehler 61,14 %, Patientenunfälle 45,24 %, Blut-/Blutprodukt-Ereignisse 43,94 %, Gas-/Sauerstoff-Probleme 42,39 %, Verabreichungsfehler 41,83 %. Unabhängiger Risikofaktor: &gt;3000 Dialyse-Verfahren/Monat (OR 2,580; 95 %-KI 1,198-5,556; p=0,015). Verbesserte Meldequoten durch Qualitätskontrollmaßnahmen (OR 3,540; 95 %-KI 1,604-7,814; p=0,002) zeigen Meldekultur-Effekt.",
-    transfer:"China, Dialysevolumen-Risiko ist systemunabhängig, Fehlermeldesystem funktional vergleichbar"
-  },
-  {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42512947",
-    author:"Pozzessere P et al.", pubdate:"20.07.2026",
-    added:"28.07.2026",
-    title:"Procalcitonin ≥0,85 ng/mL unterscheidet Sepsis mit Blutkultur-Nachweis mit 84 % Spezifität",
-    sum:"Retrospektive Analyse von 912 Patienten mit Sepsis/septischem Schock in der Notaufnahme (März 2023-Dezember 2025); Blutkultur-Positivität und deren prognostische Bedeutung für 28-, 90- und 365-Tages-Überleben evaluiert.",
-    result:"602 Kulturen positiv, 310 negativ. Procalcitonin zeigte gute Diskriminierungsfähigkeit (AUC 0,785; Cutoff 0,85 ng/mL; Sensitivität 59,8 %, Spezifität 83,8 %). Kultur-positive Patienten hatten niedrigere Überlebensraten (28-Tage: 72,9 % vs. 85,9 %; 365-Tage: 44,3 % vs. 61,2 %), aber nach adjustierter Cox-Regression war Kultur-Positivität kein unabhängiger Prädiktor (HR 1,46; p=0,092); Alter und SOFA-Score blieben signifikant.",
-    transfer:"Italien, Notfallmedizin mit Blutkulturstandard, europäisches System"
+    journal:"BMC Psychiatry", year:"2026", pmid:"42557550",
+    author:"Störkel LM et al.", pubdate:"05.08.2026",
+    added:"06.08.2026",
+    title:"Modulare Kompetenz-orientierte Psychotherapie senkte Zwangsmittel und Isolierung in Psychiatrie",
+    sum:"Naturalistisches Drei-Jahres-Vergleichsstudium zwischen zwei Kliniken zum Effekt einer kompetenzorientierten psychotherapeutischen Intervention auf Häufigkeit und Dauer von Fixierung und Isolierung.",
+    result:"An Standort A mit MCP-Implementierung: Wahrscheinlichkeit und Dauer von Fixierung sanken signifikant über Zeit, Isolierungsdauer sanken signifikant stärker als an Standort B; Assaults beschreibend rückläufig bei A, stabil bei B. Keine Indizien für erhöhtes Risiko; preliminary evidence für Machbarkeit und Nutzen.",
+    transfer:"Deutschland (zwei Vitos-Standorte Hessen/Hessen); vergleichbar Qualitätsmessungen in Psychiatrie"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1472,7 +1463,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.09.2026";
+const NEWS_STAND = "04.09.2026";
 const NEWS = [
   {titel:"Reimann zur Behandlungsfehler-Statistik: Offenen Umgang mit Fehlern verpflichtend machen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/reimann-zur-behandlungsfehler-statistik-offenen-umgang-mit-fehlern-verpflichtend-machen/"},
   {titel:"Vermeidbare Gesundheitsschäden verursachen Milliardenkosten – Einsparpotenziale durch mehr Patientensicherheit nutzen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/vermeidbare-gesundheitsschaeden-verursachen-milliardenkosten-einsparpotenziale-durch-mehr-patientensicherheit-nutzen/"},
@@ -1482,7 +1473,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Deutschland muss jährlich mindestens 10.000 sepsisbedingte Todesfälle verhindern", datum:"2026-08-31", url:"http://idw-online.de/de/news876515", quelle:"idw"},
+  {titel:"Erste Erfolge mit personalisierter Medizin bei schweren systemischen Entzündungen", datum:"2026-09-03", url:"http://idw-online.de/de/news876783", quelle:"idw"},
+  {titel:"Initial successes with personalised medicine to fight severe systemic inflammation", datum:"2026-09-03", url:"http://idw-online.de/de/news876782", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
