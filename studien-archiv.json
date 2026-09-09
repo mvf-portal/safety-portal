@@ -20,9 +20,9 @@
   "pubdate": "31.08.2026",
   "added": "08.09.2026",
   "transfer": "Schweden (Uppsala), physiologische Validierung; Übertragbarkeit auf Sepsisverdacht in Notaufnahmen begrenzt ohne prospektive Patientenstudien",
-  "title": "Capillary refill time crosses diagnostic threshold during acute inflammation: quantitative bedside test unreliable for sepsis alone",
-  "sum": "Prospective human endotoxemia model (n=25): quantitative capillary refill time (qCRT) during E. coli LPS-induced systemic inflammation showed biphasic trajectory crossing the clinical 3-second threshold in both directions.",
-  "result": "qCRT prolonged from baseline ~3,5s to 8,31s at 1,5h (14/25 reached 10s ceiling), then shortened to 1,27s at 5h; between-subject variance minor (ICC 0,30); skin temperature explained largest qCRT variance. Findings show single fixed-threshold qCRT unreliable; serial measurement within patient more informative than population threshold.",
+  "title": "Rekapillarisierungszeit bei akuter Entzündung: bettseitiger Test allein nicht sepsistauglich",
+  "sum": "Prospektives humanes Endotoxämie-Modell (n=25): Die quantitativ gemessene Rekapillarisierungszeit (qCRT) durchlief unter LPS-induzierter systemischer Entzündung einen zweiphasigen Verlauf und überschritt den klinischen Schwellenwert von drei Sekunden in beide Richtungen.",
+  "result": "Die qCRT stieg von etwa 3,5 s zu Beginn auf 8,31 s nach 1,5 Stunden (bei 14 von 25 Probanden wurde die Messobergrenze von 10 s erreicht) und fiel nach 5 Stunden auf 1,27 s. Die Streuung zwischen den Probanden war gering (ICC 0,30); den größten Anteil an der Varianz erklärte die Hauttemperatur. Ein einzelner fester Schwellenwert ist damit nicht verlässlich; die wiederholte Messung am selben Patienten sagt mehr aus als ein Populationsgrenzwert.",
   "aufgenommen": "2026-09-09"
  },
  {
