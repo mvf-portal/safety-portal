@@ -14,19 +14,13 @@
   "42467870",
   "42464816"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098777",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098780",
  "termin_utc": "2026-09-09T08:00:00+00:00",
  "empfaenger": 3,
- "listengroesse": 5905,
+ "listengroesse": 5906,
  "beanstandungen": [],
  "aussortiert": [],
- "pool": {
-  "geholt": 220,
-  "bekannt": 85,
-  "pool": 55,
-  "gewaehlt": 6,
-  "neu": 6
- },
+ "pool": {},
  "rubriken": {
   "news": "3b2c57d713c4d0e0"
  }
