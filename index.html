@@ -1505,62 +1505,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "19. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMJ Open", year:"2026", pmid:"42754271",
-    author:"Camasso NC et al.", pubdate:"17.09.2026",
+    journal:"PLoS One", year:"2026", pmid:"42758689",
+    author:"Logan V et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"ADRe-Profil senkte Medikationsprobleme bei älteren Patienten um 82%",
+    sum:"Cluster-randomisierte Studie zur Frage, ob ein Adverse Drug Reaction Profile bei Patienten ≥65 Jahren mit über 4 Dauermedikationen in der Hausarztpraxis unerwünschte Arzneimittelwirkungen und Polypharmzie-Probleme reduziert.",
+    result:"82% der Interventionsgruppe (22/27 Patienten) hatten mindestens ein bearbeitetes Problem vs. 35% der Kontrollgruppe (11/30), adjustierte Odds Ratio 7,48 (95%-KI 1,99–28,10). B12-Mangel und Flecainide-Demedikation wurden kritisch erkannt; weniger Schmerzberichte in der Interventionsgruppe.",
+    transfer:"Großbritannien/Wales, vergleichbare primärärztliche Dokumentation und Polypharmzie-Problematik"
+  },
+  {
+    journal:"BMJ Open Qual", year:"2026", pmid:"42754290",
+    author:"Warrier AR et al.", pubdate:"17.09.2026",
     added:"17.09.2026",
-    title:"MedDRA-Standardisierung halbierte Sicherheitsmeldelücken in Operationsstudien",
-    sum:"Querschnittsanalyse untersuchte, ob standardisierte Nomenklatur (MedDRA) für Nebenwirkungen die Qualität der Sicherheitsberichterstattung in chirurgischen Randomisierungsstudien verbessert.",
-    result:"Nur 18,8% der 116 Studien nutzten MedDRA. Mit MedDRA: vollständigere Berichte (p&lt;0,001), Concordance Registry-Publication 60% vs. 82% Diskrepanz, Mortalitätsmeldungen 60% vs. 82% Diskordanz. Industriefinanzierung und US-Beteiligung erhöhten MedDRA-Adoption um Faktor 29 bzw. 4,6.",
-    transfer:"Universelles Problem Chirurgieforschung, MedDRA auch in deutschsprachigen Kliniken einsetzbar."
+    title:"Stromausfälle durch Treibstoffmangel: Kaskadierende Patientensicherheits-Ausfälle in Konflikt-Szenarios",
+    sum:"Proaktive Fehlermodalitäts- und Effektanalyse (FMEA) an 455-Bett-Klinik Südindien zur Modellierung von Patientensicherheitsrisiken bei akutem Treibstoff-/Flüssiggasausfall in geopolitischem Konflikt-Szenario.",
+    result:"62 Fehlerszenarien: 5 kritisch (RPNs ≥200), 17 hoch (150–199), 34 mittel (100–149), 6 niedrig (&lt;100). Generator/Stromversorgung Mittelwert RPN 171,0 = Systemamplifikator. Wäscherei (OP/ICU-Wäsche-Sterilisation): höchstes Einzelrisiko RPN 240. Küche LPG-abhängig: durchschnittlich 163,4.",
+    transfer:"Indien, aber Kaskadenanalyse und Ausfallmuster sind für deutsche Krankenhäuser in Krisenszenarios anwendbar"
   },
   {
-    journal:"Crit Care", year:"2026", pmid:"42750044",
-    author:"Xu Y et al.", pubdate:"14.09.2026",
-    added:"17.09.2026",
-    title:"Pflegeleiter-Bundle senkte Pneumonierisiko bei septischen Bauchpatienten um 40 Prozent",
-    sum:"Studie untersuchte, ob ein Pflege-Behandlungsbündel für Atemwegsmanagement die Pneumonierate bei kritisch kranken Patienten mit Abdominalempyem senkt.",
-    result:"Das Bundle reduzierte Pneumonieinzidenz von 42,2% auf 25,6% (OR 0,39; 95%-KI 0,28–0,54; p&lt;0,001), Krankenhausaufenthalt um 20% und 28-Tage-Mortalität von 22,8% auf 18,3%. Fünf Sensitivitätsanalysen bestätigten Robustheit ohne Heterogenität zwischen Zentren.",
-    transfer:"China, aber strukturierte Bundle-Ansätze auf Intensivstationen sind international etabliert."
+    journal:"J Wound Ostomy Continence Nurs", year:"2026", pmid:"42758160",
+    author:"Zhao Y et al.", pubdate:"Sept. 2026",
+    added:"18.09.2026",
+    title:"Sieben unabhängige Risikofaktoren für Druckgeschwüre nach Hüftfrakturchirurgie",
+    sum:"US-amerikanische Beobachtungsstudie mit 14.523 Hüftfrakturpatienten (2019) aus der NSQIP-Datenbank zur Identifizierung unabhängiger Risikofaktoren für nosokomiale Druckgeschwüre nach operativer Versorgung.",
+    result:"4,3% entwickelten mindestens ein Druckgeschwür (628/14.523). Unabhängige Risikofaktoren: Alter &gt;70 Jahre (OR 1,488), BMI &lt;18,5 kg/m² (OR 1,347), Gewichtsverlust &gt;10% in 6 Monaten (OR 2,775), Mobilitätshilfe präoperativ (OR 1,833), Insulinabhängigkeit (OR 1,753), BUN &gt;24 mg/dL (OR 1,634), Aufnahme-zu-OP-Intervall &gt;1 Tag (OR 1,400).",
+    transfer:"USA, aber Risikofaktor-Profil und NSQIP-Methodik in deutschen Kliniken anwendbar"
   },
   {
-    journal:"Nat Commun", year:"2026", pmid:"42749736",
-    author:"Zhang H et al.", pubdate:"20.08.2026",
-    added:"16.09.2026",
-    title:"Pathogen-PCR-Diagnostik senkte unnötige Antibiotika und verbesserte Sepsis-Überleben",
-    sum:"Randomisierte Studie testete, ob digitale PCR-Diagnostik die Antibiotikaanpassung bei Sepsis-Verdacht steuert und Sterblichkeit senkt.",
-    result:"ddPCR erhöhte korrekte Antibiotikaabdeckung von 6,1% auf 12,91% (p=0,0039), Tagesmelder schneller. Pathogenenlast &gt;3051 Kopien/ml (Tag 0), &gt;404 (Tag 3), &gt;1348 (Tag 7) vorhersagend für 28-Tage-Mortalität. Frühe genauigkeitsbasierte Therapieanpassung verbesserte Überleben signifikant.",
-    transfer:"China-Daten, aber Diagnostik-Prinzip auf Sepsis-Erkennung universell übertragbar."
+    journal:"Biomedica", year:"2026", pmid:"42757801",
+    author:"Espinosa M et al.", pubdate:"20.08.2026",
+    added:"18.09.2026",
+    title:"Tuberkulose-Infektionskontroll-Plan: 70% Compliance aber massive Governance-Lücken",
+    sum:"Evaluative Studie mit Mixed-Methods in Cali, Kolumbien zur Bewertung der institutionellen Kapazitäten eines seit 2016 implementierten Tuberkulose-Infektionskontroll-Plans in Gesundheitseinrichtungen mit TB-Programmen.",
+    result:"Durchschnittliches Compliance: 70,8% administrative Maßnahmen, 62,1% Umweltkon trolle, 90,5% Atemschutz. Mängel: fehlender nationaler Rahmen, hohe Personalfluktuation, unzureichende Schulung, Investitionslücken, mangelnde Überwachung arbeitsbezogener TB. Stärken: Erfassung symptomatischer Atemwegspatienten, Verfügbarkeit von Schutzausrüstung.",
+    transfer:"Kolumbien, aber Struktur-Gap-Analyse für Infektionskontroll-Programme übertragbar auf Schwellenländer"
   },
   {
-    journal:"J Safety Res", year:"2026", pmid:"42744499",
-    author:"Foncubierta-Rodríguez MJ", pubdate:"17.08.2026",
+    journal:"Int J Qual Health Care", year:"2026", pmid:"42623130",
+    author:"Danjou A et al.", pubdate:"08.07.2026",
+    added:"20.08.2026",
+    title:"Verzögerte Entlassungsberichte zeigten keinen Sicherheitseffekt nach Pneumonie-Hospitalisierung",
+    sum:"Französische Kohortenstudie zu 1004 Patienten nach Hospitalisierung wegen ambulant erworbener Lungenentzündung, ob das Fehlen einer am Entlasstag erstellten Entlassdokumentation die 30-Tage-Mortalität und Wiederaufnahmen erhöht.",
+    result:"Entlassdokumentation lag bei 30% am Entlasstag vor (305/1004). Nach Propensity-Score-Gewichtung: unerwünschte Ereignisse 12% vs. 14% (OR 1,12; 95%-KI 0,72–1,75), Wiederaufnahmen 9,6% vs. 10% (OR 1,09; 95%-KI 0,65–1,84), Mortalität 6,9% vs. 4,3% (OR 0,61; 95%-KI 0,31–1,21) – kein signifikanter Unterschied.",
+    transfer:"Frankreich, nationales Gesundheitsdatensystem, ähnliche Entlassdokumentationspflichten"
+  },
+  {
+    journal:"J Safety Res", year:"2026", pmid:"42744463",
+    author:"Dawson A et al.", pubdate:"26.05.2026",
     added:"15.09.2026",
-    title:"Digitalisierung steigert Arbeitsschutzegoismus, wenn Mitsprache fehlt – Spanien und Dänemark",
-    sum:"Querschnittswiederholung (ESENER 2019/2024) testet, ob Digitalisierung universell zum Reaktions- statt Präventivsicherheit führt und wie Mitarbeitermitsprache puffert.",
-    result:"Digitalisierung triggert überall Organisationsreaktivität; Arbeitermitsprache war 2019 inaktiv (nonsignifikant), 2024 aktiver Schutzfaktor gegen Reaktivität (β=0,547; p&lt;0,001). Traditionelle Industrie 2024 deutlich schlechter in Sicherheitsmanagement als Dienstleistung. Strukturelle Schichtung nach Sektor neu in post-pandemischer Ära.",
-    transfer:"Spanien/Dänemark-Daten, EU-Risikomanagement-Rahmen, aber Befund zur Digitalisierungs-Reaktivität systemunabhängig."
-  },
-  {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42512785",
-    author:"Bludau F et al.", pubdate:"26.06.2026",
-    added:"28.07.2026",
-    title:"Multipack-Implantate kürzten OP-Zeit und Verpackungsabfall in Wirbelsäulenchirurgie",
-    sum:"HTA-Vergleichsstudie mit Messungen während acht Fusionen bewertete Einzelimplantat- gegen Multipack-Versorgung auf Workflow, Materialverbrauch und CO2-Bilanz.",
-    result:"Multipack senkte Griffzeit um 58% (25,4 s vs. 58,7 s; p=0,004), Steriltransferaufwand um Faktor 4,76, Verpackungsvolumen um Faktor 5,6, CO2-Äquivalent 0,017 kg vs. 0,026 kg. Personalzufriedenheit 73% positiv; Nachteil: möglicher Materialabfall ungenutzter Implantate.",
-    transfer:"Deutschland: Universitätsklinikum Mannheim, vergleichbare Operationsumgebung und Dokumentationspflichten."
-  },
-  {
-    journal:"J Safety Res", year:"2026", pmid:"42744505",
-    author:"Raheemy Y et al.", pubdate:"15.06.2026",
-    added:"15.09.2026",
-    title:"Sicherheitsclutter-Taxonomie identifiziert verschleuerte Prozesse, die Schaden nicht mindern",
-    sum:"Qualitative Studie mit Expertenfokusgruppen und 11 Jobsite-Ethnografien (Bauwesen) entwickelt eine Diagnose-Klassifikation für Sicherheitsmaßnahmen, die Zeit verschwenden.",
-    result:"Sicherheitsclutter definiert als Aufwand, der ohne Sicherheitsgewinn Ressourcen bindet: bedingte Clutter (exzessiv, irrelevant, unerreichbar) und reine Clutter (ungültig). 11 Clutter-Typen mit Erkennungszeichen und Fallbeispielen benannt, Triangulation Fokusgruppe-Ethnografie validiert Kategoriengrenzen.",
-    transfer:"Bauwesen primär, Konzept auf Krankenhausprozesse (Fehlermeldesysteme, Dokumentation) übertragbar."
+    title:"Mangelhaft vermitteltes Management-Support gefährdet psychologische Genesung nach Arbeitsverletzung",
+    sum:"Zwei britische Querschnittsstudien mit Eisenbahnwerkstatt-Mitarbeitern (N₁=264, N₂=117), ob organisationale Sicherheitsunterstützung durch Vorgesetzte die psychische Belastung und emotionales Wohlbefinden nach beruflicher Verletzung moderiert.",
+    result:"Support von direkten Vorgesetzten und Kollegen moderierte nicht. Support des Top-Managements zeigte bei häufigeren Verletzungen kontraintuitiv: höhere wahrgenommene Unterstützung war mit niedrigerem positiven Affekt assoziiert – Effekt der Glaubwürdigkeitslücke zwischen symbolischer und gelebter Praxis.",
+    transfer:"Großbritannien, Eisenbahn-Sicherheitskultur, aber Befund zu Vertrauensdefiziten ist systemübergreifend"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1576,7 +1576,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "18.09.2026";
+const NEWS_STAND = "19.09.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Neuer Preis für Hygienefachkräfte: B. Braun-Stiftung sucht Projekte", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/neuer-preis-fuer-hygienefachkraefte-b-braun-stiftung-sucht-projekte/"},
@@ -1587,7 +1587,6 @@ const NEWS = [
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
   {titel:"Patientensicherheit im Klinikalltag: So bereiten sich Menschen mit Diabetes auf ihren Krankenhausaufenthalt richtig vor", datum:"2026-09-14", url:"http://idw-online.de/de/news877312", quelle:"idw"},
-  {titel:"Welt-Sepsis-Tag: DGAI fordert mehr Aufklärung und bessere Früherkennung", datum:"2026-09-11", url:"http://idw-online.de/de/news877269", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
