@@ -1505,71 +1505,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "23. Sept. 2026, 07:30 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Cochrane Database Syst Rev", year:"2026", pmid:"42765454",
-    author:"Jiang W et al.", pubdate:"21.09.2026",
-    added:"21.09.2026",
-    title:"Semi-aufrechte Position senkt beatmungsassoziierte Pneumonie um 58 Prozent",
-    sum:"Cochrane-Update mit 48 RCTs und 7.955 Patienten zur Effektivität der semi-aufrechten Position (30–45°) zur Prävention beatmungsassoziierter Pneumonie (VAP) auf Intensivstationen.",
-    result:"Semi-aufrecht (30–45°) vs. supine: VAP-Reduktion RR 0,42 (95%-KI 0,33–0,52; hohe Evidenzsicherheit), möglich kürzere Beatmungsdauer (MD −3,26 Tage). 30–45° vs. &lt;30°: RR 0,48 (hohe Sicherheit). Höhere Positionen erhöhten Druckgeschwüre; Sterblichkeit unterschied sich nicht.",
-    transfer:"Internationale Evidenz, auf deutsche Intensivstationen unmittelbar übertragbar"
+    journal:"BMC Med Ethics", year:"2026", pmid:"42768345",
+    author:"Russow F et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Händehygiene-Monitoring: ethische Lösungen bei klinischer Anwendung",
+    sum:"Interdisziplinäre Analyse ethischer Konflikte bei automatisiertem Monitoring von Händehygiene im Krankenhaus, mit Fallstudie aus Deutschland (Stralsund).",
+    result:"Optimierte Implementierungsstrategien minimieren ethische Spannungen zwischen Patientensicherheit und akzeptabler Arbeitsumgebung; partizipative Systementwicklung mit Personal und transparente, nicht-punitive Nutzung kollektiver Daten erhöhen Nutzerakzeptanz und Hygiene-Compliance.",
+    transfer:"Deutschland, direkte Anwendung auf deutsche Kliniken und Hygiene-Anforderungen."
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42767730",
-    author:"K A et al.", pubdate:"21.09.2026",
+    journal:"Eur J Clin Pharmacol", year:"2026", pmid:"42766149",
+    author:"Sols Cueto N et al.", pubdate:"21.09.2026",
     added:"21.09.2026",
-    title:"Hämovigilanz-Schulung schafft Lücke zwischen Wissen und Meldeverhalten bei Transfusionsreaktionen",
-    sum:"Querschnittsstudie von 150 Assistenzärzten in einer indischen Fachklinik zur Bewertung von Kenntnissen, Einstellungen und Meldepraktiken (KAP) zur Hämovigilanz und nationalen Transfusionssicherheitssystemen.",
-    result:"Gutes Wissen (Blutkomponenten) und positive Einstellungen, aber niedriges Meldeverhalten. Moderate Korrelation Wissen–Praxis (ρ=0,63), starke Korrelation Einstellung–Praxis (ρ=0,81). 48,5% Bewusstsein für nationales Meldesystem. Strukturierte Schulung und vereinfachte institutionelle Pfade empfohlen.",
-    transfer:"Indien, aber grundsätzlich relevante Befunde für Fehlermeldesysteme; Übertragbarkeit auf deutsche Haemovigilance prüfen"
+    title:"Masking-Effekt in spanischer Arzneimittelüberwachung deckt verborgene Sicherheitssignale auf",
+    sum:"Analyse des Masking-Effekts in der spanischen Spontanmeldedatenbank FEDRA, bei dem extreme Arzneimittel-Ereignis-Kombinationen andere Sicherheitssignale überlagern.",
+    result:"0,4% (1.211/287.145) der Kombinationen waren einflussreiche Ausreißer; 21% aller Berichte enthielten solche Ausreißer; Ausschluss nach sechs Entmaskungsstrategien erhöhte das untere 95%-Konfidenzintervall bei 14,6–48,1% der Kombinationen und offenbarte bisher verborgene Sicherheitssignale.",
+    transfer:"Spanien, methodisch auf europäische Überwachungssysteme übertragbar."
   },
   {
-    journal:"Nursing", year:"2026", pmid:"42765758",
-    author:"Gregory J et al.", pubdate:"01.10.2026",
-    added:"21.09.2026",
-    title:"Passive Beinhebung identifiziert bei Sepsis diejenigen, die keine Flüssigkeiten brauchen, und spart 4 Liter Volumen",
-    sum:"Vergleichende Kohortenstudie von 336 Septikämie-Patienten in der Notaufnahme zur Bestimmung, ob passive Beinhebung mit ETCO₂-Monitoring die Flüssigkeitsresponsivität vorhersagt und Überinfusion reduziert.",
-    result:"64% der Patienten mit Beinhebung waren negative Flüssigkeitsresponder; diese erhielten weniger Gesamtflüssigkeit (Differenz nicht signifikant, p=0,06). Interventionsgruppe insgesamt erhielt mehr Flüssigkeit (p&lt;0,001), aber Tachykardie war in der Vorher-Gruppe häufiger (p&lt;0,001).",
-    transfer:"USA; Methode nicht an Gesundheitssystem gebunden; Prinzip selektiver Flüssigkeitsgabe ist global relevant"
+    journal:"Tidsskr Nor Laegeforen", year:"2026", pmid:"42770419",
+    author:"Steen K et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Gesichtsmasken bei invasiven Eingriffen verhindern postoperative Infektionen nicht",
+    sum:"Systematische Übersichtsarbeit zu 9 Studien über Nutzen von Mund-Nasen-Schutz bei invasiven chirurgischen Verfahren zur Vermeidung postoperativer Infektionen.",
+    result:"Acht von neun Studien, darunter die zwei methodisch hochwertigsten, zeigten keinen signifikanten Unterschied in Infektionsraten mit versus ohne Masken; Unterschiede zwischen Gruppen: 1,2% und 3,5%; eine Studie fand höhere Infektionsrate mit Masken – insgesamt unzureichende hochwertige Evidenz.",
+    transfer:"Norwegen, Evidenz vom Operationssaal übertragbar auf deutsche Hygienepraxis."
   },
   {
-    journal:"Age Ageing", year:"2026", pmid:"42765722",
-    author:"Schechner M et al.", pubdate:"04.09.2026",
-    added:"21.09.2026",
-    title:"Gezielte Deprescribing sturzrisikofördernder Medikamente verhindert Frakturen bei älteren Patienten",
-    sum:"Deutsche Kohortenstudie mit 120.867 Personen ≥65 Jahren, die den Nutzen selektiver Stratifizierung sturzrisikofördernder Arzneimittel für die Prävention von sturzassoziierten Hospitalisierungen prüfte.",
-    result:"Pharmazeutische Untergruppen (SSRIs, ältere Antiepileptika, Anticholinergika) ermöglichten klinisch nützliche Risikodifferenzierung (AUC 0,73), während FRIAR-Klassifikation weniger Prognosewert bot. 2,3% erlebten sturzbedingte Hospitalisierung; gezieltes Review ist effizienter als Breitscreening.",
-    transfer:"Deutschland, Daten aus LMU-Klinika; unmittelbar auf deutsche Praxis übertragbar"
+    journal:"BMC Infect Dis", year:"2026", pmid:"42768321",
+    author:"Jogenfors A et al.", pubdate:"18.09.2026",
+    added:"22.09.2026",
+    title:"Tobramycin-resistenter S. aureus in Neonatalintensivstation: Hygiene und Antibiotikaregime beendeten Ausbruch",
+    sum:"Zehnjähriger Ausbruch mit resistentem Staphylococcus aureus in schwedischer Neugeborenen-Intensivstation; Interventionen waren Hygienemaßnahmen, Milchpasteurisierung und Wechsel des Antibiotikaregimes von Tobramycin zu Amikacin.",
+    result:"S.-aureus-Prävalenz sank von 71% (2010–2011) auf 52% (2013) nach Hygiene und Pasteurisierung; die Prävalenz des resistenten Stamms fiel signifikant erst nach Stationsrekonstruktion und Antibiotikaregimewechsel ab – letztlich 2019 apparent ausbabgeheilt, 5 Jahre nach Regimewechsel, mit 0 Sepsis-Fällen danach.",
+    transfer:"Schweden, vergleichbares Hygiene- und Intensivmedizin-System, praktische Interventionskombination."
   },
   {
-    journal:"BJS Open", year:"2026", pmid:"42765564",
-    author:"Patel S et al.", pubdate:"04.09.2026",
-    added:"21.09.2026",
-    title:"Intrawund-Vancomycin senkt Infektionsrisiko nach orthopädischen Operationen um 21 Prozent",
-    sum:"Metaanalyse von 22 RCTs mit 8.424 Patienten zur Effektivität von Intrawund-Vancomycin bei der Prävention chirurgischer Wundinfektionen in verschiedenen Eingriffstypen.",
-    result:"Intrawund-Vancomycin reduzierte Wundinfektionen insgesamt (RR 0,79; 95%-KI 0,64–0,99), besonders gram-positive Infektionen (RR 0,53; 95%-KI 0,35–0,79); NNT 82 bzw. 78. Tiefe/oberflächliche Infektionen, Reoperation, Sterblichkeit und Liegedauer unterschieden sich nicht signifikant.",
-    transfer:"Überwiegend europäische und nordamerikanische Studien; moderate Evidenzsicherheit; selektiver Einsatz statt Routineanwendung"
+    journal:"BMC Infect Dis", year:"2026", pmid:"42768322",
+    author:"Ye Y et al.", pubdate:"03.08.2026",
+    added:"22.09.2026",
+    title:"Ernährungsinflammation kombiniert mit Naples-Score vorhersagt Sepsis-Sterblichkeit besser",
+    sum:"Retrospektive Studie mit 149 klinischen Patienten und 200 aus MIMIC-IV-Datenbank zur Vorhersage der 28-Tage-Sterblichkeit bei Sepsis mittels Prognostics Nutrition Index (PNI) und Naples Prognostic Score (NPS).",
+    result:"Niedriger PNI (&lt;32,1) und hoher NPS waren unabhängige Prädiktoren für 28-Tage-Sterblichkeit; kombiniertes Modell (PNI + NPS) zeigte AUC 0,805 (klinische Kohorte) und 0,806 (MIMIC), mit guter Kalibrierung (Hosmer-Lemeshow p&gt;0,05) – überlegenes Vorhersageverhalten.",
+    transfer:"China und USA, prognostische Marker-Kombination unabhängig von Gesundheitssystem übertragbar."
   },
   {
-    journal:"Assist Inferm Ric", year:"2026", pmid:"42765959",
-    author:"De Prospo T et al.", pubdate:"Juli 2026",
-    added:"21.09.2026",
-    title:"Katheterassoziierte Harnwegsinfektionen durch strukturierte Intervention um ein Drittel gesenkt",
-    sum:"Qualitätsverbesserungsprojekt in einer italienischen Medizinstation, das zwei PDSA-Zyklen mit Audit-Feedback, Schulung und elektronischen Erinnerungssystemen zur Verbesserung der Urinkatheterverwaltung nutzte.",
-    result:"Die Dokumentation der Katheterentfernung stieg von 59,2% auf 94,8%, die tägliche Neubewertung von 25% auf 89,6%, die Katheterisierungen sanken von 76 auf 58, und die Inzidenz katheterassoziierter Harnwegsinfektionen (CAUTI) sank von 20 auf 13,77 pro 1.000 Kathetertage, ohne statistische Signifikanz.",
-    transfer:"Italien, vergleichbares Sozialversicherungssystem; PDSA-Methode übertragbar auf deutsche Kliniken"
-  },
-  {
-    journal:"Eur J Neurol", year:"2026", pmid:"42496054",
-    author:"Steinhoff BJ et al.", pubdate:"Juli 2026",
-    added:"24.07.2026",
-    title:"Weniger begleitende Antiepileptika reduzieren Verträglichkeit von Cenobamat deutlich",
-    sum:"Post-hoc-Analyse eines offenen Cenobamat-Trials (n=1.340) mit fokalen Anfällen zur Quantifizierung von Häufigkeit, Schweregrad und Auflösungszeit unerwünschter Ereignisse unter verschiedenen Konkomitanzregimen.",
-    result:"Schwindel, Somnolenz und Fatigue stiegen mit mehr begleitenden Antiepileptika, besonders kombiniert mit Benzodiazepinen oder ≥2 Natriumkanalblocker. Mediane Auflösungszeit häufiger Ereignisse war kürzer bei weniger Begleitmedikation. Schwere Ereignisse nahmen mit mehr Konkomitanzmedikation zu (außer Kopfschmerz).",
-    transfer:"Deutschland, European Journal; Pharmakovigilanz-Ergebnisse sind generalisierbar"
+    journal:"Fam Pract", year:"2026", pmid:"42770645",
+    author:"Mann C et al.", pubdate:"31.07.2026",
+    added:"22.09.2026",
+    title:"Antibiotic Stewardship: Unterschiede zwischen Hausärzten, Zahnärzten und Infektiologen in Belgien",
+    sum:"Querschnittsbefragung von 260 belgischen Akteuren (104 Hausärzte, 103 Zahnärzte, 53 Infektiologen) zu Wahrnehmungen und Verhalten bei Antibiotikaresistenz und unangemessener Verschreibung.",
+    result:"Etwa 50% der Fachleute gaben unangemessene Verschreibung zu; Haupttreiber waren Präventionssorgen und Komplikationsfurcht. Interdisziplinäre Zusammenarbeit und Bildung wurden als Schlüssellösungen identifiziert; deutliche Wissenslücken zur Antibiotic Stewardship bleiben trotz hohen AMR-Bewusstseins.",
+    transfer:"Belgien, vergleichbares europäisches Versicherungs- und Gesundheitssystem."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1585,7 +1576,7 @@ const RADAR_FRISTEN = [[], [], ["2026-10-06", "2026-09-23", "2026-10-28", "2026-
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.09.2026";
+const NEWS_STAND = "23.09.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Neuer Preis für Hygienefachkräfte: B. Braun-Stiftung sucht Projekte", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/neuer-preis-fuer-hygienefachkraefte-b-braun-stiftung-sucht-projekte/"},
