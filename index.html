@@ -1505,62 +1505,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Sept. 2026, 06:24 Uhr";
+const SNAP_DATE = "26. Sept. 2026, 06:24 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Am Coll Clin Pharm", year:"2026", pmid:"42773335",
-    author:"Kusuma IY et al.", pubdate:"Okt. 2026",
-    added:"22.09.2026",
-    title:"Digital informierte Antibiotic-Stewardship-Ausbildung erhöht Fachkompetenz um 30 bis 50 Prozent",
-    sum:"Geclusterte Stepped-Wedge-Studie mit 268 Pharmaziestudierenden zum Effekt eines multikomponentigen, theory-informed Digital Antimicrobial Stewardship Education Intervention (DASEI) auf Wissen, Klinisches Denken, Wahrnehmung und Einstellung.",
-    result:"Antibiotikakenntnis stieg von 16,08 auf 20,96 Punkte (Zunahme 4,88, 30,3 %); Fallbearbeitungs-Scores von 3,46 auf 5,01 (Zunahme 1,55, 44,8 %); Wahrnehmung von 3,82 auf 4,04; Einstellung von 3,70 auf 4,10. Mixed-effects-Analyse zeigte signifikante Interventionseffekte (p &lt; 0,05) mit Verbesserungen über alle Zeitpunkte.",
-    transfer:"Indonesien; anwendbar in Ländern mit begrenzter Ressourcen-Ausstattung von Aus- und Fortbildung"
+    journal:"Eur J Pediatr", year:"2026", pmid:"42789114",
+    author:"Echávarri de Miguel M et al.", pubdate:"25.09.2026",
+    added:"25.09.2026",
+    title:"Reserve-Antibiotika-Stewardship senkten unangemessene Anwendungen bei Kindern um ein Drittel",
+    sum:"Retrospektive Studie zu WHO-Reserve-Antibiotika (Ceftazidim-Avibactam, Ceftolozane-Tazobactam, Cefiderocol u.a.) in einer pädiatrischen Universitätsklinik; nach Implementierung eines strukturierten Stewardship-Programms mit Formularbeschränkung und elektronischen Verschreibungstools wurden Indikationen überprüft.",
+    result:"96 Behandlungsepisoden analysiert. Cefiderocol und Ceftazidim-Avibactam zeigten hohe Übereinstimmung mit Resistenzkriterien; Ceftolozane-Tazobactam und Ceftaroline wurden häufiger empirisch eingesetzt. Nach Stewardship-Implementierung (formulary restriction, elektronische Prescribing-Safeguards, WHO-AWaRe-Integration) verbesserte sich die Indikationsstellung und klinische Governance.",
+    transfer:"Spanien; vergleichbar mit deutschen Universitätskliniken und Stewardship-Vorgaben"
   },
   {
-    journal:"PLoS One", year:"2026", pmid:"42784586",
-    author:"Tuti T et al.", pubdate:"24.09.2026",
+    journal:"PLoS One", year:"2026", pmid:"42789543",
+    author:"Bartoszewicz M et al.", pubdate:"25.09.2026",
+    added:"25.09.2026",
+    title:"Katheter-assoziierte Harnwegsinfektionen auf Intensivstationen erhöhten Verweildauer, nicht direkt die Sterblichkeit",
+    sum:"Retrospektive Kohortenstudie in Polen (2017-2023) an 3.231 ICU-Aufnahmen zur Charakterisierung bakterieller Katheter-assoziierter Harnwegsinfektionen (CAUTI) und deren Assoziation mit Patientencharakteristika und Mortalität.",
+    result:"CAUTI trat in 301 Patienten auf (9,3%; 95%-KI 8,4-10,4%). ICU-Verweildauer/Katheter-Exposition CAUTI 28,3 vs. 13,6 Tage (Differenz 14,8 Tage; 95%-KI 11,7-17,8). Mortalität 49,2% (CAUTI) vs. 45,9% (keine CAUTI); nach Adjustment für Aufnahmecharakteristika war CAUTI nicht mit Tod assoziiert (OR 0,95; 95%-KI 0,75-1,22). Unabhängige Risikofaktoren: weibliches Geschlecht (OR 1,48), Adipositas (OR 1,62), COVID-19 (OR 2,16). 66,4% der Isolate zeigten Resistenzphänotypen.",
+    transfer:"Polen, europäisches Gesundheitssystem mit ICU-Standards ähnlich Deutschland"
+  },
+  {
+    journal:"N Z Med J", year:"2026", pmid:"42784820",
+    author:"Mowat R et al.", pubdate:"25.09.2026",
     added:"24.09.2026",
-    title:"Klinische Phenotypen der neonatalen Sepsis zeigen bessere Sterblichkeits­vorhersage als WHO-Leitlinie",
-    sum:"Latent-Class-Analyse von Zeichen möglicher schwerer bakterieller Infektion (pSBI) bei Neugeborenen in 21 kenianischen Kliniken zur Identifikation von Sepsis-Clustern und Sterblichkeitsrisiko-Stratifizierung.",
-    result:"Fünf Cluster mit minimalem bis kritischem Sterblichkeitsrisiko wurden identifiziert. Modell-Diskrimination (AUROC 0,867 vs. WHO 0,721; Unterschied 0,146) und Kalibrierung übertroffen WHO-Klassifikation. Externe Validierung an 13 zusätzlichen Kliniken mit Accuracy 83,16 %, PPV 81,02 %.",
-    transfer:"Kenia; ressourcenbegrenzte Umgebung, aber generalisierbare Risiko-Stratifikation ohne teure Tests"
+    title:"Kommunikationslücken und Personalüberlastung verursachen vermeidbare Schäden in Pflegeheimen",
+    sum:"Qualitative Fallstudie nach Yin (24 HDC-Fälle 2007-2021) zu menschlichen Fehlerfaktoren in neuseeländischen Altenheimen; thematische Analyse der von der Health &amp; Disability Commission untersuchten Beschwerde-Muster.",
+    result:"Vier rekurrente Themen: (1) Kommunikationslücken, (2) Dokumentationsmängel, (3) Inkonsistenzen zwischen Richtlinie und Praxis, (4) Personalknappheit und unzureichende Fachkompetenz. Autoren empfehlen systemischen Ansatz (Systems Engineering Initiative for Patient Safety) statt Individuen-Fokus zu Harm-Prevention.",
+    transfer:"Neuseeland, ähnliches Gesundheitssystem wie Australien; relevante Befunde für deutsches Qualitätsmanagement"
   },
   {
-    journal:"Eur Radiol Exp", year:"2026", pmid:"42771118",
-    author:"Li J et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Strukturiertes Prompting verbessert Fehler­erkennung in Radiologie-Berichten um 6 bis 8 Prozentpunkte",
-    sum:"Entwicklung und Evaluierung von RadCoT, einem strukturierten Prompting-Framework für große Sprachmodelle, zur Fehlerkennung in Radiologie-Berichten an Hand von 1.200 klinisch validierten Fällen.",
-    result:"RadCoT erhöhte die mittlere F1-Metrik von 0,77 auf 0,85 (p = 0,003) über alle Modelle hinweg; Interpretation Fehler verbesserten sich von F1 = 0,57 auf 0,75. GPT-4o mit RadCoT erreichte F1 = 0,93; Llama-3.3-70B mit RadCoT (F1 = 0,89) schloss die Lücke zu kommerziellen Modellen.",
-    transfer:"China (Beijing); digitale QS-Anwendung, limitierte direkte Übertragung ohne lokale Validierung"
+    journal:"J Biosoc Sci", year:"2026", pmid:"42788376",
+    author:"Amin MA et al.", pubdate:"25.09.2026",
+    added:"25.09.2026",
+    title:"Kliniker in Bangladesch unterstützen Antibiotic-Stewardship, scheitern aber an Umsetzung ohne Systeme",
+    sum:"Qualitative Interviewstudie (18 Kliniker, 36 Betreuer) an drei Krankenhäusern in Bangladesch zu Wissensstand und Perspektiven auf Antibiotic Stewardship bei Diarrhö bei Kindern unter fünf Jahren.",
+    result:"Wenige Kliniker kannten Begriff 'Antibiotic Stewardship', aber die meisten verstanden Kernprinzipien und unterstützten sie. Betreuer waren überwiegend unfamiliar damit. Kliniker beschrieben informale Stewardship-Bemühungen, aber Abwesenheit strukturierter Programme. Schlüssel-Barrieren: Community-Anbieter ohne Regulierung, Personalengpässe, Betreuer-Erwartungen für Antibiotika, Druck, Familien-Wünsche zu erfüllen. Forderung nach facility- und community-basiertem Ansatz mit Entscheidungs-Unterstützung, Antibiotika-Audits, Community-Edukation.",
+    transfer:"Bangladesch (Low-Resource-Setting); Befunde zu Stewardship-Barrieren relevant für deutsche Diskussion bei Migration und vulnerablen Populationen"
   },
   {
-    journal:"BJS Open", year:"2026", pmid:"42782000",
-    author:"Lee J et al.", pubdate:"04.09.2026",
-    added:"24.09.2026",
-    title:"Postoperative Infektionen nach Kolonkarzinom-OP senken Langzeitüberleben um 18 Prozentpunkte",
-    sum:"Sekundäranalyse einer randomisierten Studie mit 161 Patienten, Langzeitfolge-up median 57 Monate, zur Assoziation postoperativer Infektionen mit Krankheits- und Gesamtüberleben nach elektiver Kolonkarzinom-Chirurgie.",
-    result:"5-Jahres-Gesamtüberleben bei Patienten mit postoperativen Infektionen 74 % gegenüber 92 % ohne Infektionen (p = 0,013; Differenz 18 Prozentpunkte). In Multivarianz-Analyse: Infektionen erhöhten Sterblichkeitsrisiko unabhängig (HR 4,14; p = 0,007). Trend zu schlechterer Krankheitsfreiheit (71 % vs. 86 %; p = 0,065).",
-    transfer:"Südkorea, vergleichbares Chirurgie-Setting und Follow-up-Struktur wie Deutschland"
+    journal:"Crit Care Explor", year:"2026", pmid:"42788993",
+    author:"Birken SA et al.", pubdate:"01.10.2026",
+    added:"25.09.2026",
+    title:"Aufmerksamkeit auf Sepsiszeichen ist Schlüssel zur frühzeitigen Diagnose - Framework für Kliniker und Organisationen",
+    sum:"Qualitative Observationsstudie (41 Interviews an 20 US-Krankenhäusern mit System-, Abteilungs- und Kliniker-Ebenen-Akteuren) zur Entwicklung und Validierung des SepsisDx-Frameworks für genaue, zeitnahe Sepsisdiagnose.",
+    result:"SepsisDx-Framework bestätigt zentrale These: Sepsisdiagnose wird durch Wechselwirkung von Mikro-, Meso- und Makroebenen beeinflusst. Wichtigste Faktor auf Individualebene: Aufmerksamkeit (noticing, encoding, interpreting, focusing time/effort). Aufmerksamkeit reduziert durch mehrdeutige klinische Präsentationen und Schocks (z.B. COVID-19). Organisatorische Strategien (Audit und Feedback) erhöhten Organisations-Aufmerksamkeit, reduzierten aber Provider-Aufmerksamkeit; Effektivität moderiert durch Personalausstattung. Framework klärt Mechanismen und informiert Interventions-Design.",
+    transfer:"USA, Gedankenmodell translabel auf Deutschland; Validierung in europäischen Systemen erforderlich"
   },
   {
-    journal:"J Safety Res", year:"2026", pmid:"42744481",
-    author:"De Las Heras-Rosas C et al.", pubdate:"17.07.2026",
-    added:"15.09.2026",
-    title:"Psychosoziale Arbeitsrisiken treffen Männer und Handwerk stärker – Andalusischer Composite-Index zeigt Unterschiede",
-    sum:"Analyse des II. Andalusischen Arbeitsbedingungs-Survey mit Konstruktion eines Composite-Indikators für psychosoziale Risiken (ACIPR) zur Messung von Unterschieden bei Exposition nach Geschlecht, Firmengröße und Sektor.",
-    result:"Höhere psychosoziale Risiken bei Männern; Bauwirtschaft zeigte höchstes Risiko; mittlere Firmengrößen hatten niedrigstes Risiko. Unterschiede waren nach Multivariate-Analyse statistisch signifikant nachweisbar.",
-    transfer:"Spanien; vergleichbare Arbeitsschutzgesetzgebung, aber andere Branchenstruktur"
+    journal:"Front Public Health", year:"2026", pmid:"42787113",
+    author:"Yan P et al.", pubdate:"10.09.2026",
+    added:"25.09.2026",
+    title:"MDRO-Infektionen nach Magen-Darm-Chirurgie kosteten durchschnittlich 21.000 Euro extra pro Patient",
+    sum:"Retrospektive Kohortenstudie in China an 100 Patienten mit postoperativen Infektionen nach Magen-Darm-Chirurgie; Vergleich multiresistenter Organismen (MDRO, n=41) mit nicht-MDRO (n=59) bezüglich Kostenfolgen und ICU-Aufenthaltszeiten.",
+    result:"Gesamtkrankenhauskosten MDRO: Median 85.913 CNY vs. nicht-MDRO 64.747 CNY (p&lt;0,05); Inkrementalkosten ΔC 95%-KI: 18.405-78.031 CNY (~2.200-9.400 Euro); ICU-Verweildauer MDRO median 2 Tage vs. 0 Tage (p&lt;0,001); Antibiotika-Therapiedauer 25 vs. 23 Tage (p=0,017); Krankenhausverweildauer 35 vs. 29 Tage (p=0,030). Labordiagnostik, nichtchirurgische Behandlung und diagnostische Verfahren waren Hauptkostentreiber.",
+    transfer:"China, vergleichbare chirurgische Patientenpopulation; Kostenergebnisse nicht 1:1 auf Deutschland übertragbar"
   },
   {
-    journal:"Ig Sanita Pubbl", year:"2026", pmid:"42776155",
-    author:"Amato S et al.", pubdate:"Juli 2026",
-    added:"23.09.2026",
-    title:"Fünfjahresergebnisse: Fehlermeldungen in einer italienischen Gesundheitsbehörde zeigen System-Schwachstellen",
-    sum:"Analyse von 5 Jahren eingegangener Fehlermeldungen in einer italienischen ASL (Lokale Gesundheitsbehörde) mit Fokus auf Typ, Klassifikation und eingeleitete Korrektivmaßnahmen.",
-    result:"Detaillierte Erfassung der Häufigkeit und Struktur der Meldungen wurde durchgeführt; die Studie legt dar, wie Meldungen verarbeitet und Maßnahmen eingeleitet wurden. Ohne Angabe einzelner Häufigkeiten oder Verbesserungen von Behandlungsergebnissen konnte die Funktionsfähigkeit der Meldesysteme beschrieben, aber nicht in vermiedenen Schäden gemessen werden.",
-    transfer:"Italien, öffentliches Gesundheitssystem; weniger regulatorische Trennung von ambulant/stationär als Deutschland"
+    journal:"Neonatal Netw", year:"2026", pmid:"42791024",
+    author:"Chubey R et al.", pubdate:"01.09.2026",
+    added:"25.09.2026",
+    title:"Glow-Licht-Audit verbessserte Händehygiene-Qualität im NICU um 87 % - von 19,7 % auf 37 % Fehlerfreiheit",
+    sum:"Quality-Improvement-Projekt (PDSA-Zyklen) in kanadischem NICU: Audit der Händehygiene-Qualität mit Glow-Lotion und UV-Licht zur visuellen Rückmeldung über unvollständige Waschstellen; Messung bei Eintritt aller Fachpersonen.",
+    result:"Anteil der Teilnehmer ohne Glow-Areale (Indikator perfekter Händehygiene) erhöht von 19,7 % auf 37 %. Anteil mit &gt;2 fehlgewaschenen Zonen sank von 39,6 % auf 20,7 %. Hinweis: Trotz Verbesserung zeigten einige Mitarbeiter noch mindestens eine Glow-Zone, unterstreicht Notwendigkeit kontinuierlicher Audits. Autoren fordern multidisziplinäre Edukation und regelmäßige Audits.",
+    transfer:"Kanada, NICU-Setting; direkt übertragbar auf deutsche Intensivstationen mit verfügbarer Glow-Technologie"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1576,7 +1585,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "25.09.2026";
+const NEWS_STAND = "26.09.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Neuer Preis für Hygienefachkräfte: B. Braun-Stiftung sucht Projekte", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/neuer-preis-fuer-hygienefachkraefte-b-braun-stiftung-sucht-projekte/"},
