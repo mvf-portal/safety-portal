@@ -1505,62 +1505,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "27. Sept. 2026, 09:48 Uhr";
+const SNAP_DATE = "28. Sept. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Nurs Health Sci", year:"2026", pmid:"42799319",
-    author:"Kohanová D et al.", pubdate:"Dez. 2026",
+    journal:"Medicine (Baltimore)", year:"2026", pmid:"42798086",
+    author:"Komori A et al.", pubdate:"25.09.2026",
     added:"26.09.2026",
-    title:"Pflegeanfänger erkennen Medikationsfehler und Stürze, benötigen aber Kultur der psychologischen Sicherheit",
-    sum:"Qualitative Sekundäranalyse von 1.442 Studierenden aus vier Ländern (Tschechien, Italien, Slowakei, Türkei), die über Patientsicherheitsvorfälle während Klinischer Praktika berichteten.",
-    result:"287 Vorfallbeschreibungen analysiert; am häufigsten: Medikationsfehler und Patientenstürze, gefolgt von Infektionsprävention, Kommunikationsfehler, unzureichende Betreuung. Studierende benannten multifaktoriale Ursachen (Patient, Kontext, Organisation, Mensch). Empfehlungen: strukturierte Debriefings, klare Meldekanäle, psychologisch sichere, nicht-punitiv gestaltete Lernumgebungen.",
-    transfer:"Mitteleuropa und Südosteuropa, ähnliche Ausbildungsstrukturen"
+    title:"Unangemessene Empirikatherapie bei Blutvergiftung: Muster und vermeidbare Fehler",
+    sum:"Retrospektive Analyse von Sepsispatienten in der Notaufnahme, die Antibiotika vor Kulturbefund erhielten, aber gegen den später isolierten Erreger unwirksam waren.",
+    result:"Von 118 Bacterämiepatienten erhielten 11 (9,3%) mikrobiologisch unangemessene Initialtherapie. Hauptursachen: Extended-Spectrum-β-Lactamase-Enterobakterien trotz richtiger Fokusdiagnose (mehrheitlich) oder Fehlidentifikation des Infektionsfokus. Mortalität höher bei falscher Fokusdiagnose.",
+    transfer:"Japan-Studie, aber Befund zur Source-Kontrol und Stewardship übertragbar auf deutsche Notaufnahmen."
   },
   {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42796419",
-    author:"Paraschiv M et al.", pubdate:"20.09.2026",
+    journal:"Medicine (Baltimore)", year:"2026", pmid:"42798037",
+    author:"Liang GH et al.", pubdate:"25.09.2026",
     added:"26.09.2026",
-    title:"Unangemessene Medikationen bei Älteren in der Primärversorgung: Häufigkeit und Risikofaktoren",
-    sum:"Retrospektive Beobachtungsstudie an 100 Patienten ≥65 Jahren in einer rumänischen Hausarztpraxis, die potenziell unangemessene Medikationen (PIM) nach vier etablierten Kriterien (STOPP v3, Beers, EU(7)-PIM, PRISCUS v2) identifizierte.",
-    result:"Mindestens eine PIM fanden sich bei 73% (STOPP), 62% (Beers), 60% (EU(7)-PIM) und 53% (PRISCUS) der Patienten. STOPP identifizierte signifikant mehr PIMs als die anderen Kriterien (p&lt;0,001). Medikamentenlast war in adjustierten Analysen der konsistenteste Risikofaktor für alle Kriterien.",
-    transfer:"Rumänische Primärversorgung, ähnliche Versicherungssysteme wie Deutschland"
+    title:"Bakterielle Kontamination von Skalpellen und Instrumenten: Schaden ohne Folgen im Operationssaal",
+    sum:"Prospektive Studie zur Häufigkeit und Art intraoperativer bakterieller Kontamination bei Gelenkersatzoperationen und deren Bezug zu postoperativen Infektionen.",
+    result:"13 von 127 Patienten (10,2%) hatten mindestens eine positive Bakterienkultur von OP-Instrumenten (Skalpell Inzision 5,9%, Kontrolle 1,7%). Kein Unterschied in Patientencharakteristika zwischen kontaminiert und nicht-kontaminiert. In 24–38 Monaten Follow-up: null postoperative Infektionen, null periprosthetische Gelenkinfektionen. Kontamination ≠ klinische Infektion.",
+    transfer:"China-Studie, Standardhygiene vergleichbar mit deutschem System, Surveillance-Meldepflicht."
   },
   {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42796362",
-    author:"Grindean A et al.", pubdate:"11.09.2026",
-    added:"26.09.2026",
-    title:"Antimikrobielles Stewardship senkt MRSA und multiresistente Enterobakterien",
-    sum:"Retrospektive Langzeitstudie 2023–2025 eines rumänischen Krankenhauses, die Auswirkungen erhöhter mikrobiologischer Testung und gezieltem Stewardship auf Antibiotikaresistenzen untersuchte.",
-    result:"E.-coli-MDR sank von 7,4% (Sem. II 2023) auf 0,0% (Sem. II 2025); S.-aureus-MRSA+MLSB von 30,6% auf 0,0%. Mikrobiologische Testintensität stieg von 18,05% auf 28,20%. Durchschnittliche Liegedauer bei Infektionen 15,35 Tage, auf chirurgischen Stationen 20,80 Tage.",
-    transfer:"Europäisches Krankenhaus, vergleichbare Hygiene- und Qualitätsziele"
-  },
-  {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42796359",
-    author:"Damian RO et al.", pubdate:"11.09.2026",
-    added:"26.09.2026",
-    title:"Interklinischer Transport bei Neugeborenen-Sepsis: Versorgungskette unterbrochen, Forschung fehlt",
-    sum:"Scoping Review (39 Quellen, 2020–2026) zu Variablen, Interventionen und Organisationspraktiken beim interklinischen Neugeborenen-Transport im Kontext von Sepsis-Früherkennung und -Behandlung.",
-    result:"24 indirekt-klinische, 7 indirekt-organisatorische, 4 indirekt-technische, 1 indirekt-experienzielle und 3 direkt-prozess/indirekt-sepsis-Ergebnis-Quellen. Keine Studie zeigte, dass eine Transport-Intervention unabhängig Sepsis-Ergebnisse verbessert. Antimikrobielles Timing, Kulturen, Perfusionsverlauf und strukturierte Handover unterrepräsentiert.",
-    transfer:"Mehrere europäische Länder eingeschlossen, Organisationslücke übertragbar auf Deutschland"
-  },
-  {
-    journal:"Sci Rep", year:"2026", pmid:"42722695",
-    author:"Tan HK et al.", pubdate:"10.09.2026",
-    added:"10.09.2026",
-    title:"Sepsis-Vorhersagemodell LiSep LSTM funktioniert in Europa wie in USA, aber Kalibrierung erforderlich",
-    sum:"Validierungsstudie eines Tiefenlern-Modells (LiSep LSTM) zur frühen Vorhersage septischen Schocks, trainiert an US-Daten (MIMIC-III), getestet an europäischer Kohorte (Amsterdam UMC).",
-    result:"Auf AUMC-Kohorte: AUROC 0,8851 (95%-KI 0,8612–0,909) mit Medianen 47,0 h vor Symptombeginn. Externe Validierung zeigte reduzierte Kalibrierung und Rückruf; gepooltes Training verbesserte AUROC und Brier-Score. Genauigkeit 0,60–0,77, Präzision niedrig (0,01–0,17) aufgrund hoher Falsch-Positive.",
-    transfer:"USA und Niederlande, externe Validierung ist übertragbar, Lokalanpassung notwendig"
-  },
-  {
-    journal:"J Eval Clin Pract", year:"2026", pmid:"42788779",
-    author:"Mallinson MA et al.", pubdate:"Sept. 2026",
+    journal:"Front Immunol", year:"2026", pmid:"42787037",
+    author:"Cisteró B et al.", pubdate:"10.09.2026",
     added:"25.09.2026",
-    title:"Patientensicherheits-Screening vor bildgebenden Verfahren: Papierformulare dominieren, Standardisierung fehlt",
-    sum:"Freiheitsinformation-Anfrage an 129 englische NHS-Krankenhäuser und private Anbieter zur Nutzung und Gestaltung von Sicherheits-Screening-Formularen vor Diagnostischer Bildgebung.",
-    result:"Rücklaufquote 83,2%; 91,3% der NHS-Organisationen antworteten. 55,8% beantworteten innerhalb der erwarteten 20 Arbeitstage. Die Mehrheit nutzt Papierformulare; nur eine Organisation setzte vollständig auf digitale Formulare. Erhebliche Inkonsistenzen in Design und Interpretation berichtet.",
-    transfer:"Großbritannien (NHS), andere Versorgungsstrukturen, aber vergleichbare Sicherheitsprobleme"
+    title:"TNF-α-Test für Sepsiserkennung in der Notaufnahme: niedriges Vorhersagevermögen bleibt unsicher",
+    sum:"Prospektive Kohortenstudie: Bluttests auf Lipopolysaccharid-induzierte TNF-α-Freisetzung bei Notaufnahmepatienten mit Verdacht auf Infektion zur frühen Sepsis-Erkennung.",
+    result:"203 Patienten, 142 mit Sepsis-3 in 24 h diagnostiziert. Negative Tests in 75% häufig. Test-Sensitivität 78,9% (95%-KI 71,4–84,8), Spezifität 39,5% (95%-KI 25,6–55,3) für Sepsis-3. Nach Anpassung für Alter und qSOFA: OR 2,94 (95%-KI 1,28–6,75, p=0,011). Autoren beurteilen Test als ergänzend, nicht eigenständig aussagekräftig.",
+    transfer:"Spanien: Notaufnahme-Setting vergleichbar, aber externe Validierung ausstehend."
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42787371",
+    author:"Huang Z et al.", pubdate:"10.09.2026",
+    added:"25.09.2026",
+    title:"Mundhygiene und Handwaschen bei Adoleszenten: Verhaltensunterschiede nach Geschlecht und Einkommen",
+    sum:"Querschnittsstudie aus 72 Ländern mit 244.040 Schülern (Global School-based Student Health Survey 2010–2019): Unterschiede in Zahnpflege und Händewaschen nach Geschlecht, Alter, Region und Einkommensniveau.",
+    result:"Zähneputzen &lt;1×/Tag: 10,9% (95%-KI 10,0–11,8), ≥2×/Tag: 70,5%. Nie/selten Hände vor Essen waschen: 6,5%, nach Toilette: 5,5%, ohne Seife: 9,0%. Jungen schlechter (z.B. &lt;1×/Tag putzen: 13,1% vs. Mädchen 8,6%). Ostmittelmeerregion höchste Prävalenz unzureichenden Zähnebürstens (30,7%). Einkommungradient für Zähneputzen (arm 12,5% → reich 4,4%), nicht für Händewaschen.",
+    transfer:"72-Länder-Daten, aber Hygiene-Outcomes nicht auf nosokominale Infektionen, Schaden oder Versorgungsfehler bezogen."
+  },
+  {
+    journal:"Pathogens", year:"2026", pmid:"42796721",
+    author:"Uygun SS et al.", pubdate:"08.09.2026",
+    added:"26.09.2026",
+    title:"Ralstonia-Ausbruch auf Neonatologie: Kontaminiertes Wasser als vermeidbarer Schaden",
+    sum:"Ausbruchuntersuchung nosokomialer Ralstonia-pickettii-Infektionen bei Neugeborenen, deren Quelle kontaminiertes steriles destilliertes Wasser war.",
+    result:"9 infizierte Neugeborene über 22 Monate, Mortalität 44,4%, davon 11,1% direkt zurechenbar. Nach Wasserwechsel und Infektionskontrollmaßnahmen keine weiteren Fälle. AP-PCR bestätigte genetische Verwandtschaft klinischer und Umweltproben.",
+    transfer:"Deutschland: Vergleichbares Hygienemanagementsystem, Infektionsschutzgesetz mit Ausbruchsmeldepflicht."
+  },
+  {
+    journal:"Medicina (Kaunas)", year:"2026", pmid:"42796314",
+    author:"Azoicăi D et al.", pubdate:"06.09.2026",
+    added:"26.09.2026",
+    title:"Sicherheitskultur in der Infektionskontrolle: Editorial ohne Studiendaten",
+    sum:"Redaktioneller Kommentar zur WHO-Warnung vor Eskalation von Infektionsrisiken und Antimikrobielles Stewardship, ohne Studienergebnisse.",
+    result:"Keine konkreten Ergebnisse, nur Warnung vor neu auftretenden und erneut auftretenden Infektionskrankheiten.",
+    transfer:"Nicht qualifizierend: Expertenpapier ohne benennbare Ergebnisse."
+  },
+  {
+    journal:"Nutrients", year:"2026", pmid:"42514371",
+    author:"Cicero AFG et al.", pubdate:"14.07.2026",
+    added:"28.07.2026",
+    title:"Rotschimmel-Supplements: seltene Nebenwirkungen, aber niedriges Meldesystem",
+    sum:"Strukturiertes europäisches Spontan-Meldesystem für Nebenwirkungen von Nahrungsergänzungsmitteln aus Rotem Schimmel bei leichter bis mäßiger Hypercholesterinämie.",
+    result:"148 Nebenwirkungsberichte von 12 europäischen Ländern (2022–2024), geschätzte Exposition 608.815 Patientenzeiträume. Gastrointestinale Ereignisse 45,9%, Arthromyalgie 16,9%, Überempfindlichkeit 10,8%. Schwere/ernsthafte Ereignisse 0,7%/1,4%. Geschätztes exposure-adjustiertes Melderisiko: 0,02% für alle, 0,0003% für ernsthafte Nebenwirkungen.",
+    transfer:"Deutschland/DACH: Italienische, europäische Daten aus vergleichbarem Supplement-Regulierungssystem."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1576,7 +1585,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "27.09.2026";
+const NEWS_STAND = "28.09.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Neuer Preis für Hygienefachkräfte: B. Braun-Stiftung sucht Projekte", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/neuer-preis-fuer-hygienefachkraefte-b-braun-stiftung-sucht-projekte/"},
