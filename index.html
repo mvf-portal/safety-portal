@@ -1549,62 +1549,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "2. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "3. Okt. 2026, 06:25 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Arch Microbiol", year:"2026", pmid:"42821075",
-    author:"Keshavarzi F et al.", pubdate:"01.10.2026",
-    added:"01.10.2026",
-    title:"Carbapenem-Audit veränderte Gram-negative Resistenzmuster, aber mit Ausweicheffekten",
-    sum:"Malaysisches Uniklinikum untersuchte 6 Jahre (2015-2020), wie ein Post-Prescription-Audit für Carbapeneme die Anfälligkeit von sieben Gram-negativen Erregern verändert; Analyse mittels unterbrochener Zeitreihen und ARIMA-Modellierung.",
-    result:"Audit war mit erregerspezifischen Trend-Umkehrungen verbunden. Proteus mirabilis-Imipenem-Empfindlichkeit erholte sich (β=9,465; p=0,005). Klebsiella pneumoniae und Pseudomonas aeruginosa zeigten Abwärts-Trend-Umkehrungen trotz steigender Baselines. Ökologische Verschiebungen auf Fluoroquinolone und β-Laktam/β-Laktamase-Inhibitoren traten auf (P. mirabilis Amoxicillin-Clavulanat β=−43,023; p=0,024).",
-    transfer:"Malaysia, vergleichbar mit deutschen Stewardship-Audits; zeigt Grenzen und Verschiebungsrisiken"
+    journal:"Eur J Pediatr", year:"2026", pmid:"42825830",
+    author:"Mari J et al.", pubdate:"02.10.2026",
+    added:"02.10.2026",
+    title:"Hochantibiotika-Exposition bei niedriger Sepsis-Inzidenz in Neugeborenen-Intensivstationen Ungarns",
+    sum:"Nationale Registry-Analyse der Antibiotika-Exposition bei Neugeborenen mit früher Sepsis in Ungarn (2020–2023): 0,41 Fälle pro 1.000 Lebendgeburten, aber 63,9 % aller auf Intensivstationen behandelten Neugeborenen erhielten Antibiotika.",
+    result:"Die Inzidenz der kultivierten early-onset sepsis (CP-EOS) betrug 0,41 pro 1.000 Lebendgeburten (0,20 bei ≥35 Wochen, 7,0 bei &lt;35 Wochen). Trotzdem erhalten 63,9 % der NICU-Neugeborenen Antibiotika im Median 5 (3–8) Tage. Ein Minimum von 3,2 % aller Neugeborenen Ungarns erhielten Antibiotika, und 15,6 % der Blutkulturen zeigten keine nachfolgende Antibiotikabehandlung. Die Studie dokumentiert unnötig hohe Antibiotika-Exposition bei geringer sepsis-Inzidenz und fordert Strategien zur Reduktion.",
+    transfer:"Europäische Daten, vergleichbare neonatale Intensivmedizin, Antibiotic Stewardship-relevanz"
   },
   {
-    journal:"Dimens Crit Care Nurs", year:"2026", pmid:"42821859",
-    author:"Tapper GM et al.", pubdate:"30.09.2026",
-    added:"01.10.2026",
-    title:"Dediziertes Wechsel-Team senkte Dekubitalulzera auf Intensivstationen um 42 Prozent",
-    sum:"24-Bett-Herzintensivstation führte nichtmedizinisches Team zur regelmäßigen Patientenumlagerung und Mobilisierung ein; untersucht wurde Effekt auf nosokomiale Druckgeschwüre vor und nach Intervention bei unkontrolliert vielen Patientenaufnahmen.",
-    result:"Dekubitusrate sank um 42% (p=0,043). Nach Adjustment für Tagesbelegung sank das tägliche Risiko von 6,74% auf 4,03% (adjustierte OR 0,581; 95%-KI 0,33-1,02; p=0,059). Pflegekräfte bewerteten Teamzusammenarbeit und Produktivitätssteigerung positiv in Umfragen.",
-    transfer:"USA (Cleveland Clinic Abu Dhabi); Organisationsmodell ist systemunabhängig übertragbar"
+    journal:"South Med J", year:"2026", pmid:"42826395",
+    author:"Isaac JI et al.", pubdate:"02.10.2026",
+    added:"02.10.2026",
+    title:"Antibiotic Stewardship bei geschlossenen Gesichtsfrakturen reduziert Schaden ohne Infektionsschutz",
+    sum:"Systematische Übersicht von sieben US-amerikanischen Studien mit 3.274 Patienten zu prophylaktischen Antibiotika bei nicht-operativ behandelten Gesichtsfrakturen: Frakturen-assoziierte Infektionsrate 1,0 %, ohne Nutzen der Antibiotikaprophylaxe.",
+    result:"Infektionsraten waren niedrig (1,0 % in der größten prospektiven Kohortenstudie) und wurden durch Prophylaxe nicht gesenkt (angepasstes Odds Ratio 1,24–1,32). Längere Antibiotikaexposition war mit isolierten Fällen von Clostridioides-difficile-Kolitis assoziiert. Verfügbare Evidenz unterstützt keine routinemäßige Prophylaxe für unkomplizierte, nicht-operative Gesichtsfrakturen.",
+    transfer:"USA-Daten, Prinzip aber übertragbar: vermeidbarer Schaden durch unnötige Antibiotikaexposition"
   },
   {
-    journal:"Einstein (Sao Paulo)", year:"2026", pmid:"42820545",
-    author:"Eduardo AA et al.", pubdate:"25.09.2026",
-    added:"01.10.2026",
-    title:"Digitale Automatisierung klinischer Pfade erhöhte Adherence an Protokolle um 63 Prozent",
-    sum:"Brasilianisches Universitätskrankenhaus implementierte ein Clinical-Decision-Support-System für Adipositas-Primärversorgung; Vergleich Labortestbestellmuster vor (2023) und nach (2024) Automatisierung bei Hunderten von Besuchen.",
-    result:"Adherente Tests stiegen um 63% (IRR 1,63; 95%-KI 1,37–1,96; p&lt;0,001). Median adherente Tests pro Besuch: vorher 1,0, nachher 3,0 (p=0,027). Perplexity sank von 70,9 auf 57,6, zeigend konzentriertere Testbestellungen auf Protokollgrundlage. Von den Top-10 Wachstumstests waren 9/10 protokollbasiert.",
-    transfer:"Brasilien, Sozialversicherung; digitale Steuerung von Diagnostik ist in Deutschland relevant"
+    journal:"South Med J", year:"2026", pmid:"42826397",
+    author:"Burns R et al.", pubdate:"02.10.2026",
+    added:"02.10.2026",
+    title:"Strukturierte Intervention senkte 72-Stunden-Wiederaufnahmen bei Sepsis um 0,00112 pro Patient pro Monat",
+    sum:"Retrospektive Kohortenstudie mit unterbrochener Zeitreihenanalyse: Auswirkung einer Interventionsmaßnahme auf 72-Stunden-Wiederaufnahmen von Patienten mit Sepsis oder Pyelonephritis in einer US-amerikanischen Notaufnahme (2020–2023).",
+    result:"Von 39.818 Patienten hatten 4.907 (12,3 %) 72-Stunden-Wiederaufnahmen. Vor Intervention: Anstieg um 0,00054 pro Aufnahme pro Monat (p=0,30). Nach Interventionsimplementierung am 4. Mai 2021 sofortiger Rückgang um 0,0017 (p=0,75), dann nachhaltiger Rückgang um 0,00112 pro Aufnahme pro Monat (p=0,04). Für Sepsis spezifisch: nachhaltiger Rückgang von 0,0033 pro Aufnahme pro Monat (p=0,02). Intervention war mit nachhaltiger Reduktion der Wiederaufnahmen assoziiert.",
+    transfer:"USA, Wiederaufnahme-Messung übertragbar, Interventionsdetails fehlen"
   },
   {
-    journal:"Front Cell Infect Microbiol", year:"2026", pmid:"42819223",
-    author:"Shao J et al.", pubdate:"16.09.2026",
+    journal:"Rev Bras Enferm", year:"2026", pmid:"42820560",
+    author:"Rocha HDSD et al.", pubdate:"28.09.2026",
     added:"01.10.2026",
-    title:"Laboroptimierung senkte Sterblichkeit bei Blutstrominfektion um 17 Prozent",
-    sum:"Zehn Krankenhäuser in China optimierten ihre Blutkultur-Laborabläufe durch 24/7-Bearbeitung, schnelle MALDI-TOF-Massenspektrometrie und parallele Antibiogramme; untersucht wurden Auswirkungen auf Sterblichkeit, Kosten und Antibiotikagebrauch bei 1826 Patienten mit Sepsis.",
-    result:"In-Hospital-Mortalität sank von 19,5% auf 13,1% (p=0,002). Zeiten bis zur Erregererkennung wurden um 11-18,5 Stunden verkürzt. Gesamtkrankenhauskosten sanken signifikant (p=0,003), Antibiotikaausgaben nach statistischer Adjustment um p&lt;0,001. Längenaufenthalt und Laborkosten zeigten keine signifikanten Unterschiede.",
-    transfer:"China, vergleichbare Laborstruktur; Methode auf deutsches System übertragbar"
+    title:"Sichere Praktiken in der intravenösen Arzneimitteltherapie: Asepsis, Labeling und Dokumentation verhindern Fehler",
+    sum:"Scoping Review nach JBI über sichere Praktiken bei intravenöser Arzneimitteltherapie bei hospitalisierten Erwachsenen: Analyse von 18 Studien zu Asepsis, Vorbereitung, Kennzeichnung, Applikation und Dokumentation.",
+    result:"Identifizierte sichere Praktiken während intravenöser Arzneimitteltherapie: Händehygiene, Doppelcheck, Medikamenten- und Patientenidentifikation, Prüfung der Zugangspermeabilität, Dokumentation der Verabreichung und Nebenwirkungen. Diese fünf Stufen (Aseptik, Vorbereitung, Labeling, Applikation, Dokumentation) werden als grundlegend für die Sicherheit hospitalisierter Patienten beschrieben.",
+    transfer:"Brasilien, aber internationale Best-Practice-Synthese, direkt auf Deutschland übertragbar"
   },
   {
-    journal:"Langenbecks Arch Surg", year:"2026", pmid:"42821143",
-    author:"Gönüllü ME et al.", pubdate:"01.09.2026",
-    added:"01.10.2026",
-    title:"Entzündungs-Ernährungs-Index am dritten postoperativen Tag sagt Wundkomplikationen voraus",
-    sum:"Retrospektive Beobachtungsstudie in zwei türkischen Chirurgiefachbereichen mit 86 Patienten (Januar 2020–Dezember 2025) evaluierte einen neuen Wound Inflammation-Nutrition Index (WINA) und dessen Änderung zwischen postoperativem Tag 1 und 3 (ΔWINA) zur Vorhersage von Wundkomplikationen.",
-    result:"27,9% (n=24) entwickelten Wundkomplikationen. WINA-Werte an POD1/POD3 und ΔWINA waren bei Komplikationen höher (alle p&lt;0,001). ΔWINA pro 100-Unit-Steigerung: adjustierte OR 2,12 (95%-KI 1,44–3,13; p=0,001). ΔWINA erreichte AUC 0,872 (95%-KI 0,789–0,941) mit 83,3% Sensitivität, 80,6% Spezifität.",
-    transfer:"Türkei, europäisch angrenzend; Entzündungsmarker sind in Deutschland routinemäßig verfügbar"
-  },
-  {
-    journal:"J Nurs Manag", year:"2026", pmid:"42817022",
-    author:"Aouicha W et al.", pubdate:"2026",
-    added:"01.10.2026",
-    title:"WHO-Checkliste mit geschulten Teams hob Sicherheitskultur in OP um 12 Prozentpunkte",
-    sum:"Zwei tunesische Krankenhäuser führten ein Implementierungsbündel mit Surgical Safety Checklist, Teamtraining, Mentoring und Audit durch; 347 Fachkräfte (Ärzte, Anästhesisten, Pflegende) wurden befragt zu Sicherheitswahrnehmung in 12 Operationssälen über 21 Monate.",
-    result:"Gesamtwahrnehmte Sicherheit stieg von 70,7% auf 82,4% (postintervention) und stabilisierte sich. Vier Dimensionen verbesserten sich signifikant: Organisationales Lernen von 37,7% auf 50,6%, Teamwork innerhalb von 47,6% auf 59,1%, Kommunikationsopenness von 27,2% auf 46,2%, Teamwork übergreifend von 29,2% auf 37,5%.",
-    transfer:"Nordafrika, multilingual; Settings mit Ressourcenknappheit wie deutsche Bundesländer"
+    journal:"Int J Infect Dis", year:"2026", pmid:"42600976",
+    author:"Spruijtenburg B et al.", pubdate:"14.08.2026",
+    added:"14.08.2026",
+    title:"Candida-auris-Ausbruch mit Echinocandin-Resistenz in der Türkei dokumentiert Übertragungsdynamik",
+    sum:"Retrospektive Analyse eines C.-auris-Ausbruchs in einem türkischen Tertiärzentrum (April 2023 – September 2025): 119 Patienten mit Blutstrominfektion, Genotypisierung zeigte Ausbreitung eines Einzelstamms über 21 Stationen ohne Neueinschleppung.",
+    result:"119 Patienten mit C.-auris-Blutstrominfektion, 30-Tage-Mortalität 54 %. Alle Isolate waren Fluconazol-resistent; zwei Patienten mit vorheriger Echinocandin-Exposition hatten Echinocandin-resistente Isolate (FKS1S639P). Genotypisierung zeigte Clade I mit drei eng verwandten Genotypen; epidemiologische Rückverfolgung und molekulares Typing zeigten, dass ein Ausbruchspatient die Quelle war und sich der Stamm ohne weitere Einschleppungen über mehrere Stationen ausbreitete. Erkannte Übertragungsdynamik unterstreicht Notwendigkeit stärkerer Infektionsprävention.",
+    transfer:"Türkei (Europa), Ausbruch-Management relevant, Meldepflichten unterscheiden sich"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1620,7 +1611,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20"], [], ["2026-10-28", "2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "02.10.2026";
+const NEWS_STAND = "03.10.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Neuer Preis für Hygienefachkräfte: B. Braun-Stiftung sucht Projekte", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/neuer-preis-fuer-hygienefachkraefte-b-braun-stiftung-sucht-projekte/"},
