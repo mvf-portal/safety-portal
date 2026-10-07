@@ -1506,62 +1506,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "6. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "7. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMJ Open", year:"2026", pmid:"42833716",
-    author:"Lip S et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Vorausschauende Pharmakogenomik senkt unerwünschte Arzneimittelreaktionen im NHS um circa 30 Prozent",
-    sum:"PHOENIX-Protokoll einer randomisierten Kontrollstudie mit Outcome-Adjudikation zur Prüfung, ob prä-emptive multigene Pharmakogenomik-Panel im akuten NHS-Sektor klinisch relevante unerwünschte Ereignisse und Therapieversagen reduzieren.",
-    result:"Studiendesign mit 2.000–4.000 geplanten Teilnehmern; primäres Outcome ist Medikamenten-bedingte unerwünschte Ereignisse oder Therapieversagen innerhalb 3 Monate, adjudikativ validiert; Intention-to-treat-Analyse und Gesundheitsökonomie geplant. Pilotstudie noch laufend (Abschluss Sept 2026).",
-    transfer:"NHS Greater Glasgow and Clyde, Schottland, britisches Gesundheitssystem"
-  },
-  {
-    journal:"Clin J Oncol Nurs", year:"2026", pmid:"42832313",
-    author:"McRae N et al.", pubdate:"30.09.2026",
-    added:"05.10.2026",
-    title:"Antibiotic Stewardship durch Nurse Practitioner reduziert unnötige Antibiotika bei CAR-T-Fieber",
-    sum:"Qualitative Analyse einer Nurse-Practitioner-geführten Strategie zur Antibiotic Stewardship bei fieberhaften Patienten nach CAR-T-Zelltherapie mit dem Ziel, De-Eskalation und reduzierte IV-Antibiotikaexposition zu erreichen.",
-    result:"Bei CAR-T-Patienten mit Zytokine-Release-Syndrome führt empirische IV-Antibiotikagabe oft zu unnötiger Antibiotikaexposition; Early De-Eskalation durch strukturierte NP-Bewertung reduziert diese, ohne Sicherheit zu gefährden. Genaue Quantifizierung im Abstract nicht angegeben.",
-    transfer:"USA - Struktur der Nurse-Practitioner-Rollen nicht unmittelbar mit deutschem System vergleichbar"
-  },
-  {
-    journal:"Nat Commun", year:"2026", pmid:"42830302",
-    author:"Ross M et al.", pubdate:"25.08.2026",
-    added:"04.10.2026",
-    title:"Antibiotic Stewardship durch Vorhersage der Patientenfysiologie reduziert IV-Antibiotika-Einsatz",
-    sum:"Studie entwickelt und validiert ein System mit neuronalen Prozessen zur Prognose von Vitalzeichen und optimiert damit den Zeitpunkt des Umstiegs von IV auf orale Antibiotika anhand von Richtlinien statt gelernter Verzögerungen.",
-    result:"Das System identifizierte 2,2- bis 3,2-mal mehr switch-bereite Patienten als Zufallsauswahl auf Daten von 6.333 US-Intensivpatienten und 10.584 UK-Klinikpatienten. Systemische Vorhersage von Physiologie bietet eine wissenschaftliche Grundlage für Decision Support im Antibiotic Stewardship.",
-    transfer:"UK-Klinikdaten, vergleichbare Dokumentationssysteme und Stewardship-Infrastruktur"
-  },
-  {
-    journal:"Clin Geriatr Med", year:"2026", pmid:"42833806",
-    author:"Turner K et al.", pubdate:"23.07.2026",
-    added:"05.10.2026",
-    title:"De-Implementation von Sturzalarm-Systemen im Krankenhaus vermeidet Harm durch Überbehandlung",
-    sum:"Narrative Review über Sturzpräventions-Alarme in Krankenhäusern, mit Analyse von Evidenz, Übernutzung-Faktoren und De-Implementation-Strategien im Kontext von Low-Value Care und Versorgungsethik.",
-    result:"Review zeigt: Sturz-Alarme sind in Routine-Nutzung überrepräsentiert ohne ausreichende Evidenz für Wirksamkeit; Strategien zur gezielten De-Implementation (Deprescribing) und Neuausrichtung auf evidenzbasierte Prävention sind identifizierbar. Konkrete Reduktionszahlen im Abstract nicht genannt.",
-    transfer:"USA-basiert, aber De-Implementation-Prinzipien und Übernutzungs-Problematik sind international übertragbar"
-  },
-  {
-    journal:"Undersea Hyperb Med", year:"2026", pmid:"42826430",
-    author:"Sun L et al.", pubdate:"2026",
-    added:"02.10.2026",
-    title:"Hyperbarer Sauerstoff bei septischem Schock zeigt keine signifikanten Verbesserungen in Phase-I-Pilot",
-    sum:"Phase-I-Pilotstudie (4 Patienten + 4 Kontrollen) zur Prüfung hyperbarer Oxygenierung als Intervention bei septischem Schock mit Messung von Mikrovaskularität, Mitochondrienfunktion und Entzündungszytokinen.",
-    result:"HBO führte zu transienten Verbesserungen der Mikrovaskularität bei 2 von 4 Patienten, keine Veränderung bei 2 weiteren; alle Kontrollen zeigten Decline. Keine Unterschiede bei Mitochondrienfunktion oder Zytokinen. Keine unerwünschten Ereignisse. Keine statistisch oder klinisch signifikanten Vorteile; größere Studien erforderlich.",
-    transfer:"USA-Pilotstudie, frühe Phase, Sicherheit nachgewiesen aber Wirksamkeit nicht belegt"
-  },
-  {
-    journal:"Khirurgiia (Mosk)", year:"2026", pmid:"42831332",
-    author:"Paharev IV et al.", pubdate:"2026",
-    added:"05.10.2026",
-    title:"Formalisierter Algorithmus senkt Nahtkomplikationen nach Abdominallauotomie durch Blutparameter und lokale Faktoren",
-    sum:"Retrospektive Analyse von 62 Patienten mit penetrierenden Bauchverletzungen zur Identifikation lokaler und systemischer Prädiktoren für Nahtinsuffizienz und Entwicklung eines Algorithmus zur Wahl der Abdominalverschlussstrategie.",
-    result:"Unabhängige Risikofaktoren der Nahtinsuffizienz: Serum-Harnstoff (Odds Ratio 0,754; p=0,020) und Gesamtprotein (OR 1,195; p=0,028) bei Verschluss. Lokale Faktoren (Wundinfektion, Peritonitis, Abdominalkomppartment-Syndrom) waren absolut assoziiert (p&lt;0,001). Algorithmus zeigte 91,11 % prädiktiven Wert.",
-    transfer:"Russische Militärmedizin, ähnliche Trauma-Klassifikation wie DACH, aber begrenzte Übertragbarkeit auf Zivilkliniken"
+    journal:"Int J Qual Health Care", year:"2026", pmid:"42765511",
+    author:"van de Plas A et al.", pubdate:"05.10.2026",
+    added:"21.09.2026",
+    title:"Gezieltes Doppelcheck-Verfahren bei parenteraler Medikation erhöht sichere Verabreichung um 41 Prozent",
+    sum:"Niederländische Klinik testete, ob Doppelkontrollen nur für Hochrisiko-Medikamente statt für alle Infusionen die sichere Verabreichung verbessern und Zeit sparen.",
+    result:"Sichere Verabreichung auf der Interventionsstation stieg von 0 % auf 41 % (p &lt; 0,001); Doppelcheck-Anwendung sank von 60 % auf 11 %, Barcodebestätigung stieg von 53 % auf 76 % (p = 0,007). Geschätzte Zeitersparnis: 48 Minuten Pflegepersonal pro Tag ohne Medikationsfehler oder gemeldete Zwischenfälle.",
+    transfer:"Niederländische Klinikdaten, vergleichbare Dokumentationspflichten wie Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1577,7 +1532,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2026-10-28"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "06.10.2026";
+const NEWS_STAND = "07.10.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Neuer Preis für Hygienefachkräfte: B. Braun-Stiftung sucht Projekte", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/neuer-preis-fuer-hygienefachkraefte-b-braun-stiftung-sucht-projekte/"},
