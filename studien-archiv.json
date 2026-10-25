@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "42727816",
+  "journal": "J Hosp Infect",
+  "year": "2026",
+  "author": "Leclère B et al.",
+  "pubdate": "11.09.2026",
+  "added": "11.09.2026",
+  "transfer": "Frankreich und Kanada, vergleichbares Surveillance-Verständnis, methodologische Übertragbarkeit",
+  "title": "Expertenkonsens zur Referenzdatenerstellung f ür Früherkennung nosokomialer Ausbrüche",
+  "sum": "Konsens- studieüber die Entwicklung von Referenzdatensätzen zur Validierung von Ausbrucherkennungs-Algorithmen in Krankenhäusern durch Experten bewertung.",
+  "result": "25 Experten aus Kanada und Frankreich identifizierten in 36 Zeitreihen (1899 Überwachungswochen) 89 potenzielle Ausbruchzeiten mittels Mehrheitsvotum und 96 durch Hidden-Markov-Modell. Die Übereinst immung zwischen den Methoden war am stärksten für hochwahrscheinliche Ausbruchwochen. Ein zuverlässiger Referenzdatensatz für Entwicklung und Vergleich von Erkennungsalgorithmen wurde konstruiert.",
+  "aufgenommen": "2026-10-25"
+ },
+ {
   "pmid": "42912425",
   "journal": "Br J Nurs",
   "year": "2026",

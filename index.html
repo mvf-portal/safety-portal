@@ -2069,71 +2069,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "25. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Emerg Infect Dis", year:"2026", pmid:"42909851",
-    author:"Lindstrom M et al.", pubdate:"Nov. 2026",
-    added:"23.10.2026",
-    title:"Gram-negative Erreger verursachen 31,5 % der Operationswundinfektionen nach Wirbelsäulenfusion",
-    sum:"Querschnittsanalyse von 7.187 Fällen aus dem CDC-Überwachungsnetzwerk zu Mikrobiologie und Risikofaktoren für Gram-negative Infektionen nach Wirbelsäulenfusionen.",
-    result:"Gram-negative Organismen verursachten 31,5 % (2.265/7.187) der Infektionen. Unabhängig assoziiert mit Gram-negativ-Infektion waren: höheres Alter, weibliches Geschlecht, höherer BMI, längere OP-Zeiten, höhere ASA-Klasse, lumbale Beteiligung, stationäre OP und Notfall-/Traumachirurgie.",
-    transfer:"USA, begrenzte Übertragbarkeit auf Deutschland wegen Finanzierungsunterschieden, aber Risikoprofil für empirische Antibiotika-Wahl relevant."
-  },
-  {
-    journal:"Br J Nurs", year:"2026", pmid:"42912425",
-    author:"Williams V et al.", pubdate:"22.10.2026",
-    added:"23.10.2026",
-    title:"pH-Wert 4,5 bei Magensonde senkte X-Ray-Bestätigungen ohne Sicherheitsverlust",
-    sum:"Qualitätsinitiative an einem britischen Krankenhaus, die den pH-Grenzwert zur Magensonden-Lagekontrolle von 5,5 auf 4,5 senkte, um Fehlplatzierungen zu reduzieren; Erfassung von Audit-Daten 2018-2026.",
-    result:"Die Absenkung des pH-Grenzwerts auf 4,5 führte nicht zu einem Anstieg der Röntgenbestätigungen. Die Maßnahme war eine einfache und wirksame Sicherheitsverbesserung, die mit Standard-Pflegeverfahren umsetzbar war und Fehlplatzierungsrisiken senkte.",
-    transfer:"Vereinigtes Königreich, direkt übertragbar auf deutsche Krankenhäuser, unkomplizierte Prozessanpassung."
-  },
-  {
-    journal:"Respir Med", year:"2026", pmid:"42860238",
-    author:"Ahlström MG et al.", pubdate:"11.10.2026",
-    added:"11.10.2026",
-    title:"Eingeschränkte Lungenfunktion erhöht Blutstrominfektion-Risiko auf das 1,5- bis 2,5-Fache",
-    sum:"Prospektive Kohortenanalyse von 118.565 Teilnehmern der Kopenhagener Bevölkerungsstudie mit Spirometrie und 10-Jahres-Nachverfolgung über mikrobielle Datenbanken zur Untersuchung der Assoziation zwischen Lungenfunktion und Blutstrominfektion.",
-    result:"Obstruktives spirometrisches Muster zeigte eine Hazard Ratio von 1,5 (95%-KI 1,4-1,7), PRISm-Pattern 1,4 (1,2-1,5); für FEV1 &lt;50 % war HR 2,5 (2,0-3,2). Die bevölkerungsattribuierbare Fraktion für Blutstrominfektion durch abnormale Spirometrie betrug 9,5 %. Das Risiko war nicht auf Atemwegserreger beschränkt.",
-    transfer:"Dänemark, europäisches Gesundheitssystem; Primärprävention durch Lungenfunktionscreening relevanter für Risikoidentifikation."
-  },
-  {
-    journal:"Int J Qual Health Care", year:"2026", pmid:"42767996",
-    author:"Peerally MF et al.", pubdate:"05.10.2026",
-    added:"21.09.2026",
-    title:"Nationale Sicherheitsempfehlungen scheitern oft in der Umsetzung wegen konkurrierender Organisationslogiken",
-    sum:"Qualitative Multimethod-Studie von 22 Untersuchungsberichten der englischen Behörde HSSIB, zwei Fokusgruppen mit 12 Ermittlern und 11 Interviews mit Vertretern empfangsorganisationen zu Implementierungshindernissen.",
-    result:"Dokumentenanalyse zeigte, dass HSSIB-Empfehlungen nicht-direktiv waren und auf schwächsten Kontrollebenen sowie administrative Maßnahmen konzentrierten. Zwei konkurrierende institutionelle Logiken: HSSIB nutzt Sicherheitswissenschaft (Systemdenken, Mitgestaltung, nonpunitives Lernen), Empfängerorganisationen nutzen Manage-ment-Operationslogik (Ressourcenverwaltung, operative Machbarkeit). Folgen: (i) Empfehlungen durch nominale Koproduktion abgeschwächt; (ii) Prioritäten durch politische Salience und Ressourcenverfügbarkeit gesteuert; (iii) diffuse Rechenschaftspflicht; (iv) Transparenz-Wirkung begrenzt. Strukturelle Trennung HSSIB/Organisationen paradox: zentral für Legitimität als Lernkörper, aber distanziert von operativen Realitäten.",
-    transfer:"Vereinigtes Königreich, deutsches Sicherheitsmanagementsystem vor ähnliche Implementierungs-Barrieren gestellt."
-  },
-  {
-    journal:"PLoS Negl Trop Dis", year:"2026", pmid:"42814788",
-    author:"de Barros B et al.", pubdate:"30.09.2026",
-    added:"30.09.2026",
-    title:"Methotrexat zusätzlich zu Prednisolon verbesserte Erythema-nodosum-leprosum-Flares nicht",
-    sum:"Internationale doppelblinde RCT mit 137 Patienten an fünf lepra-Referenzzentren (Äthiopien, Indien, Indonesien, Nepal) zur Frage, ob wöchentliches orales Methotrexat zusätzlich zu Prednisolon den zusätzlichen Prednisolon-Bedarf bei schwerer ENL reduziert.",
-    result:"Bei 24 Wochen: 85/137 (62,0 %) erlebten ENL-Flare; adjustierte HR Methotrexat vs. Placebo 0,98 (95%-KI 0,62-1,54). Bei 48 Wochen: 102/137 (74,5 %); HR 0,95 (0,62-1,43). Sekundärergebnisse ähnlich: Methotrexat reduzierte nicht Schweregrad, Häufigkeit oder spätere Flares. Lebensqualität verbesserte sich in beiden Gruppen ohne Unterschied. Methotrexat war gut verträglich, wird aber von dieser Studie für schwere ENL nicht unterstützt.",
-    transfer:"Multipol niedrig-/mittleeinkommliche Länder, Wirksamkeitsstudie zu seltener Krankheit, aber Versorgungsrelevanz für deutschsprachige Länder gering."
-  },
-  {
-    journal:"Int J Infect Dis", year:"2026", pmid:"42749250",
-    author:"López Herrero R et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"Sepsis in Spanien: Inzidenz und stationäre Sterblichkeit stiegen 2017-2022 um 16 %",
-    sum:"Bevölkerungsbasierte retrospektive Analyse von 1.187.393 Sepsisfällen in Spanien anhand des Minimum Basic Data Set zur Beschreibung von Trends, Infektionsquellen und Gesundheitsbelastung.",
-    result:"Die altersadjustierte Inzidenz stieg von 4,0 pro 1.000 Einwohner 2017 auf 4,65 pro 1.000 2022; die stationäre Mortalität erhöhte sich von 19,4 % (2017) auf 23,7 % (2020, Pandemiepeak) und stabilisierte sich bei 20,8 % (2022). Atemwegs- und Harnwegsinfektionen waren führende Infektionsquellen; Patienten waren überwiegend älter (Mittelwert 74,3 Jahre) mit hoher Komorbiditätslast.",
-    transfer:"Spanien, vergleichbare administrative Datenerfassung; Pandemieffekt auf europäische Sepsisepidemiologie relevant."
-  },
-  {
-    journal:"J Hosp Infect", year:"2026", pmid:"42685914",
-    author:"Havers SM et al.", pubdate:"02.09.2026",
-    added:"02.09.2026",
-    title:"Digitale Überwachung von Krankenhausinfektionen: Designelemente heterogen, klinische Integration rarely documented",
-    sum:"Systematische Übersichtsarbeit von 47 Studien über digitale Systeme zur Überwachung nosokomialer Infektionen, Extraktion von Designelementen, Implementierungsmerkmalen und Ergebnissen.",
-    result:"47 Studien (28 aus Europa, 10 USA) zeigten Designelemente für Detektion, Validierung, Automatisierung und Datenintegration. Systeme waren überwiegend intern entwickelt und staatlich finanziert. HAI-Ergebnisse heterogen, Integration in Routinepraxis selten beschrieben; Patientenauswirkungen wenig evaluiert. Effizienzvorteil teilweise gezeigt, aber fehlende Qualitäts- und Sicherheitsergebnisse behindern Bewertung.",
-    transfer:"Überwiegend europäische Evidenz, aber Heterogenität erfordert nationale Kontextanpassung für Deutschland."
+    journal:"J Hosp Infect", year:"2026", pmid:"42727816",
+    author:"Leclère B et al.", pubdate:"11.09.2026",
+    added:"11.09.2026",
+    title:"Expertenkonsens zur Referenzdatenerstellung f ür Früherkennung nosokomialer Ausbrüche",
+    sum:"Konsens- studieüber die Entwicklung von Referenzdatensätzen zur Validierung von Ausbrucherkennungs-Algorithmen in Krankenhäusern durch Experten bewertung.",
+    result:"25 Experten aus Kanada und Frankreich identifizierten in 36 Zeitreihen (1899 Überwachungswochen) 89 potenzielle Ausbruchzeiten mittels Mehrheitsvotum und 96 durch Hidden-Markov-Modell. Die Übereinst immung zwischen den Methoden war am stärksten für hochwahrscheinliche Ausbruchwochen. Ein zuverlässiger Referenzdatensatz für Entwicklung und Vergleich von Erkennungsalgorithmen wurde konstruiert.",
+    transfer:"Frankreich und Kanada, vergleichbares Surveillance-Verständnis, methodologische Übertragbarkeit"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2158,7 +2104,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.10.2026";
+const NEWS_STAND = "25.10.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Welt-Sepsis-Tag: Chirurgie plädiert für den Einsatz von KI zur Früherkennung", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/welt-sepsis-tag-chirurgie-plaediert-fuer-den-einsatz-von-ki-zur-frueherkennung/"},
