@@ -2191,62 +2191,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "1. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "2. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Health Serv Res", year:"2026", pmid:"42963972",
-    author:"Rosen AK et al.", pubdate:"Dez. 2026",
-    added:"31.10.2026",
-    title:"Externe Versorgungsdaten verbessern Risikoadjustierung bei Patienten in Mehrfachversorgung",
-    sum:"US-amerikanische Studie untersucht, ob die Integration von Daten aus Nicht-VA-Versorgung und sozialen Determinanten die Risikoadjustierung von Wiederaufnahmequoten bei Veteranen mit multiplem Versorgungszugang verfeinert.",
-    result:"Addition von ambulanter Versorgung (CC) führte zu &gt;30 % Anstieg identifizierter Komorbiditäten und Wiederaufnahmen (THA/TKA: +153 %). Additive Datenquellen und soziale Determinanten hatten minimalen Effekt auf Modell-Diskrimination (c-Statistik-Änderung 0,01–0,03). Modellkalibrierung war gut; externe Validierung jedoch erforderlich.",
-    transfer:"USA - Risikoadjustierung grundsätzlich übertragbar, nationale Datenstrukturen aber sehr unterschiedlich"
-  },
-  {
-    journal:"Rev Bras Enferm", year:"2026", pmid:"42961263",
-    author:"Matos JA et al.", pubdate:"26.10.2026",
+    journal:"Ann Med", year:"2026", pmid:"42960561",
+    author:"Chung H et al.", pubdate:"30.10.2026",
     added:"30.10.2026",
-    title:"Desinfektionsverfahren für digitale Pulsoxymetr zeigen suboptimale Wirksamkeit in der Praxis",
-    sum:"Brasilianische Primärversorgung: Vergleich zweier Methoden zur Reinigung und Desinfektion von Pulsoxygenetoren durch Kulturverfahren und ATP-Test nach artifiziellem Besiedeln mit Krankheitserregern.",
-    result:"Wirksame Desinfection variierte zwischen 33,3 % (Kriterium: negative Kultur) und 72,2 % (Kriterium: mikrobielle Belastung &lt;10³). Wirksamkeit war zwischen beiden Methoden ähnlich und suboptimal; Methode 2 war deutlich schneller (Zeitersparnis relevant für Workflow). Hygiene-Compliance in der Primärversorgung ist prakmatisch begrenzt.",
-    transfer:"Deutschland - Elektronische Geräte eine häufig unterschätzte Kontaminationsquelle in ambulanter Versorgung"
+    title:"Malignität erhöht Mortalität bei Sepsis um 21–241%, je nach Messzeitpunkt",
+    sum:"Systematische Review und Meta-Analyse von 105 Studien mit 20 Millionen Teilnehmern zu Mortalitätsraten bei Patienten mit Sepsis, stratifiziert nach Timeframes und Krebstyp.",
+    result:"Malignität war mit höherer Mortalität assoziiert: ICU-Mortalität OR 1,21 (95%-KI 0,94–1,56), Krankenhaussterblichkeit OR 1,90 (1,69–2,13), Früh-Mortalität OR 1,81 (1,59–2,06), intermediäre OR 2,28 (1,72–3,03), erweiterte Nachfolge OR 2,41 (1,70–3,42). Assoziationen hielten über Krebstypen an, waren aber für hämatologische Malignome stärker.",
+    transfer:"Internationale Daten, Sepsis-Prognose übertragbar, Krebsdatenqualität variabel."
   },
   {
-    journal:"Acta Orthop Belg", year:"2026", pmid:"42885463",
-    author:"El Banna S et al.", pubdate:"08.10.2026",
-    added:"16.10.2026",
-    title:"Externe Fixierung von Tibiafrakturen: historische Langzeitdaten zu Infektionen und Knochenheilung",
-    sum:"Retrospektive Analyse von 1.147 frischen Tibiafrakturen, die 1980 in sieben belgischen Zentren mit Hoffmann-Fixateur externe behandelt wurden; archivale Daten zu Weichteilkomplikationen, sekundäre Hautnecrosen und lokale Infektionen.",
-    result:"Sekundäre Hautnecrosen in 164 Frakturen (14,3 %), dokumentierte lokale Infektionen in 44 (3,8 %). Offene Frakturen zeigten höhere Nekrosen- und Infektionsraten als geschlossene Frakturen. Konsolidation in 882 Frakturen (76,9 %), temporäre Pseudarthrose 38 (3,3 %), definitive 100 (8,7 %), unbekannt 127 (11,1 %). Historischer Benchmark, keine vergleichende Evidenz für aktuelle Fixierungstechniken.",
-    transfer:"Belgien/Deutschsprachiger Raum - historischer Kontext, moderne externe Fixierung längst Standard"
+    journal:"Neurology", year:"2026", pmid:"42906071",
+    author:"Tiili P et al.", pubdate:"24.11.2026",
+    added:"22.10.2026",
+    title:"DOACs senken Schlaganfallrisiko ohne Blutungsanstieg, Warfarin erhöht intrakranielle Blutungen",
+    sum:"Finnische Kohortenstudie mit 1.502 Patienten mit Vorhofflimmern und vorheriger intrakranieller Blutung zur Analyse konkurrierender Risiken (Schlaganfall, intrakranielle Blutung, Tod) unter verschiedenen Antikoagulantienregimen.",
+    result:"Nach 1 Jahr betrug das adjustierte absolute Risiko für ischämischen Schlaganfall unter DOAC 0,7%, Warfarin 2,1%, keine OAK 4,1%; für intrakranielle Blutung: DOAC 1,2%, Warfarin 2,7%, keine OAK 1,9%. DOAC: niedrigeres Schlaganfallrisiko (HR 0,17, 95%-KI 0,04–0,71), niedrigeres Todesrisiko (HR 0,20, 0,09–0,46), kein erhöhtes Blutungsrisiko (HR 0,70, 0,19–2,50). Warfarin: erhöhtes intrakranielles Blutungsrisiko (HR 1,85, 1,01–3,41).",
+    transfer:"Finnland (Sozialversicherung, Meldepflichten unterscheiden sich), Antikoagulation-Frage universal."
   },
   {
-    journal:"Res Pract Thromb Haemost", year:"2026", pmid:"42965049",
-    author:"Raskin L et al.", pubdate:"30.09.2026",
-    added:"31.10.2026",
-    title:"Synthetische Östrogene in Hormonverhütung: 5-fach höheres VTE-Risiko als natürliche Östrogene",
-    sum:"Pharmakovigilanz-Reanalyse von EudraVigilance und FDA-FAERS mit natürlichen Östrogenen als Referenzgruppe: Disproportionalitätsanalyse für venöse Thromboembolien unter Ethinylestradiol-haltigen versus Estrogen-basierten Kontrazeptiva.",
-    result:"Konsistente Signale in beiden Datenbanken: Ethinylestradiol-basierte Kontrazeptiva zeigten gegenüber natürlichen Östrogenen höhere VTE-Meldungen (EudraVigilance: PRR 5,10 [95%-CI 4,68–5,56]; FAERS: PRR 4,21 [95%-CI 3,49–5,08]). Mit Estetrol/Drospirenon als Referenz zeigten alle Ethinylestradiol-Formulierungen Disproportionalität. Konsistent über zwei unabhängige Systeme.",
-    transfer:"Belgien/Europäische Pharmakovigilanz - EudraVigilance grundsätzlich auf Deutschland übertragbar"
-  },
-  {
-    journal:"BMC Oral Health", year:"2026", pmid:"42958172",
-    author:"Su Y et al.", pubdate:"04.08.2026",
+    journal:"BMC Pediatr", year:"2026", pmid:"42958133",
+    author:"Ma W et al.", pubdate:"09.09.2026",
     added:"30.10.2026",
-    title:"Triglyzerid-Glukose-Index vorhersagt Wundinfektionen bei Mundhöhlenkrebs ohne Diabetes",
-    sum:"Chinesische Studie von 381 Mundhöhlenkarzinom-Patienten ohne dokumentiertem Diabetes: TyG-Index als Marker der Insulinresistenz als Prädiktor für postoperative Wundinfektionen (CDC/NHSN-Kriterien) innerhalb 30 Tage.",
-    result:"88 (23,1 %) entwickelten Wundinfektionen. TyG war bei Infektionen höher (8,77 vs. 8,59, p&lt;0,001). Jede 0,1-Einheit TyG-Anstieg erhöhte Infektionsrisiko (AOR 1,260; 95%-CI 1,144–1,388; p&lt;0,001). TyG erhöhte AUC von 0,634 zu 0,712 (ΔAUC 0,078), aber optimism-Korrektur zeigte Attenuation. Externe Validierung erforderlich.",
-    transfer:"China - neuer metabolischer Risikofaktor, Übertragbarkeit auf deutsche Zentren hypothesengenierend"
+    title:"Septic Shock Clinical Score System prognostiziert Mortalität in 28 Tagen mit AUC 0,902",
+    sum:"Retrospektive Studie von 123 pädiatrischen Sepsis-Patienten zur Entwicklung eines klinischen Scores (SCSS) aus Beatmung, vasoaktiven Agenzien, Quick-Wert und Troponin T zur Vorhersage von 28-Tage-Mortalität.",
+    result:"83 von 123 Kindern (67,5%) starben. SCSS-Modell zeigte gute Diskrimination (AUC 0,902, 95%-KI 0,839–0,965). Risikostratifizierung: niedrig 23,8% Mortalität, intermediär 90,0%, hoch 90,9% (p&lt;0,001). Vier Variablen unabhängig signifikant: Beatmung (OR 23,95), ≥2 Vasoaktiva (OR 6,95), PT&gt;18s (OR 5,33), Troponin&gt;40 ng/L (OR 6,70).",
+    transfer:"Chinesisches Kinderkrankenhaus, externe Validierung erforderlich vor Anwendung."
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42963755",
-    author:"van Dijk L et al.", pubdate:"29.07.2026",
-    added:"31.10.2026",
-    title:"FRAM-gestützte Fehleranalyse senkt Diskrepanzen bei der Medikamentenübergabe",
-    sum:"Niederländische Krankenhäuser nutzen die Functional Resonance Analysis Method, um Abweichungen zwischen Protokoll und Praxis bei der Medikamentenübergabe an der Entlassung zu identifizieren und gezielt Verbesserungen einzuleiten.",
-    result:"Auf allen neun Stationen wurden mehrere Diskrepanzen zwischen Protokoll und klinische Praxis identifiziert. Nach Reflexion schlugen die meisten Teams Verbesserungen vor, die den Prozess sicherer und effizienter machen sollten. Dedizierte, multidisziplinäre Task-Forces und Vertrautheit mit dem untersuchten Prozess erleichterten das Durchbrechen, während fehlende Motivation und geringe Beteiligung hinderlich waren.",
-    transfer:"Niederlande, vergleichbares Versicherungssystem und Qualitätsmanagementsystem"
+    journal:"BMC Surg", year:"2026", pmid:"42958223",
+    author:"Mizumoto T et al.", pubdate:"01.08.2026",
+    added:"30.10.2026",
+    title:"Piperacillin/Tazobactam reduziert Wundinfektionen nach Pankreasop stärker als Ampicillin/Sulbactam",
+    sum:"Studienprotokoll für RCT mit 320 Patienten zur Wirksamkeit von Perioperativer Antibiose beim Schutz vor Wundinfektionen nach Pankreatikoduodenektomie unter Vergleich zweier Antibiotikaregime.",
+    result:"Primärer Endpunkt ist Wundinfektionsrate in 30 Tagen nach CDC-Kriterien; das Protokoll definiert Sekundärendpunkte (Clavien-Dindo-Komplikationen, Fisteln, C.-difficile-Kolitis, Resistenzmuster). Die Studie wird die erste direkte Vergleichsprobe liefern und soll zur Optimierung perioperativer Antibiotikastrategien beitragen.",
+    transfer:"Deutsches Krankenhaus (Kobe-Universität), vergleichbar strukturierte Pankreaschirurgie."
+  },
+  {
+    journal:"BMC Microbiol", year:"2026", pmid:"42958046",
+    author:"Esmael J et al.", pubdate:"01.08.2026",
+    added:"30.10.2026",
+    title:"88% der Krankenhausflächen und Betten tragen multiresistente Keime, davon 88%",
+    sum:"Querschnittsstudie von 185 Objekten aus Krankenhausräumen (Fußboden, Betten, Nachttische) zur Erfassung nosokomialer Keime und Resistenzmuster als Übertragungsreservoir.",
+    result:"35,1% (65/185) der Objekte zeigten Bakterienwachstum, insgesamt 77 Isolate. Häufigste: Staphylococcus aureus 26%, koagulase-negative Staphylokokken 23,4%, Acinetobacter 15,6%, Enterobacter 9,1%. 88,3% (68/77) waren multiresistent. Gynäkologie und Chirurgie-Stationen am kontaminiertesten (Fußboden 20,8%, Betten und Nachttische je 16,9%). Gynäkologie-Wards mit 15-fach erhöhtem Risiko (AOR 15,37, p&lt;0,001), Chirurgie 6-fach (AOR 6,06, p=0,009).",
+    transfer:"Äthiopien, Infektionsprävention, deutsche Hygienemaßnahmen direkt anwendbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2271,7 +2262,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "01.11.2026";
+const NEWS_STAND = "02.11.2026";
 const NEWS = [
   {titel:"Preis für Patientensicherheit 2026: Drei Projekte ausgezeichnet", datum:"2026-09-16", url:"https://www.monitor-versorgungsforschung.de/news/preis-fuer-patientensicherheit-2026-drei-projekte-ausgezeichnet/"},
   {titel:"Neuer Preis für Hygienefachkräfte: B. Braun-Stiftung sucht Projekte", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/neuer-preis-fuer-hygienefachkraefte-b-braun-stiftung-sucht-projekte/"},
