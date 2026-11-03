@@ -2191,53 +2191,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "2. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "3. Nov. 2026, 05:24 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Ann Med", year:"2026", pmid:"42960561",
-    author:"Chung H et al.", pubdate:"30.10.2026",
-    added:"30.10.2026",
-    title:"Malignität erhöht Mortalität bei Sepsis um 21–241%, je nach Messzeitpunkt",
-    sum:"Systematische Review und Meta-Analyse von 105 Studien mit 20 Millionen Teilnehmern zu Mortalitätsraten bei Patienten mit Sepsis, stratifiziert nach Timeframes und Krebstyp.",
-    result:"Malignität war mit höherer Mortalität assoziiert: ICU-Mortalität OR 1,21 (95%-KI 0,94–1,56), Krankenhaussterblichkeit OR 1,90 (1,69–2,13), Früh-Mortalität OR 1,81 (1,59–2,06), intermediäre OR 2,28 (1,72–3,03), erweiterte Nachfolge OR 2,41 (1,70–3,42). Assoziationen hielten über Krebstypen an, waren aber für hämatologische Malignome stärker.",
-    transfer:"Internationale Daten, Sepsis-Prognose übertragbar, Krebsdatenqualität variabel."
+    journal:"Crit Care Explor", year:"2026", pmid:"42970339",
+    author:"May HP et al.", pubdate:"02.11.2026",
+    added:"02.11.2026",
+    title:"Individualisierte Cefepim-Dosierung in früher Sepsis verbessert Arzneistoffspiegel",
+    sum:"Pragmatische Machbarkeitsstudie zur Evaluierung eines pharmakokinetischen Algorithmus für die Dosierung von Cefepim bei Sepsis-Patienten in Kritikalität, unter Verwendung elektronischer Gesundheitsdaten und Dosierungsentscheidungshilfe.",
+    result:"Die Studie ist noch in der Rekrutierungsphase (begonnen Januar 2026, geplantes Ende Januar 2027); Zieleinschluss ≥300 Patienten. Vorläufig wurde ein Populationspharmakokinetimodell entwickelt, das die Arzneistoffexposition verbessern soll. Die Studie wird Machbarkeit, Therapietreue und exploratorische pharmakokinetische sowie klinische Ergebnisse bewerten.",
+    transfer:"Einzelzenter Mayo Clinic USA; Machbarkeitsprotokoll ohne bisherige Outcome-Daten."
   },
   {
-    journal:"Neurology", year:"2026", pmid:"42906071",
-    author:"Tiili P et al.", pubdate:"24.11.2026",
-    added:"22.10.2026",
-    title:"DOACs senken Schlaganfallrisiko ohne Blutungsanstieg, Warfarin erhöht intrakranielle Blutungen",
-    sum:"Finnische Kohortenstudie mit 1.502 Patienten mit Vorhofflimmern und vorheriger intrakranieller Blutung zur Analyse konkurrierender Risiken (Schlaganfall, intrakranielle Blutung, Tod) unter verschiedenen Antikoagulantienregimen.",
-    result:"Nach 1 Jahr betrug das adjustierte absolute Risiko für ischämischen Schlaganfall unter DOAC 0,7%, Warfarin 2,1%, keine OAK 4,1%; für intrakranielle Blutung: DOAC 1,2%, Warfarin 2,7%, keine OAK 1,9%. DOAC: niedrigeres Schlaganfallrisiko (HR 0,17, 95%-KI 0,04–0,71), niedrigeres Todesrisiko (HR 0,20, 0,09–0,46), kein erhöhtes Blutungsrisiko (HR 0,70, 0,19–2,50). Warfarin: erhöhtes intrakranielles Blutungsrisiko (HR 1,85, 1,01–3,41).",
-    transfer:"Finnland (Sozialversicherung, Meldepflichten unterscheiden sich), Antikoagulation-Frage universal."
+    journal:"Indian J Pharmacol", year:"2026", pmid:"42969986",
+    author:"Rawa AK et al.", pubdate:"01.11.2026",
+    added:"02.11.2026",
+    title:"Empirische Antibiotikatherapie und De-Eskalation: 75,7 % angemessen bei Antibiotic-Stewardship",
+    sum:"Prospektive sechsmonatige Beobachtungsstudie an einem tertiaeren indischen Klinikum (300 Patienten), die empirische Antibiotikatherapie, De-Eskalationspraxis und Resistenzmuster evaluierte.",
+    result:"Empirische Monotherapie wurde 80,3 % der Patienten verabreicht (Ceftriaxon am haeufigsten); 75,7 % der Faelle zeigten angemessene empirische Therapie, 71 % erlebten korrektes De-Eskalationsmanagement. Positive Kulturen: 47,3 %. Multiresistente Organismen: 11,3 %, extensiv resistent: 2,8 %. Drittgenerations-Cephalosporine zeigten hoechste Resistenzraten.",
+    transfer:"Indien, tertiares Uniklinikum; Stewardship-Praktiken mit messbarem Erfolg."
   },
   {
-    journal:"BMC Pediatr", year:"2026", pmid:"42958133",
-    author:"Ma W et al.", pubdate:"09.09.2026",
-    added:"30.10.2026",
-    title:"Septic Shock Clinical Score System prognostiziert Mortalität in 28 Tagen mit AUC 0,902",
-    sum:"Retrospektive Studie von 123 pädiatrischen Sepsis-Patienten zur Entwicklung eines klinischen Scores (SCSS) aus Beatmung, vasoaktiven Agenzien, Quick-Wert und Troponin T zur Vorhersage von 28-Tage-Mortalität.",
-    result:"83 von 123 Kindern (67,5%) starben. SCSS-Modell zeigte gute Diskrimination (AUC 0,902, 95%-KI 0,839–0,965). Risikostratifizierung: niedrig 23,8% Mortalität, intermediär 90,0%, hoch 90,9% (p&lt;0,001). Vier Variablen unabhängig signifikant: Beatmung (OR 23,95), ≥2 Vasoaktiva (OR 6,95), PT&gt;18s (OR 5,33), Troponin&gt;40 ng/L (OR 6,70).",
-    transfer:"Chinesisches Kinderkrankenhaus, externe Validierung erforderlich vor Anwendung."
+    journal:"Ann Med", year:"2026", pmid:"42968548",
+    author:"Giacobbe DR et al.", pubdate:"01.11.2026",
+    added:"02.11.2026",
+    title:"Schnelle Molekulardiagnostik bei Blutkultur senkt Fehlbehandlung um 23 %",
+    sum:"Multizentrische prospektive Beobachtungsstudie (126 kritisch Kranke mit Blutstrominfektion) an 22 italienischen Zentren zur Evaluierung des BIOFIRE BCID2 Panels zur Steuerung antimikrobieller Therapie.",
+    result:"BCID2-Panel führte zu mehr Ereignissen früher antimikrobieller De-Eskalation oder angemessener Therapie am Tag 1 (55,6 % vs. 31,7 %; p=0,015). Mortalitaet 30 Tage: kein Unterschied (HR 0,97; p=0,941). SOFA-Score, Acinetobacter/S.aureus/S.maltophilia und Begleitinfektionen waren signifikant mit erhöhter Mortalitaet assoziiert.",
+    transfer:"Italien, Universitaetszenren; Syndromic Panel verbessert Antimicrobial Stewardship messbar."
   },
   {
-    journal:"BMC Surg", year:"2026", pmid:"42958223",
-    author:"Mizumoto T et al.", pubdate:"01.08.2026",
-    added:"30.10.2026",
-    title:"Piperacillin/Tazobactam reduziert Wundinfektionen nach Pankreasop stärker als Ampicillin/Sulbactam",
-    sum:"Studienprotokoll für RCT mit 320 Patienten zur Wirksamkeit von Perioperativer Antibiose beim Schutz vor Wundinfektionen nach Pankreatikoduodenektomie unter Vergleich zweier Antibiotikaregime.",
-    result:"Primärer Endpunkt ist Wundinfektionsrate in 30 Tagen nach CDC-Kriterien; das Protokoll definiert Sekundärendpunkte (Clavien-Dindo-Komplikationen, Fisteln, C.-difficile-Kolitis, Resistenzmuster). Die Studie wird die erste direkte Vergleichsprobe liefern und soll zur Optimierung perioperativer Antibiotikastrategien beitragen.",
-    transfer:"Deutsches Krankenhaus (Kobe-Universität), vergleichbar strukturierte Pankreaschirurgie."
+    journal:"Drug Des Devel Ther", year:"2026", pmid:"42968961",
+    author:"Xiong M et al.", pubdate:"28.10.2026",
+    added:"02.11.2026",
+    title:"Polymyxin-B-Dosierung bei Carbapenem-Resistenz: AUC 77–110 mg·h/L optimal",
+    sum:"Retrospektive Beobachtungsstudie (138 Patienten mit nosokomialer Pneumonie durch Carbapenem-resistente Acinetobacter baumannii) zur Optimierung der Polymyxin-B-Exposition mittels therapeutischem Drug Monitoring (Plasma-LC-MS/MS).",
+    result:"Klinischer Erfolg bei Tag 14 in 45,7 % (63/138). AUC0-24h &gt;77 mg·h/L prädizierte Behandlungserfolg (OR 0,33 für AUC &lt;77; p=0,013), AUC &gt;110 mg·h/L erhöhte akutes Nierenschädigungsrisiko (OR 3,24; p=0,043). Optimales Fenster: 77–110 mg·h/L. Medialer Patientenalter 68 Jahre, 79,7 % maennlich.",
+    transfer:"China (Zhongda Hospital); Therapeutisches Drug Monitoring senkt Schaden durch Dosierungsoptimierung."
   },
   {
-    journal:"BMC Microbiol", year:"2026", pmid:"42958046",
-    author:"Esmael J et al.", pubdate:"01.08.2026",
-    added:"30.10.2026",
-    title:"88% der Krankenhausflächen und Betten tragen multiresistente Keime, davon 88%",
-    sum:"Querschnittsstudie von 185 Objekten aus Krankenhausräumen (Fußboden, Betten, Nachttische) zur Erfassung nosokomialer Keime und Resistenzmuster als Übertragungsreservoir.",
-    result:"35,1% (65/185) der Objekte zeigten Bakterienwachstum, insgesamt 77 Isolate. Häufigste: Staphylococcus aureus 26%, koagulase-negative Staphylokokken 23,4%, Acinetobacter 15,6%, Enterobacter 9,1%. 88,3% (68/77) waren multiresistent. Gynäkologie und Chirurgie-Stationen am kontaminiertesten (Fußboden 20,8%, Betten und Nachttische je 16,9%). Gynäkologie-Wards mit 15-fach erhöhtem Risiko (AOR 15,37, p&lt;0,001), Chirurgie 6-fach (AOR 6,06, p=0,009).",
-    transfer:"Äthiopien, Infektionsprävention, deutsche Hygienemaßnahmen direkt anwendbar."
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42968937",
+    author:"Li Y et al.", pubdate:"28.10.2026",
+    added:"02.11.2026",
+    title:"Blut-Eosinophile und CRP steuern COPD-Exazerbations-Therapie sicher",
+    sum:"Narrative Review (Evaluierung bis August 2026) zu Biomarkern, die empirische Steroid- und Antibiotika-Entscheidungen bei akuten COPD-Exazerbationen in Praxis und Klinik steuern können.",
+    result:"Blut-Eosinophile: haendeste Evidenz fuer Steroid-Lenkung (Versuchstoffe unterstützen Behandlungsauswahl/Verzicht in Praxis, serielles Verkürzung in Klinik). C-reaktives Protein: stärkste Evidenz für Antibiotika-Stewardship in Praxis (limitierte stationäre Evidenz). Procalcitonin: reduziert Antibiotikaverbrauch in selektiven Non-ICU-Settings; ICU-Versuch zeigte kein Überlebensvorteil. Molekulare Pathogen-Tests verbessern Durchsatz, Integration in COPD-Algorithmen ist Forschungsziel.",
+    transfer:"Qualitative Übersicht, Mixed-Evidence-Base; Biomarker-gelenkte Strategien fuer Stewardship etabliert."
+  },
+  {
+    journal:"Medicina (Kaunas)", year:"2026", pmid:"42942550",
+    author:"Luchian N et al.", pubdate:"19.10.2026",
+    added:"27.10.2026",
+    title:"Pseudomonas-Nosokomialinfektionen in Neurochirurgie: Inzidenz fiel von 4,41 auf 2,37 pro 1000",
+    sum:"Retrospektive Beobachtungsstudie (2020–2024) an tertiaerem Neurochirurgie-Zentrum in Rumänien (163 P.aeruginosa-Nosokomialinfektionen) zur Epidemiologie, Risikofaktoren und Resistenzmuster.",
+    result:"Jaehrliche Inzidenz sank von 4,41‰ (2020) auf 2,37‰ (2024; p=0,0038). Intensive-Care-Unit-assoziiert: 73,0 % (119/163), Neurochirurgie-Stationen: 22,7 % (37/163). Verhaeltnis Maenner:Frauen 67,5 % : 32,5 %. Gaenzlich Spaetinfektionen und antimikrobiell resistente Phenotypen dominierend. Ergebnis zeigt Massnahmen-Effekt (Inzidenzsenkung), aber keine Intervention benannt.",
+    transfer:"Rumaenien, regionales Zentr; Epidemiologische Ueberwachung etabliert vermeidbare Infektionen."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2252,7 +2261,7 @@ const RADAR_FRISTEN = [["2026-12-31", "2027-01-07", "2027-01-07", "2027-01-07"],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "02.11.2026";
+const ZUL_STAND = "03.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
