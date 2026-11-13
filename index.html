@@ -2263,7 +2263,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "13. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "13. Nov. 2026, 14:25 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2276,13 +2276,13 @@ const STUDIES = [
     transfer:"Transferbar auf deutschsprachige Krankenhäuser mit CPOE-Systemen und Clinical Pharmacy-Strukturen"
   },
   {
-    journal:"BMC Med", year:"2026", pmid:"43015788",
-    author:"Sommer J et al.", pubdate:"07.11.2026",
-    added:"11.11.2026",
-    title:"Diuretika und Hitze: Notaufnahmen bei Temperaturen über 15,7 °C deutlich häufiger",
-    sum:"Deutsche Studie der ADRED-Studie: Prospektive Beobachtung von unerwünschten Arzneimittelereignissen (ADEs) in Notaufnahmen analysierte den Zusammenhang zwischen Außentemperatur und diuretika-assoziierten Nebenwirkungen.",
-    result:"Signifikanter nicht-linearer Anstieg diuretika-assoziierter ADEs bei höheren Temperaturen mit kritischem Schwellwert bei 15,7 °C (adjustierte R²=0,382; nach Schwellwert β=0,0201, 95%-KI: 0,0068-0,0333). Das Risiko beschleunigt sich deutlich bei höheren Temperaturen und bedarf gezielter Überwachung bei Patienten unter Diuretika.",
-    transfer:"Deutsche Kliniken, Notaufnahmen, standardisierte Dokumentation und Causality-Assessment gemäß ADRED-Protokoll"
+    journal:"Sci Rep", year:"2026", pmid:"43019140",
+    author:"Yang BSK et al.", pubdate:"28.07.2026",
+    added:"12.11.2026",
+    title:"Sepsis-Bundle-Compliance zeigte komplexe Beziehungen zur Krankenhaussterblichkeit",
+    sum:"Südkoreanische prospektive Multizenterstudie (n=11.926 Patienten in 19 Tertiärzentren, Sept.2019–Dez.2020) zur Assoziation zwischen Krankenhausebene-Sepsis-Bundle-Compliance und Patientenoutcomes bei Sepsis oder septischem Schock.",
+    result:"Gesamtkompliance mit vollständigem Bundle bei 1h/3h/6h: 18 %/59 %/81 %. Hospital-Sterblichkeit variierte 21–47 %. Negative Korrelation zwischen 6h-Antibiotikaelment-Compliance und Krankenhausleistungsrang (Spearman ρ=-0,64; p&lt;0,01; Kendall τ=-0,42; p&lt;0,05), ebenso für vollständige Bundle-Compliance (ρ=-0,52; p&lt;0,05). Keine signifikanten Korrelationen für einzelne Elemente (Laktat, Kultur, Flüssigkeit, Vasopressor). Beobachtungs-, Krankenhaus-Level-Design mit Confounding-Risiko: negative Korrelationen bei späteren Zeitpunkten spiegeln wahrscheinlich verzögerte Diagnose wider, nicht Schaden durch Durchführung.",
+    transfer:"Südkoreanisches System strukturell verschieden; Befund zur unmessbaren Rolle von Bundles bei Outcomes relevant für deutsches Qualitätsmanagement"
   },
   {
     journal:"Crit Care", year:"2026", pmid:"43015819",
@@ -2294,6 +2294,15 @@ const STUDIES = [
     transfer:"Systemische Empfehlungen für deutsches Gesundheitswesen, teils auf ähnliche ICU-Strukturen übertragbar"
   },
   {
+    journal:"BMC Med", year:"2026", pmid:"43015788",
+    author:"Sommer J et al.", pubdate:"07.11.2026",
+    added:"11.11.2026",
+    title:"Diuretika und Hitze: Notaufnahmen bei Temperaturen über 15,7 °C deutlich häufiger",
+    sum:"Deutsche Studie der ADRED-Studie: Prospektive Beobachtung von unerwünschten Arzneimittelereignissen (ADEs) in Notaufnahmen analysierte den Zusammenhang zwischen Außentemperatur und diuretika-assoziierten Nebenwirkungen.",
+    result:"Signifikanter nicht-linearer Anstieg diuretika-assoziierter ADEs bei höheren Temperaturen mit kritischem Schwellwert bei 15,7 °C (adjustierte R²=0,382; nach Schwellwert β=0,0201, 95%-KI: 0,0068-0,0333). Das Risiko beschleunigt sich deutlich bei höheren Temperaturen und bedarf gezielter Überwachung bei Patienten unter Diuretika.",
+    transfer:"Deutsche Kliniken, Notaufnahmen, standardisierte Dokumentation und Causality-Assessment gemäß ADRED-Protokoll"
+  },
+  {
     journal:"BMC Infect Dis", year:"2026", pmid:"43015676",
     author:"Geyiktepe-Guclu C et al.", pubdate:"14.08.2026",
     added:"11.11.2026",
@@ -2303,13 +2312,13 @@ const STUDIES = [
     transfer:"Vergleichbares Versorgungssystem und Dokumentationspflichten, Konsil-Strukturen in Deutschland vorhanden"
   },
   {
-    journal:"Sci Rep", year:"2026", pmid:"43019140",
-    author:"Yang BSK et al.", pubdate:"28.07.2026",
-    added:"12.11.2026",
-    title:"Sepsis-Bundle-Compliance zeigte komplexe Beziehungen zur Krankenhaussterblichkeit",
-    sum:"Südkoreanische prospektive Multizenterstudie (n=11.926 Patienten in 19 Tertiärzentren, Sept.2019–Dez.2020) zur Assoziation zwischen Krankenhausebene-Sepsis-Bundle-Compliance und Patientenoutcomes bei Sepsis oder septischem Schock.",
-    result:"Gesamtkompliance mit vollständigem Bundle bei 1h/3h/6h: 18 %/59 %/81 %. Hospital-Sterblichkeit variierte 21–47 %. Negative Korrelation zwischen 6h-Antibiotikaelment-Compliance und Krankenhausleistungsrang (Spearman ρ=-0,64; p&lt;0,01; Kendall τ=-0,42; p&lt;0,05), ebenso für vollständige Bundle-Compliance (ρ=-0,52; p&lt;0,05). Keine signifikanten Korrelationen für einzelne Elemente (Laktat, Kultur, Flüssigkeit, Vasopressor). Beobachtungs-, Krankenhaus-Level-Design mit Confounding-Risiko: negative Korrelationen bei späteren Zeitpunkten spiegeln wahrscheinlich verzögerte Diagnose wider, nicht Schaden durch Durchführung.",
-    transfer:"Südkoreanisches System strukturell verschieden; Befund zur unmessbaren Rolle von Bundles bei Outcomes relevant für deutsches Qualitätsmanagement"
+    journal:"Health Policy", year:"2026", pmid:"42879821",
+    author:"Arimany-Manso J et al.", pubdate:"13.10.2026",
+    added:"15.10.2026",
+    title:"Haftungsansprüche in Katalonien: Quote der Schadensmeldungen sank über 22 Jahre um 26 %",
+    sum:"Retrospektive Analyse von 22 Jahren Haftungsansprüche in Katalonien zeigte einen Rückgang der bevölkerungsbereinigten Anspruchsquote von 2000 bis 2018 um 26,1 % bei gleichzeitigem Bevölkerungswachstum von 22,3 %.",
+    result:"Bevölkerungsadjustierte Anspruchsquoten sanken um 26,1 % (p &lt; 0,0005), chirurgische Ansprüche um 34,0 %, Notfallansprüche um 20,5 %; Entbindungsansprüche um 3,7 %; Hospitalisierungsansprüche stabil. Mittlere Verzögerung zwischen Incident und Meldung: 23,9 Monate. Die Studie nutzte ein standardisiertes, bevölkerungsbezogenes Dokumentationssystem.",
+    transfer:"Katalonien, strukturiertes Versicherungsmodell mit Populationsdaten; begrenzt auf Länder mit ähnlichem Meldewesen ohne No-Fault-System."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
