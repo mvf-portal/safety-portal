@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "43026563",
+  "journal": "Crit Care",
+  "year": "2026",
+  "author": "Foucrier A et al.",
+  "pubdate": "12.11.2026",
+  "added": "13.11.2026",
+  "transfer": "Französische Klinikdaten, ähnliche Versorgungsstrukturen, Ergebnis unabhängig von Ressourcenlage.",
+  "title": "Antibiotikaprophylaxe senkte VAP bei Traumapatienten nicht; 1.321 Patienten, wOR 0,87",
+  "sum": "Französische Multizenterstudie an 15 Traumazentren untersuchte, ob kurzzeitige Antibiotikaprophylaxe (≤72 h) früh auftretende Beatmungspneumonie bei schwerverletzten, mechanisch beatmeten Patienten verhindert.",
+  "result": "Von 1.321 Traumapatienten erhielten 746 Antibiotikaprophylaxe (zu 90% Amoxicillin-Clavulansäure). Früh einsetzende VAP trat in 32% der Prophylaxe-Gruppe vs. 34% ohne Prophylaxe auf. Nach inverse probability of treatment weighting zeigte sich kein signifikanter Unterschied (wOR 0,87, 95% CI 0,66–1,22; p=0,48). Auch Nebenausgänge (Beatmungsdauer, ICU-Verweildauer, Mortalität) waren nicht beeinflusst.",
+  "aufgenommen": "2026-11-14"
+ },
+ {
   "pmid": "43024514",
   "journal": "Lab Med",
   "year": "2026",

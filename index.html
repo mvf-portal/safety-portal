@@ -2263,9 +2263,18 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Nov. 2026, 05:24 Uhr";
+const SNAP_DATE = "14. Nov. 2026, 11:55 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Lab Med", year:"2026", pmid:"43024514",
+    author:"Bulut ME et al.", pubdate:"05.10.2026",
+    added:"13.11.2026",
+    title:"Wiederholte Urinkulturen innerhalb 48 h hatten begrenzte diagnostische Aussagekraft",
+    sum:"Retrospektive diagnostische Stewardship-Studie zur Bewertung der Angemessenheit und des Nutzens wiederholter Urinkulturen innerhalb von 48 Stunden.",
+    result:"Von 30.773 Urinkulturen wurden 184 (0,6 %) innerhalb von 48 h wiederholt; 69 (37,5 %) waren unangemessen. Von 32 Kulturen ohne Wachstum beim Index-Test zeigten nur 2 (6,3 %) bei Wiederholung signifikantes Wachstum. Bei 20 von 24 unangemessenen Wiederholungen (83,3 %) wurde derselbe Mikroorganismus isoliert.",
+    transfer:"USA, universelles Problem; elektronische Warnmeldungen reduzieren unangemessene Anfragen"
+  },
   {
     journal:"Medicine (Baltimore)", year:"2026", pmid:"43024284",
     author:"Awaji AAA et al.", pubdate:"13.11.2026",
@@ -2285,13 +2294,13 @@ const STUDIES = [
     transfer:"USA; Prinzip übertragbar, aber lokale Sepsis-Algorithmen und Laborausstattung müssen berücksichtigt werden"
   },
   {
-    journal:"Lab Med", year:"2026", pmid:"43024514",
-    author:"Bulut ME et al.", pubdate:"05.10.2026",
-    added:"13.11.2026",
-    title:"Wiederholte Urinkulturen innerhalb 48 h hatten begrenzte diagnostische Aussagekraft",
-    sum:"Retrospektive diagnostische Stewardship-Studie zur Bewertung der Angemessenheit und des Nutzens wiederholter Urinkulturen innerhalb von 48 Stunden.",
-    result:"Von 30.773 Urinkulturen wurden 184 (0,6 %) innerhalb von 48 h wiederholt; 69 (37,5 %) waren unangemessen. Von 32 Kulturen ohne Wachstum beim Index-Test zeigten nur 2 (6,3 %) bei Wiederholung signifikantes Wachstum. Bei 20 von 24 unangemessenen Wiederholungen (83,3 %) wurde derselbe Mikroorganismus isoliert.",
-    transfer:"USA, universelles Problem; elektronische Warnmeldungen reduzieren unangemessene Anfragen"
+    journal:"Antimicrob Resist Infect Control", year:"2026", pmid:"43021420",
+    author:"Tadesse EZ et al.", pubdate:"18.08.2026",
+    added:"12.11.2026",
+    title:"Periphere Venenkatheter verursachten Phlebitis in 56 % – längere Verweilzeit verdoppelte das Risiko",
+    sum:"Prospektive Beobachtungsstudie zur Inzidenz und Risikofaktoren von PIVC-assoziierten Phlebitiden in Äthiopien.",
+    result:"Phlebitis-Inzidenz 55,9 % (95 % KI 50,8–60,9). Unabhängige Risikofaktoren: weibliches Geschlecht (AOR 4,6), längere Verweilzeit pro Tag (AOR 1,38, p=0,01), IV-Medikation (AOR 2,3), Insertion in Notaufnahme (AOR 2,6). Grad 1 und 2 machten 83,4 % der Fälle aus.",
+    transfer:"Äthiopien, ressourcenlimitiert; Evidenz für Katheter-Management weltweit relevant"
   },
   {
     journal:"Transfusion", year:"2026", pmid:"42762170",
@@ -2303,13 +2312,13 @@ const STUDIES = [
     transfer:"Deutschland, Rili-BAEK-konform; Blutspendedienste können Look-back-Untersuchungen mit gefrorenen Proben validieren"
   },
   {
-    journal:"Antimicrob Resist Infect Control", year:"2026", pmid:"43021420",
-    author:"Tadesse EZ et al.", pubdate:"18.08.2026",
-    added:"12.11.2026",
-    title:"Periphere Venenkatheter verursachten Phlebitis in 56 % – längere Verweilzeit verdoppelte das Risiko",
-    sum:"Prospektive Beobachtungsstudie zur Inzidenz und Risikofaktoren von PIVC-assoziierten Phlebitiden in Äthiopien.",
-    result:"Phlebitis-Inzidenz 55,9 % (95 % KI 50,8–60,9). Unabhängige Risikofaktoren: weibliches Geschlecht (AOR 4,6), längere Verweilzeit pro Tag (AOR 1,38, p=0,01), IV-Medikation (AOR 2,3), Insertion in Notaufnahme (AOR 2,6). Grad 1 und 2 machten 83,4 % der Fälle aus.",
-    transfer:"Äthiopien, ressourcenlimitiert; Evidenz für Katheter-Management weltweit relevant"
+    journal:"Crit Care", year:"2026", pmid:"43026563",
+    author:"Foucrier A et al.", pubdate:"12.11.2026",
+    added:"13.11.2026",
+    title:"Antibiotikaprophylaxe senkte VAP bei Traumapatienten nicht; 1.321 Patienten, wOR 0,87",
+    sum:"Französische Multizenterstudie an 15 Traumazentren untersuchte, ob kurzzeitige Antibiotikaprophylaxe (≤72 h) früh auftretende Beatmungspneumonie bei schwerverletzten, mechanisch beatmeten Patienten verhindert.",
+    result:"Von 1.321 Traumapatienten erhielten 746 Antibiotikaprophylaxe (zu 90% Amoxicillin-Clavulansäure). Früh einsetzende VAP trat in 32% der Prophylaxe-Gruppe vs. 34% ohne Prophylaxe auf. Nach inverse probability of treatment weighting zeigte sich kein signifikanter Unterschied (wOR 0,87, 95% CI 0,66–1,22; p=0,48). Auch Nebenausgänge (Beatmungsdauer, ICU-Verweildauer, Mortalität) waren nicht beeinflusst.",
+    transfer:"Französische Klinikdaten, ähnliche Versorgungsstrukturen, Ergebnis unabhängig von Ressourcenlage."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2324,7 +2333,7 @@ const RADAR_FRISTEN = [["2026-12-31", "2026-12-11", "2027-02-11", "2027-02-14"],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "13.11.2026";
+const ZUL_STAND = "14.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
