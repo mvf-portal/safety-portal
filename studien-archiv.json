@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "43049318",
+  "journal": "NEJM Catal Innov Care Deliv",
+  "year": "2026",
+  "author": "Michaud LB et al.",
+  "pubdate": "18.11.2026",
+  "added": "18.11.2026",
+  "transfer": "USA - nur die Methodik zur Bewertung interner Meldepraktiken ist übertragbar, nicht die Vergleiche zwischen Häusern.",
+  "title": "Medikationssicherheit in Krebszentren: Warum Benchmarking freiwilliger Meldungen scheitert",
+  "sum": "Retrospektive Analyse von Medikationssicherheitsereignissen aus neun US-Krebszentren, um zu prüfen, ob standardisierte Benchmarks zwischen Institutionen möglich sind.",
+  "result": "Trotz Standardisierung von Definitionen und Normalisierung der Ereignisraten zeigten sich erhebliche Unterschiede zwischen den Zentren (breite Variabilität in Ereignisvolumina und -raten), die sinnvolle Vergleiche unmöglich machten. Der Near-Miss-Ereignis-Ratio war jedoch ein brauchbarer interner Indikator für Meldekultur und Fehlerabfangsystem.",
+  "aufgenommen": "2026-11-19"
+ },
+ {
   "pmid": "43046206",
   "journal": "BMC Med Educ",
   "year": "2026",
