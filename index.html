@@ -2279,62 +2279,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "23. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Clin Appl Thromb Hemost", year:"2026", pmid:"43063508",
-    author:"Wang X et al.", pubdate:"20.11.2026",
+    journal:"J Clin Hypertens (Greenwich)", year:"2026", pmid:"43061824",
+    author:"Ortega-Diaz A et al.", pubdate:"Nov. 2026",
     added:"20.11.2026",
-    title:"Sepsis-Koagulopathie-Trajektorien vorhersagen Sterblichkeit genauer als Ausgangswert",
-    sum:"Retrospektive Kohortenstudie aus zwei ICU-Datenbanken (USA): Latente Klassenwachstum-Modellierung identifizierte Sepsis-induzierte-Koagulopathie-Trajektorien (Tage 1–7) und deren Assoziation mit 28-Tage-Mortalität.",
-    result:"2.123 Patienten MIMIC-IV, 807 eICU: Drei Trajektorien-Gruppen mit 28-Tage-Mortalitäten von 15,4 %, 32,4 % und 54,3 %. Adjustierte HR für High-Risk-Gruppe: 3,57 (95%-KI 2,74–4,66) in MIMIC-IV, 4,86 (2,87–8,23) in eICU. Dynamische SIC-Bewertung verbesserte Modell-Diskriminierung (ΔAUCs 0,028–0,040).",
-    transfer:"USA-Datenbanken, aber Sepsis-Risikostratifizierung methodisch auf Deutschland übertragbar"
+    title:"Pflegesprechstunde für Nebenwirkungsmanagement senkt Blutdruck um 12,6 mmHg bei therapieresistenter Hypertonie",
+    sum:"Randomisierte offene Studie mit 46 Patienten zu einer strukturierten pflegegeleisteten Intervention mit 6–8 Visiten zur Erkennung und Bewältigung von Medikamentennebenwirkungen bei scheinbar therapieresistenter Hypertonie und mangelhafter Adhärenz.",
+    result:"Nach 6 Monaten reduzierte die Intervention die 24h-systolische Blutdruckkontrolle signifikant um 16,8 mmHg vs. 4,2 mmHg in der Kontrolle (unadjustiert p=0,015); adjustierte Differenz −9,4 mmHg (p=0,046). Therapeutische Trägheit reduziert: 13,0% vs. 56,5% (RR 0,23; p=0,040).",
+    transfer:"Spanien; strukturiertes Nebenwirkungsmanagement in deutschem Kontext übertragbar"
   },
   {
-    journal:"Gut Microbes", year:"2026", pmid:"43059105",
-    author:"Townsend EC et al.", pubdate:"31.12.2026",
-    added:"20.11.2026",
-    title:"Selektive Darmdeontamination und Probiotika verhindern ICU-Infektionen nicht besser als Standardbetreuung",
-    sum:"Systematische Übersicht und Metaanalyse (2000–2025): Vergleich selektiver Darmdeontamination (SDD, n=9 RCTs) versus Biotika-Supplementation (n=29 RCTs) zur Infektionsprävention auf Intensivstationen.",
-    result:"Weder SDD noch Biotika reduzierten Gesamtsterblichkeit signifikant (SDD RR 0,96 [95%-KI 0,88–1,05], Biotika RR 0,93 [0,87–1,00]). SDD zeigte moderat niedrigeres Infektionsrisiko (RR 0,76 vs. Biotika 0,82), besonders für Pneumonie (SDD RR 0,50, Synbiotika RR 0,70). Heterogenität der Studien erheblich.",
-    transfer:"Internationale RCT-Evidenz; Ergebnis zur Limitierung von SDD/Biotika-Routine relevant"
-  },
-  {
-    journal:"J Plast Reconstr Aesthet Surg", year:"2026", pmid:"42826436",
-    author:"Yan T et al.", pubdate:"12.09.2026",
-    added:"02.10.2026",
-    title:"Sterile Handschuhe ohne Kittel reduzieren Infektionsrisiko nicht in Hautchirurgie",
-    sum:"Prospektive Servicequalitätsprüfung an englischer NHS-Klinik: Vergleich von sterilen Handschuhen allein versus Handschuhe + Kittel bei Hautchirurgie unter Lokalanästhesie; Chirurgische Wundinfektion (SSI) als Endpunkt.",
-    result:"378 Patienten (279 im Kittel-Gruppe, 251 nur Handschuhe); SSI-Raten ähnlich (3,9 % vs. 4,0 %). Gruppe ohne Kittel: Kosteneinsparung ~1.920 £, CO₂-Reduktion 393 kgCO₂e. Ergebnis stellt die Notwendigkeit steriler Kittel für bestimmte Verfahren in Frage.",
-    transfer:"England – NHS-Strukturen, aber Ergebnis zu PPE-Reduktion bei erhaltener Sicherheit übertragbar"
-  },
-  {
-    journal:"Antimicrob Resist Infect Control", year:"2026", pmid:"43065100",
-    author:"Salami H et al.", pubdate:"27.08.2026",
-    added:"20.11.2026",
-    title:"Warum Chirurgen Antibiotikarichtlinien nicht befolgen: Barrieren im klinischen Alltag",
-    sum:"Qualitative Studie zu Gründen für mangelnde Adhärenz bei perioperativer Antibiotikaprophylaxe in iranischen Kliniken; nur 9,2 % der Patienten erfüllten alle Adhärenzkriterien.",
-    result:"Von 109 Patienten mit Kolorektal- oder Urogenitalchirurgie erfüllten nur 10 (9,2 %) alle Adhärenzkriterien; Hauptprobleme waren unangemessene Antibiotikawahl und Fortsetzung über 24 h hinaus (85,3 % ≥24 h, 75,2 % ≥48 h, 60,6 % bis zur Entlassung). Qualitative Interviews (n=15) identifizierten Wahrgenommenes Infektionsrisiko, Breitspektrumnormen und mangelnde strukturierte Überprüfung als Treiber.",
-    transfer:"Iran - Strukturen vergleichbar, aber Erkenntnisse zu Implementierungsbarrieren übertragbar"
-  },
-  {
-    journal:"BMC Infect Dis", year:"2026", pmid:"43064933",
-    author:"Yao J et al.", pubdate:"27.08.2026",
-    added:"20.11.2026",
-    title:"Nosokomiale Infektionen in China: Fünf Jahre Surveillance zeigen sinkende Trends",
-    sum:"Wiederholte Punktprävalenzerhebungen (2020–2024) an einer chinesischen Universitätsklinik: Patienten mit nosokomialen Infektionen wurden erfasst, Risikofaktoren und Ressourcennutzung analysiert.",
-    result:"Von 4.245 stationierten Patienten hatten 72 (1,70 %) mindestens eine nosokomiale Infektion (81 Episoden, 1,91 %); Prävalenz sank von 2,99 % (2020) auf 0,93 % (2024; P=0,001). Harnwegskatheter (OR 12,8) und zentraler Venenzugang (OR 2,2) waren unabhängige Risikofaktoren. Infizierte Patienten hatten 1,97-fach längere Krankenhausaufenthalte und 2,01-fach höhere Kosten.",
-    transfer:"China, aber Surveillance-Methode und Risikofaktoren international übertragbar"
-  },
-  {
-    journal:"Crit Care", year:"2026", pmid:"43058723",
-    author:"Schaich CL et al.", pubdate:"27.08.2026",
+    journal:"BMC Musculoskelet Disord", year:"2026", pmid:"43058607",
+    author:"He Y et al.", pubdate:"27.08.2026",
     added:"19.11.2026",
-    title:"Renin und DPP3 identifizieren Hochrisiko-Phänotypen im septischen Schock",
-    sum:"Pilot-Kohortenstudie an amerikanischer Universitätsklinik: Zirkulation Renin und Dipeptidylpeptidase-3 (DPP3) bei septischem Schock wurden gemessen; vier klinische Phänotypen basierend auf Schwellenwerten wurden identifiziert (≥180 pg/mL Renin, ≥40 ng/mL DPP3).",
-    result:"Vier Phänotypen definiert: niedriges Risiko (niedriges Renin/niedriges DPP3), Zwischenrisiko (hoch/niedrig oder niedrig/hoch) und höchstes Risiko (hohes Renin/hohes DPP3). Diese Subklassifizierung könnte Patienten mit größerem Risiko besser identifizieren und gezieltere Behandlungsansätze ermöglichen.",
-    transfer:"USA, aber Phänotypisierungs-Konzept für Sepsis-Risikostratifizierung interessant"
+    title:"BMI &gt;24 kg/m², verzögerte Operation und Drainage &gt;2 Tage erhöhen Wundinfektionsrisiko nach Wirbelsäulenchirurgie",
+    sum:"Retrospektive Analyse von 303 Patienten mit thorakolumbalen Frakturen zur Identifikation unabhängiger Risikofaktoren für oberflächliche und tiefe Wundinfektionen nach dorsaler Instrumentierung.",
+    result:"Wundinfektionsrate 6,6%. Unabhängige Risikofaktoren: BMI &gt;24 kg/m² (p=0,005), Operationsverzögerung &gt;7 Tage (p=0,004), Drainage &gt;2 Tage (p=0,005). Häufigster Erreger: Staphylococcus aureus.",
+    transfer:"China, identifizierte Risikofaktoren universell übertragbar"
+  },
+  {
+    journal:"BMC Pulm Med", year:"2026", pmid:"43058597",
+    author:"Alemayehu GD et al.", pubdate:"26.08.2026",
+    added:"19.11.2026",
+    title:"DRESS-Syndrom durch Amoxicillin: Fallbericht und systematischer Review mit 12 Fällen, 25% mit Lungenbeteiligung",
+    sum:"Fallbericht und systematischer Review (PRISMA) zur Häufigkeit, Klinik und Outcomes von Amoxicillin-assoziiertem DRESS-Syndrom (Drug Reaction with Eosinophilia and Systemic Symptoms) mit besonderer Berücksichtigung respiratorischer Manifestationen.",
+    result:"Pooled 12 Fälle: Latenz 3 Tage bis 5 Wochen, isolierte Amoxicillin-Induktion in 41,7%, Lungenbeteiligung in 25,0%, alle mit günstigen Outcomes. RegiSCAR-Score für Indexfall: 5 (probable DRESS); Eosinophilie (850/µL), Hypoxämie (SpO₂ 84–86%).",
+    transfer:"Äthiopien/international; Erkenntnisse zur Medikamentenunverträglichkeit übertragbar"
+  },
+  {
+    journal:"BMC Gastroenterol", year:"2026", pmid:"43058526",
+    author:"Zhu XJ et al.", pubdate:"26.08.2026",
+    added:"19.11.2026",
+    title:"Doppeluntersuchung des proximalen Kolons senkt Adenomübersehungsrate von 28,1% auf 10,8%",
+    sum:"Randomisierte prospektive Tandem-Studie mit 403 Patienten zur Reduktion von Adenomübersehungen im proximalen Kolon durch zwei statt einer Vorwärtsuntersuchung bei Screeningkoloskopie.",
+    result:"Adenomübersehungsrate: Interventionsgruppe (2 Durchgänge) 10,8% vs. Kontrollgruppe (1 Durchgang) 28,1% (p&lt;0,001). Polypenübersehungsrate 16,0% vs. 35,5% (p&lt;0,001), sessile Läsionen 12,0% vs. 40,0% (p=0,03).",
+    transfer:"China; Screeningeffektivität zur Prävention von Intervalltumoren übertragbar"
+  },
+  {
+    journal:"BMC Infect Dis", year:"2026", pmid:"43058520",
+    author:"Valsecchi P et al.", pubdate:"25.08.2026",
+    added:"19.11.2026",
+    title:"Frühe Blutkulturen senken Behandlungsdauer und Sterblichkeit bei Staphylokokken- und Candida-Bakteriämie",
+    sum:"Retrospektive Kohortenstudie zu 217 Patienten mit Staphylococcus aureus-Bakteriämie und 138 mit Candidemia, untersucht die Auswirkung der Zeit bis zur ersten Folgeblutkultur auf Behandlungsergebnis, Behandlungsdauer und Liegedauer.",
+    result:"Blutkulturen innerhalb von 48 h waren bei Staphylokokken-Bakteriämie mit verbessertem Überleben assoziiert (HR 0,26; p=0,04), bei Candidemia war Verzicht auf Folgekultur mit erhöhter Sterblichkeit verbunden (HR 3,31; p=0,02). Zeit bis erste Kultur korrelierte signifikant mit Behandlungsdauer (SAB ρ=0,31, p=0,02; Candidemia ρ=0,37, p&lt;0,001) und Zeit bis negative Kultur (ρ=0,88 bzw. 0,66).",
+    transfer:"Italien, vergleichbare Infektionsbehandlung und Dokumentation"
+  },
+  {
+    journal:"BMC Pediatr", year:"2026", pmid:"43058579",
+    author:"Akber A et al.", pubdate:"25.08.2026",
+    added:"19.11.2026",
+    title:"CRP hat hohe Sensitivität (97,1%), aber schlechte Spezifität (10,2%) für Sepsis bei Frühgeborenen",
+    sum:"Retrospektive diagnostische Genauigkeitsstudie zu 291 Spätgeborenen (≥34+0 Wochen) mit klinischem Sepsisv erdacht: Validierung von initialem und seriellem CRP (≥10 mg/L) gegen Blutkulturergebnis.",
+    result:"Bei 105/291 (36,1%) bakteriell bewiesene Spätinfektions-Sepsis. Initiales CRP: Sensitivität 97,1%, Spezifität 10,2%, NPV 86,4%, AUC 0,68. Serielles CRP (24–48h): Sensitivität 94,3%, Spezifität 23,1%, AUC 0,67.",
+    transfer:"Pakistan; CRP-Strategie auch in Ressourcensettings relevant"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2359,7 +2359,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.11.2026";
+const NEWS_STAND = "23.11.2026";
 const NEWS = [
   {titel:"Organversagen bei Kindern und KI bei Sepsis: DIVI-Kongress 2026", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/organversagen-bei-kindern-und-ki-bei-sepsis-divi-kongress-2026/"},
   {titel:"Beweislast bei Behandlungsfehlern: AOK Rheinland/Hamburg fordert Lockerung", datum:"2026-11-09", url:"https://www.monitor-versorgungsforschung.de/news/beweislast-bei-behandlungsfehlern-aok-rheinland-hamburg-fordert-lockerung/"},
