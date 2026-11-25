@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://safety.m-vf.de/</loc><lastmod>2026-11-24</lastmod></url>
-<url><loc>https://safety.m-vf.de/studie/</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://safety.m-vf.de/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://safety.m-vf.de/studie/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://safety.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://safety.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://safety.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://safety.m-vf.de/studie/43077464/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://safety.m-vf.de/studie/43074775/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://safety.m-vf.de/studie/43074020/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://safety.m-vf.de/studie/43073940/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://safety.m-vf.de/studie/43073062/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://safety.m-vf.de/studie/42829261/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://safety.m-vf.de/studie/43069023/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://safety.m-vf.de/studie/43063066/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://safety.m-vf.de/studie/43055091/</loc><lastmod>2026-11-24</lastmod></url>
